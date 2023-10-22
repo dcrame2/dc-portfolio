@@ -28,6 +28,7 @@ const ImgContainer = styled.div`
   width: 100%;
   display: flex;
   justify-content: center;
+  gap: 30px;
   /* align-items: center; */
 `;
 
