@@ -10,11 +10,15 @@ const CardContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 12px;
   justify-content: center;
   /* border-radius: 12px; */
 `;
 
-const Icon = styled.img``;
+const Icon = styled.img`
+  width: 50px;
+  height: auto;
+`;
 
 const SkillTitle = styled.p`
   text-align: center;
