@@ -6,11 +6,17 @@ import { h1styles, pBase, pSmall } from "@/styles/Type";
 
 const MainContainer = styled.div`
   background: rgb(0, 0, 0);
-  background: linear-gradient(
+  /* background: linear-gradient(
     193deg,
     rgba(0, 0, 0, 1) 0%,
     rgba(0, 0, 0, 1) 56%,
     #bd1716 100%
+  ); */
+  background: linear-gradient(
+    193deg,
+    rgb(0, 0, 0) 0%,
+    rgb(0, 0, 0) 50%,
+    rgb(189, 23, 22) 100%
   );
 `;
 

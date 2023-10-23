@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
 import styled from "styled-components";
 import { Container, MediaQueries } from "@/styles/Utilities";
 import Header from "@/components/ui/Header/Index";
@@ -7,11 +7,17 @@ import SkillCards from "./SkillCards/Index";
 
 const AboutContainer = styled.div`
   background: rgb(0, 0, 0);
-  background: linear-gradient(
+  /* background: linear-gradient(
     0deg,
     rgba(0, 0, 0, 1) 0%,
     rgba(0, 0, 0, 1) 40%,
     #bd1716 100%
+  ); */
+  background: linear-gradient(
+    135deg,
+    rgb(189, 23, 22) 0%,
+    rgb(0, 0, 0) 100%,
+    rgb(0, 0, 0) 100%
   );
   padding: 200px 0;
 `;
@@ -54,8 +60,7 @@ const SkillsContainer = styled.div`
 
 function About({ data }) {
   const { header, aboutParagraph, cards } = data;
-
-  const [isIndex, setIsIndex] = useState(0);
+  const ref = useRef(null);
 
   return (
     <AboutContainer>
@@ -66,7 +71,9 @@ function About({ data }) {
         </TextContainer>
         <SkillsContainer>
           {cards.map((card, index) => {
-            return <SkillCards key={`${card.skill}`} data={card} />;
+            return (
+              <SkillCards index={index} key={`${card.skill}`} data={card} />
+            );
           })}
         </SkillsContainer>
       </InnerContainer>

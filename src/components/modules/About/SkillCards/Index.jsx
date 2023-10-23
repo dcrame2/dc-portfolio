@@ -26,15 +26,15 @@ const SkillTitle = styled.p`
   ${pSmall}
 `;
 
-function SkillCards({ data }, index) {
+function SkillCards({ data, index }) {
   console.log(data);
+  console.log(index);
   const { skill, icon } = data;
   return (
     <CardContainer
-      initial={{ scale: 0.8, rotateY: 180 }}
-      animate={{ scale: 1, rotateY: 0 }}
-      exit={{ scale: 0.8, rotateY: 180 }}
-      transition={{ duration: `0.5` }}
+      initial={{ opacity: 0, rotateX: 180 }}
+      whileInView={{ rotateX: 0, opacity: 1 }}
+      transition={{ duration: `0.3`, delay: `${index * 0.15}` }}
     >
       <Icon src={icon.src} alt={icon.alt}></Icon>
       <SkillTitle>{skill}</SkillTitle>
