@@ -1,7 +1,8 @@
 import Head from "next/head";
 
 import MainHero from "@/components/modules/MainHero/Index";
-import { heroData } from "@/data/Index";
+import { heroData, aboutData } from "@/data/Index";
+import About from "@/components/modules/About/Index";
 
 export default function Home() {
   return (
@@ -13,7 +14,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <MainHero data={...heroData} />
+        <MainHero data={heroData} />
+        <About data={aboutData} />
       </main>
     </>
   );
