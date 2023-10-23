@@ -1,4 +1,4 @@
-import React from "react";
+import { useState } from "react";
 import styled from "styled-components";
 import { Container, MediaQueries } from "@/styles/Utilities";
 import Header from "@/components/ui/Header/Index";
@@ -54,6 +54,9 @@ const SkillsContainer = styled.div`
 
 function About({ data }) {
   const { header, aboutParagraph, cards } = data;
+
+  const [isIndex, setIsIndex] = useState(0);
+
   return (
     <AboutContainer>
       <InnerContainer>
