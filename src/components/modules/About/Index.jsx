@@ -20,6 +20,7 @@ const InnerContainer = styled.div`
   ${Container}
   display: flex;
   flex-direction: row;
+  gap: 50px;
   @media ${MediaQueries.tablet} {
     flex-direction: column;
   }
@@ -39,10 +40,20 @@ const AboutParagraph = styled.p`
   ${pBase}
 `;
 
-const SkillsContainer = styled.div``;
+const SkillsContainer = styled.div`
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  /* gap: 10px; */
+  @media ${MediaQueries.tablet} {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  @media ${MediaQueries.mobile} {
+    grid-template-columns: repeat(2, 1fr);
+  }
+`;
 
 function About({ data }) {
-  const { header, aboutParagraph } = data;
+  const { header, aboutParagraph, cards } = data;
   return (
     <AboutContainer>
       <InnerContainer>
@@ -51,7 +62,9 @@ function About({ data }) {
           <AboutParagraph>{aboutParagraph}</AboutParagraph>
         </TextContainer>
         <SkillsContainer>
-          <SkillCards />
+          {cards.map((card, index) => {
+            return <SkillCards key={`${card.skill}`} data={card} />;
+          })}
         </SkillsContainer>
       </InnerContainer>
     </AboutContainer>

@@ -15,7 +15,7 @@ export const variables = {
 
   // colors
   color1: "#BD1716",
-  color2: "#3F72AF",
+  color2: "#313131",
   color3: "#DBE2EF",
   color4: "#F9F7F7",
   transparent: "transparent",

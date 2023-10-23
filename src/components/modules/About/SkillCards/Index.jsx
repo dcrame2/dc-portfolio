@@ -1,7 +1,35 @@
+import { variables } from "@/styles/Variables";
 import React from "react";
+import styled from "styled-components";
+import { pSmall } from "@/styles/Type";
 
-function SkillCards() {
-  return <div>SkillCards</div>;
+const CardContainer = styled.div`
+  border: 1px solid ${variables.color1};
+  background-color: ${variables.black};
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* border-radius: 12px; */
+`;
+
+const Icon = styled.img``;
+
+const SkillTitle = styled.p`
+  text-align: center;
+  ${pSmall}
+`;
+
+function SkillCards({ data }) {
+  console.log(data);
+  const { skill, icon } = data;
+  return (
+    <CardContainer>
+      <Icon src={icon.src} alt={icon.alt}></Icon>
+      <SkillTitle>{skill}</SkillTitle>
+    </CardContainer>
+  );
 }
 
 export default SkillCards;

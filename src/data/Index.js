@@ -1,3 +1,5 @@
+// import { IconName } from "react-icons/io5";
+
 export const heroData = {
   imgD: {
     url: "/logo/d_logo.png",
@@ -28,80 +30,101 @@ export const aboutData = {
       },
     },
     {
-      skill: "JavaScript",
+      skill: "React.js",
+      icon: {
+        src: "",
+        alt: "React.js Icon",
+      },
+    },
+    {
+      skill: "Next.js",
+      icon: {
+        src: "",
+        alt: "Next.js Icon",
+      },
+    },
+    {
+      skill: "HTML",
       icon: {
         src: "",
         alt: "JavaScript Icon",
       },
     },
     {
-      skill: "JavaScript",
+      skill: "CSS",
       icon: {
         src: "",
-        alt: "JavaScript Icon",
+        alt: "CSS Icon",
       },
     },
     {
-      skill: "JavaScript",
+      skill: "Node.js",
       icon: {
         src: "",
-        alt: "JavaScript Icon",
+        alt: "Node.js Icon",
       },
     },
     {
-      skill: "JavaScript",
+      skill: "PHP",
       icon: {
         src: "",
-        alt: "JavaScript Icon",
+        alt: "PHP Icon",
       },
     },
     {
-      skill: "JavaScript",
+      skill: "WordPress",
       icon: {
         src: "",
-        alt: "JavaScript Icon",
+        alt: "WordPress Icon",
       },
     },
     {
-      skill: "JavaScript",
+      skill: "Strapi",
       icon: {
         src: "",
-        alt: "JavaScript Icon",
+        alt: "Strapi Icon",
       },
     },
     {
-      skill: "JavaScript",
+      skill: "Git",
       icon: {
         src: "",
-        alt: "JavaScript Icon",
+        alt: "Git Icon",
       },
     },
     {
-      skill: "JavaScript",
+      skill: "SASS",
       icon: {
         src: "",
-        alt: "JavaScript Icon",
+        alt: "SASS Icon",
       },
     },
     {
-      skill: "JavaScript",
+      skill: "Styled Components",
       icon: {
         src: "",
-        alt: "JavaScript Icon",
+        alt: "Styled Components Icon",
       },
     },
     {
-      skill: "JavaScript",
+      skill: "TypeScript",
       icon: {
         src: "",
-        alt: "JavaScript Icon",
+        alt: "TypeScript Icon",
       },
     },
     {
-      skill: "JavaScript",
+      skill: "React Native",
       icon: {
         src: "",
-        alt: "JavaScript Icon",
+        alt: "React Native Icon",
+      },
+    },
+    {
+      skill: "RESTFul API",
+      icon: {
+        src: "",
+        alt: "RESTFul API Icon",
       },
     },
   ],
