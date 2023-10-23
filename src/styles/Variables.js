@@ -14,7 +14,7 @@ export const variables = {
   mobileWidth: `${mobileWidthInt}px`,
 
   // colors
-  color1: "#112D4E",
+  color1: "#BD1716",
   color2: "#3F72AF",
   color3: "#DBE2EF",
   color4: "#F9F7F7",

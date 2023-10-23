@@ -10,7 +10,7 @@ const MainContainer = styled.div`
     193deg,
     rgba(0, 0, 0, 1) 0%,
     rgba(0, 0, 0, 1) 56%,
-    rgba(255, 0, 0, 1) 100%
+    #bd1716 100%
   );
 `;
 
