@@ -13,7 +13,6 @@ const CardContainer = styled(motion.div)`
   align-items: center;
   gap: 12px;
   justify-content: center;
-  /* border-radius: 12px; */
 `;
 
 const Icon = styled.img`

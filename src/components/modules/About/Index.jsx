@@ -4,6 +4,7 @@ import { Container, MediaQueries } from "@/styles/Utilities";
 import Header from "@/components/ui/Header/Index";
 import { pBase } from "@/styles/Type";
 import SkillCards from "./SkillCards/Index";
+import { motion } from "framer-motion";
 
 const AboutContainer = styled.div`
   background: rgb(0, 0, 0);
@@ -42,7 +43,7 @@ const TextContainer = styled.div`
   }
 `;
 
-const AboutParagraph = styled.p`
+const AboutParagraph = styled(motion.p)`
   ${pBase}
 `;
 
@@ -63,11 +64,17 @@ function About({ data }) {
   const ref = useRef(null);
 
   return (
-    <AboutContainer>
+    <AboutContainer ref={ref}>
       <InnerContainer>
         <TextContainer>
           <Header data={header} />
-          <AboutParagraph>{aboutParagraph}</AboutParagraph>
+          <AboutParagraph
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: `2` }}
+          >
+            {aboutParagraph}
+          </AboutParagraph>
         </TextContainer>
         <SkillsContainer>
           {cards.map((card, index) => {

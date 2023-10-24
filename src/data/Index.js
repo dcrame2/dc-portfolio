@@ -17,10 +17,13 @@ export const heroData = {
 export const aboutData = {
   header: {
     eyebrow: "Learn",
-    title: "About Me",
+    title: "About",
   },
-  aboutParagraph:
-    "I am a Full Stack Web Developer specializinng in JavaScript. With my skills and expertise, I can help bring your ideas to life and deliver a high-quality product that meets your needs. I am constantly learning and keeping up with the latest industry trends to ensure that I can provide the best solutions to any business. My educational background consists of receiving my Bachelors of Science in Information Systems - Web Application Development from Illinois State University in 2018. Proficent programming languages/tools:",
+  aboutParagraph: `I am a Full Stack Web Developer specializinng in JavaScript. With my skills and expertise, I can help bring your ideas to life and deliver a high-quality product that meets your needs. I am constantly learning and keeping up with the latest industry trends to ensure that I can provide the best solutions to any business.
+    
+    My educational background consists of receiving my Bachelors of Science in Information Systems - Web Application Development from Illinois State University in 2018. 
+    
+    Proficent programming languages/tools:`,
   cards: [
     {
       skill: "JavaScript",
@@ -121,10 +124,10 @@ export const aboutData = {
       },
     },
     {
-      skill: "RESTFul API",
+      skill: "Postgres SQL",
       icon: {
         src: "/icons/logo-javascript.svg",
-        alt: "RESTFul API Icon",
+        alt: "Postgres SQL API Icon",
       },
     },
   ],
