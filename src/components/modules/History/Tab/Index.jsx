@@ -19,6 +19,9 @@ const ComapnyTabContainer = styled.ul`
   list-style-type: none;
   max-width: 200px;
   width: 100%;
+  ${MediaQueries.tablet} {
+    display: flex;
+  }
 `;
 
 const ComapnyTab = styled.li`
@@ -34,7 +37,6 @@ const ComapnyTab = styled.li`
   @media ${MediaQueries.mobile} {
     &:hover {
       transition: unset;
-      /* background-color: unset; */
     }
   }
 `;
