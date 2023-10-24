@@ -31,6 +31,12 @@ const ComapnyTab = styled.li`
     transition: background-color 0.3s ease-in-out;
     background-color: ${variables.color2};
   }
+  @media ${MediaQueries.mobile} {
+    &:hover {
+      transition: unset;
+      background-color: unset;
+    }
+  }
 `;
 
 const CompaniesInfoContainer = styled.div`
