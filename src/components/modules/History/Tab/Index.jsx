@@ -34,7 +34,7 @@ const ComapnyTab = styled.li`
   @media ${MediaQueries.mobile} {
     &:hover {
       transition: unset;
-      background-color: unset;
+      /* background-color: unset; */
     }
   }
 `;
