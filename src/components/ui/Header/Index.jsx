@@ -2,6 +2,8 @@ import { h2styles, pBase } from "@/styles/Type";
 import { useRef } from "react";
 import styled from "styled-components";
 import { motion } from "framer-motion";
+import { MediaQueries } from "@/styles/Utilities";
+import { variables } from "@/styles/Variables";
 
 const HeaderContainer = styled.div`
   display: flex;
@@ -15,7 +17,7 @@ const Title = styled(motion.h2)`
   text-transform: uppercase;
   white-space: nowrap;
   display: flex;
-  animation: typing 2s steps(30, end);
+
   gap: 10px;
 `;
 

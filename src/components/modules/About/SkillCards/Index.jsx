@@ -26,9 +26,10 @@ const SkillTitle = styled.p`
 `;
 
 function SkillCards({ data, index }) {
-  console.log(data);
-  console.log(index);
+  //   console.log(data);
+  //   console.log(index);
   const { skill, icon } = data;
+
   return (
     <CardContainer
       initial={{ opacity: 0, rotateX: 180 }}

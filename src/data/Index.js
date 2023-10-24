@@ -132,3 +132,71 @@ export const aboutData = {
     },
   ],
 };
+
+export const historyData = {
+  logo: {
+    src: "/logo/logo_no_bg.png",
+    alt: "DC Logo",
+  },
+  header: {
+    eyebrow: "Learn",
+    title: "Work",
+  },
+  companies: [
+    "Impact Networking",
+    "Digital Delight",
+    "Text2Drive LLC",
+    "SOGO Marketing",
+    "Plainfield Central HS",
+  ],
+  companiesInfo: [
+    {
+      title: "Web Developer",
+      company: "Impact Networking",
+      timePeriod: "June 2022 - Present",
+      jobDesc: [
+        " Write modern, performant, maintainable code for a diverse array of client and internal projects",
+        "Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, Strapi, React, WordPress, Next.js, and SASS",
+        "Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis",
+      ],
+    },
+    {
+      title: "Web Developer",
+      company: "Digital Delight",
+      timePeriod: "June 2022 - Present",
+      jobDesc: [
+        " Write modern, performant, maintainable code for a diverse array of client and internal projects",
+        "Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, Strapi, React, WordPress, Next.js, and SASS",
+        "Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis",
+      ],
+    },
+    {
+      title: "Tech Specialist",
+      company: "Text2Drive LLC",
+      timePeriod: "November 2018 - May 2022",
+      jobDesc: [
+        "Implementing & deploying our mobile Online Bill Pay solution through our gateway provider. Connecting our software to dealerships Merchant Accounts through APIs.",
+        "Installing & troubleshooting EMV Chip Readers to the dealerships Internet network.",
+        "Completing Cost Analysis by collecting and analyzing our dealership’s credit card processing and comparing it to what we can save them.",
+      ],
+    },
+    {
+      title: "Web Developer",
+      company: "SOGO Marketing",
+      timePeriod: "November 2018 - February 2019",
+      jobDesc: [
+        "Creating & maintaining clients WordPress websites using JavaScript & HTML/CSS",
+        "Android Mobile Application new feature implementation & bug fixes",
+      ],
+    },
+    {
+      title: "Assistant Wrestling Coach",
+      company: "Plainfield Central HS",
+      timePeriod: "October 2020 - Present",
+      jobDesc: [
+        "Coaching High School athletics for all grade levels: Freshman - Seniors",
+        "Teach and lead new wrestling skills during practice and meets/tournaments",
+      ],
+    },
+  ],
+};
