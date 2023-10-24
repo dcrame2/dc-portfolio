@@ -23,7 +23,7 @@ const ComapnyTabContainer = styled.ul`
 
 const ComapnyTab = styled.li`
   background-color: ${({ active }) =>
-    active ? variables.black : variables.transparent};
+    active ? variables.color1 : variables.transparent};
   cursor: pointer;
   padding: 12px 8px;
   transition: background-color 0.3s ease-in-out;
@@ -34,16 +34,15 @@ const ComapnyTab = styled.li`
 `;
 
 const CompaniesInfoContainer = styled.div`
-  width: 100%;
+  width: 50%;
   @media ${MediaQueries.tablet} {
     flex-direction: column;
+    width: 100%;
   }
 `;
 
 const CompaniesInfo = styled(motion.div)`
   display: ${({ active }) => (active ? "block" : "none")};
-  /* transition: opacity 0.3s;
-  opacity: ${({ active }) => (active ? 1 : 0)}; */
 `;
 
 const TitleContainer = styled.div`
