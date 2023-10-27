@@ -19,8 +19,33 @@ const ComapnyTabContainer = styled.ul`
   list-style-type: none;
   max-width: 200px;
   width: 100%;
-  ${MediaQueries.tablet} {
-    display: flex;
+  position: relative;
+  @media ${MediaQueries.tablet} {
+    /* padding: 30px; */
+    max-width: unset;
+    border: 1px solid ${variables.color1};
+    max-height: ${({ $activeDropdown }) =>
+      $activeDropdown ? "500px" : "102px"};
+
+    &.active {
+      display: flex;
+      &::after {
+        transform: rotate(180deg);
+        transition: transform 0.3s ease-in;
+      }
+    }
+    &::after {
+      content: "";
+      position: absolute;
+      right: 18px;
+      width: 30px;
+      height: 30px;
+      top: 6px;
+      background-repeat: no-repeat;
+      background-image: url("/icons/caret-down.svg");
+      transition: transform 0.3s ease-in;
+      transform: rotate(0deg);
+    }
   }
 `;
 
@@ -33,6 +58,14 @@ const ComapnyTab = styled.li`
   &:hover {
     transition: background-color 0.3s ease-in-out;
     background-color: ${variables.color2};
+  }
+
+  @media ${MediaQueries.tablet} {
+    display: none;
+    &.active {
+      /* background-color: ${variables.transparent}; */
+      display: block;
+    }
   }
   @media ${MediaQueries.mobile} {
     &:hover {
@@ -82,18 +115,28 @@ const DescList = styled.li`
 
 function Tab({ companies, companiesInfo }) {
   const [activeTab, setActiveTab] = useState(0);
+  const [activeDropdown, setActiveDropdown] = useState(false);
   console.log(activeTab);
 
   function handleTabClick(index) {
     setActiveTab(index);
   }
 
+  function openDropdownHandler() {
+    setActiveDropdown(!activeDropdown);
+  }
+
   return (
     <TabContainer>
-      <ComapnyTabContainer>
+      <ComapnyTabContainer
+        $activeDropdown={activeDropdown}
+        onClick={openDropdownHandler}
+        className={activeDropdown ? "active" : ""}
+      >
         {companies.map((company, index) => {
           return (
             <ComapnyTab
+              className={activeDropdown || index === activeTab ? "active" : ""}
               key={index}
               active={index === activeTab}
               onClick={() => handleTabClick(index)}
