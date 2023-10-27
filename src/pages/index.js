@@ -1,9 +1,10 @@
 import Head from "next/head";
 
 import MainHero from "@/components/modules/MainHero/Index";
-import { heroData, aboutData, historyData } from "@/data/Index";
+import { heroData, aboutData, historyData, projectData } from "@/data/Index";
 import About from "@/components/modules/About/Index";
 import History from "@/components/modules/History/Index";
+import Projects from "@/components/modules/Projects/Index";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <MainHero data={heroData} />
         <About data={aboutData} />
         <History data={historyData} />
+        <Projects data={projectData} />
       </main>
     </>
   );

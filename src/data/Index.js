@@ -200,3 +200,69 @@ export const historyData = {
     },
   ],
 };
+
+export const projectData = {
+  header: {
+    eyebrow: "Learn",
+    title: "Projects",
+  },
+
+  projects: [
+    {
+      img: {
+        src: "/projects/impactmybiz.png",
+        alt: "Impact Homepage",
+      },
+      projectTitle: "Impact Networking",
+      desc: "Impact Networking Impact Networking Impact Networking Impact NetworkingImpact Networking ",
+    },
+    {
+      img: {
+        src: "/projects/impactmybiz.png",
+        alt: "Impact Homepage",
+      },
+      projectTitle: "Impact Networking",
+      desc: "Impact Networking Impact Networking Impact Networking Impact NetworkingImpact Networking ",
+    },
+    {
+      img: {
+        src: "/projects/impactmybiz.png",
+        alt: "Impact Homepage",
+      },
+      projectTitle: "Impact Networking",
+      desc: "Impact Networking Impact Networking Impact Networking Impact NetworkingImpact Networking ",
+    },
+    {
+      img: {
+        src: "/projects/impactmybiz.png",
+        alt: "Impact Homepage",
+      },
+      projectTitle: "Impact Networking",
+      desc: "Impact Networking Impact Networking Impact Networking Impact NetworkingImpact Networking ",
+    },
+    {
+      img: {
+        src: "/projects/impactmybiz.png",
+        alt: "Impact Homepage",
+      },
+      projectTitle: "Impact Networking",
+      desc: "Impact Networking Impact Networking Impact Networking Impact NetworkingImpact Networking ",
+    },
+    {
+      img: {
+        src: "/projects/impactmybiz.png",
+        alt: "Impact Homepage",
+      },
+      projectTitle: "Impact Networking",
+      desc: "Impact Networking Impact Networking Impact Networking Impact NetworkingImpact Networking ",
+    },
+    {
+      img: {
+        src: "/projects/impactmybiz.png",
+        alt: "Impact Homepage",
+      },
+      projectTitle: "Impact Networking",
+      desc: "Impact Networking Impact Networking Impact Networking Impact NetworkingImpact Networking ",
+    },
+  ],
+};
