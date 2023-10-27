@@ -26,15 +26,8 @@ const ParallaxIntroVisual = styled.div`
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  /* @media ${MediaQueries.tablet} {
-    background-image: url(${(props) => props.tabletBackgroundImage});
-  }
-  @media ${MediaQueries.phone} {
-    background-image: url(${(props) => props.mobileBackgroundImage});
-  } */
   img {
     width: 100%;
-    /* height: 500px; */
   }
   .logo-image {
     position: absolute;

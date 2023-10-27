@@ -13,22 +13,20 @@ const TabContainer = styled.div`
   }
 `;
 
-const ComapnyTabContainer = styled.ul`
+const ComapnyTabContainer = styled(motion.ul)`
   display: flex;
   flex-direction: column;
   list-style-type: none;
   max-width: 200px;
   width: 100%;
   position: relative;
+
   @media ${MediaQueries.tablet} {
-    /* padding: 30px; */
     max-width: unset;
     border: 1px solid ${variables.color1};
-    max-height: ${({ $activeDropdown }) =>
-      $activeDropdown ? "500px" : "102px"};
-
+    overflow: hidden;
     &.active {
-      display: flex;
+      /* display: flex; */
       &::after {
         transform: rotate(180deg);
         transition: transform 0.3s ease-in;
@@ -49,7 +47,7 @@ const ComapnyTabContainer = styled.ul`
   }
 `;
 
-const ComapnyTab = styled.li`
+const ComapnyTab = styled(motion.li)`
   background-color: ${({ active }) =>
     active ? variables.color1 : variables.transparent};
   cursor: pointer;
@@ -63,7 +61,6 @@ const ComapnyTab = styled.li`
   @media ${MediaQueries.tablet} {
     display: none;
     &.active {
-      /* background-color: ${variables.transparent}; */
       display: block;
     }
   }
@@ -129,6 +126,9 @@ function Tab({ companies, companiesInfo }) {
   return (
     <TabContainer>
       <ComapnyTabContainer
+        // initial={{ maxHeight: "0" }}
+        animate={{ maxHeight: activeDropdown ? "500px" : "50px" }}
+        transition={{ duration: 0.8, ease: "easeInOut" }}
         $activeDropdown={activeDropdown}
         onClick={openDropdownHandler}
         className={activeDropdown ? "active" : ""}
@@ -136,6 +136,9 @@ function Tab({ companies, companiesInfo }) {
         {companies.map((company, index) => {
           return (
             <ComapnyTab
+              //   initial={{ maxHeight: "500px" }}
+              //   animate={{ maxHeight: activeDropdown ? "50px" : "50px" }}
+              //   transition={{ duration: 0.8, ease: "easeInOut" }}
               className={activeDropdown || index === activeTab ? "active" : ""}
               key={index}
               active={index === activeTab}
