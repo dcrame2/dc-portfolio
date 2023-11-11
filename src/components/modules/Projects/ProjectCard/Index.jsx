@@ -37,7 +37,7 @@ const ProjectDesc = styled.p`
   ${pSmall}
 `;
 
-const DetailsButton = styled.button``;
+const DetailsButton = styled.p``;
 
 function ProjectCard({ data }) {
   console.log(data);

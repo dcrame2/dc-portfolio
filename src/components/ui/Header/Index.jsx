@@ -17,8 +17,10 @@ const Title = styled(motion.h2)`
   text-transform: uppercase;
   white-space: nowrap;
   display: flex;
-
   gap: 10px;
+  @media ${variables.mobile} {
+    gap: 4px;
+  }
 `;
 
 const Letter = styled(motion.p)``;
