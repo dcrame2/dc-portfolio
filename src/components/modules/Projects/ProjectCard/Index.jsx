@@ -40,7 +40,7 @@ const ProjectDesc = styled.p`
 const DetailsButton = styled.p``;
 
 function ProjectCard({ data }) {
-  console.log(data);
+  // console.log(data);
   const { img, projectTitle, desc } = data;
   return (
     <CardContainer>

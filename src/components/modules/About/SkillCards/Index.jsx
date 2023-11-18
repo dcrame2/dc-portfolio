@@ -1,8 +1,8 @@
 import { variables } from "@/styles/Variables";
-import React from "react";
+import { useRef, useEffect } from "react";
 import styled from "styled-components";
 import { pSmall } from "@/styles/Type";
-import { motion } from "framer-motion";
+import { motion, useInView } from "framer-motion";
 
 const CardContainer = styled(motion.div)`
   border: 1px solid ${variables.color1};
@@ -29,11 +29,14 @@ function SkillCards({ data, index }) {
   //   console.log(data);
   //   console.log(index);
   const { skill, icon } = data;
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true });
 
   return (
     <CardContainer
+      ref={ref}
       initial={{ opacity: 0, rotateX: 180 }}
-      whileInView={{ rotateX: 0, opacity: 1 }}
+      animate={isInView ? { rotateX: 0, opacity: 1 } : {}}
       transition={{ duration: `0.3`, delay: `${index * 0.15}` }}
     >
       <Icon src={icon.src} alt={icon.alt}></Icon>
