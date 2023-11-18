@@ -78,7 +78,7 @@ const ComapnyTab = styled(motion.li)`
 `;
 
 const CompaniesInfoContainer = styled.div`
-  width: 50%;
+  width: 40%;
   @media ${MediaQueries.tablet} {
     flex-direction: column;
     width: 100%;

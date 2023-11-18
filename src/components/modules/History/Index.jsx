@@ -26,15 +26,24 @@ const ParallaxIntroVisual = styled.div`
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+
   img {
     width: 100%;
+    @media ${MediaQueries.tablet} {
+      max-width: 300px;
+    }
   }
   .logo-image {
     position: absolute;
     right: 0;
-    /* top: 200px; */
     @media ${MediaQueries.tablet} {
       bottom: 0;
+      /* transform: translate(50%); */
+      left: 0;
+      /* position: unset; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
   }
 `;
