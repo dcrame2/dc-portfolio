@@ -7,10 +7,16 @@ import styled from "styled-components";
 const CardContainer = styled.button`
   padding: 30px;
   background-color: ${variables.color2};
-  border-radius: 12px;
+  /* border-radius: 12px; */
   border: 2px solid ${variables.color2};
   text-align: left;
   /* cursor: pointer; */
+  background: linear-gradient(
+    135deg,
+    rgb(0, 0, 0) 0%,
+    rgb(0, 0, 0) 75%,
+    rgb(189, 23, 22) 100%
+  );
   &:hover {
     border: 2px solid ${variables.color1};
   }
@@ -22,11 +28,11 @@ const ProjectImageContainer = styled.div`
 
 const ProjectImage = styled.img`
   width: 100%;
-  transition: transform 0.3s ease-in-out;
+  /* transition: transform 0.3s ease-in-out;
   &:hover {
     transform: scale(1.1);
     transition: transform 0.3s ease-in-out;
-  }
+  } */
 `;
 
 const ProjectTitle = styled.p`
@@ -48,7 +54,7 @@ function ProjectCard({ data }) {
         <ProjectImage src={img.src} alt={img.alt} />
       </ProjectImageContainer>
       <ProjectTitle>{projectTitle}</ProjectTitle>
-      <ProjectDesc>{desc}</ProjectDesc>
+      {/* <ProjectDesc>{desc}</ProjectDesc> */}
       <DetailsButton>See Details</DetailsButton>
     </CardContainer>
   );

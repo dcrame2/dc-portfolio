@@ -218,50 +218,138 @@ export const projectData = {
     },
     {
       img: {
-        src: "/projects/impactmybiz.png",
-        alt: "Impact Homepage",
+        src: "/projects/beggars_pizza.png",
+        alt: "Beggars Pizza Homepage",
       },
-      projectTitle: "Impact Networking",
+      projectTitle: "Beggars Pizza",
       desc: "Impact Networking Impact Networking Impact Networking Impact NetworkingImpact Networking ",
     },
     {
       img: {
-        src: "/projects/impactmybiz.png",
-        alt: "Impact Homepage",
+        src: "/projects/dot_security.png",
+        alt: "DOT Security Homepage",
       },
-      projectTitle: "Impact Networking",
+      projectTitle: "DOT Security",
       desc: "Impact Networking Impact Networking Impact Networking Impact NetworkingImpact Networking ",
     },
     {
       img: {
-        src: "/projects/impactmybiz.png",
-        alt: "Impact Homepage",
+        src: "/projects/tulayna.png",
+        alt: "Tulayna Limo Service Homepage",
       },
-      projectTitle: "Impact Networking",
+      projectTitle: "Tulayna Limo Service",
       desc: "Impact Networking Impact Networking Impact Networking Impact NetworkingImpact Networking ",
     },
     {
       img: {
-        src: "/projects/impactmybiz.png",
-        alt: "Impact Homepage",
+        src: "/projects/rowcare.png",
+        alt: "Rowcare Homepage",
       },
-      projectTitle: "Impact Networking",
+      projectTitle: "Rowcare",
       desc: "Impact Networking Impact Networking Impact Networking Impact NetworkingImpact Networking ",
     },
     {
       img: {
-        src: "/projects/impactmybiz.png",
-        alt: "Impact Homepage",
+        src: "/projects/nggilbert.png",
+        alt: "NG Gilbert Homepage",
       },
-      projectTitle: "Impact Networking",
+      projectTitle: "NG Gilbert",
       desc: "Impact Networking Impact Networking Impact Networking Impact NetworkingImpact Networking ",
     },
     {
       img: {
-        src: "/projects/impactmybiz.png",
-        alt: "Impact Homepage",
+        src: "/projects/chicago_living.png",
+        alt: "Chicago Living Homepage",
       },
-      projectTitle: "Impact Networking",
+      projectTitle: "Chicago Living",
+      desc: "Impact Networking Impact Networking Impact Networking Impact NetworkingImpact Networking ",
+    },
+    {
+      img: {
+        src: "/projects/mpiwjw.png",
+        alt: "MPIWJW Homepage",
+      },
+      projectTitle: "MPI WJW",
+      desc: "Impact Networking Impact Networking Impact Networking Impact NetworkingImpact Networking ",
+    },
+    {
+      img: {
+        src: "/projects/digitaldelightpic.png",
+        alt: "Digital Delight Homepage",
+      },
+      projectTitle: "Digital Delight",
+      desc: "Impact Networking Impact Networking Impact Networking Impact NetworkingImpact Networking ",
+    },
+    {
+      img: {
+        src: "/projects/schuetz_insurance.png",
+        alt: "Schuetz Insurance Homepage",
+      },
+      projectTitle: "Schuetz Insurance",
+      desc: "Impact Networking Impact Networking Impact Networking Impact NetworkingImpact Networking ",
+    },
+    {
+      img: {
+        src: "/projects/moulisfinancial.png",
+        alt: "Moulis Financial Homepage",
+      },
+      projectTitle: "Moulis Financial",
+      desc: "Impact Networking Impact Networking Impact Networking Impact NetworkingImpact Networking ",
+    },
+    {
+      img: {
+        src: "/projects/movie.png",
+        alt: "Movie API Homepage",
+      },
+      projectTitle: "Movie API",
+      desc: "Impact Networking Impact Networking Impact Networking Impact NetworkingImpact Networking ",
+    },
+    {
+      img: {
+        src: "/projects/pig-game.png",
+        alt: "Pig Game Homepage",
+      },
+      projectTitle: "Pig Game",
+      desc: "Impact Networking Impact Networking Impact Networking Impact NetworkingImpact Networking ",
+    },
+    {
+      img: {
+        src: "/projects/delilahmae.png",
+        alt: "Delilah Mae Homepage",
+      },
+      projectTitle: "Delilah Mae",
+      desc: "Impact Networking Impact Networking Impact Networking Impact NetworkingImpact Networking ",
+    },
+    {
+      img: {
+        src: "/projects/creativeagency.png",
+        alt: "Creative Agency Homepage",
+      },
+      projectTitle: "Creative Agency",
+      desc: "Impact Networking Impact Networking Impact Networking Impact NetworkingImpact Networking ",
+    },
+    {
+      img: {
+        src: "/projects/starsandstripes.png",
+        alt: "Stars and Stripes Homepage",
+      },
+      projectTitle: "Stars and Stripes",
+      desc: "Impact Networking Impact Networking Impact Networking Impact NetworkingImpact Networking ",
+    },
+    {
+      img: {
+        src: "/projects/greeklife.png",
+        alt: "Greek Life Homepage",
+      },
+      projectTitle: "Greek Life",
+      desc: "Impact Networking Impact Networking Impact Networking Impact NetworkingImpact Networking ",
+    },
+    {
+      img: {
+        src: "/projects/zombie-game.png",
+        alt: "Zombie Game Homepage",
+      },
+      projectTitle: "Zombie Game",
       desc: "Impact Networking Impact Networking Impact Networking Impact NetworkingImpact Networking ",
     },
   ],
