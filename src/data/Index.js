@@ -35,98 +35,98 @@ export const aboutData = {
     {
       skill: "React.js",
       icon: {
-        src: "/icons/logo-javascript.svg",
+        src: "/icons/logo-react.svg",
         alt: "React.js Icon",
       },
     },
     {
       skill: "Next.js",
       icon: {
-        src: "/icons/logo-javascript.svg",
+        src: "/icons/logo-next.svg",
         alt: "Next.js Icon",
       },
     },
     {
       skill: "HTML",
       icon: {
-        src: "/icons/logo-javascript.svg",
+        src: "/icons/logo-html.svg",
         alt: "JavaScript Icon",
       },
     },
     {
       skill: "CSS",
       icon: {
-        src: "/icons/logo-javascript.svg",
+        src: "/icons/logo-css.svg",
         alt: "CSS Icon",
       },
     },
     {
       skill: "Node.js",
       icon: {
-        src: "/icons/logo-javascript.svg",
+        src: "/icons/logo-node.svg",
         alt: "Node.js Icon",
       },
     },
     {
       skill: "PHP",
       icon: {
-        src: "/icons/logo-javascript.svg",
+        src: "/icons/logo-php.svg",
         alt: "PHP Icon",
       },
     },
     {
       skill: "WordPress",
       icon: {
-        src: "/icons/logo-javascript.svg",
+        src: "/icons/logo-wordpress.svg",
         alt: "WordPress Icon",
       },
     },
     {
       skill: "Strapi",
       icon: {
-        src: "/icons/logo-javascript.svg",
+        src: "/icons/logo-strapi.svg",
         alt: "Strapi Icon",
       },
     },
     {
       skill: "Git",
       icon: {
-        src: "/icons/logo-javascript.svg",
+        src: "/icons/logo-git.svg",
         alt: "Git Icon",
       },
     },
     {
       skill: "SASS",
       icon: {
-        src: "/icons/logo-javascript.svg",
+        src: "/icons/logo-sass.svg",
         alt: "SASS Icon",
       },
     },
     {
       skill: "Styled Components",
       icon: {
-        src: "/icons/logo-javascript.svg",
+        src: "/icons/logo-styled-components.svg",
         alt: "Styled Components Icon",
       },
     },
     {
       skill: "TypeScript",
       icon: {
-        src: "/icons/logo-javascript.svg",
+        src: "/icons/logo-typescript.svg",
         alt: "TypeScript Icon",
       },
     },
     {
       skill: "React Native",
       icon: {
-        src: "/icons/logo-javascript.svg",
+        src: "/icons/logo-react-native.svg",
         alt: "React Native Icon",
       },
     },
     {
       skill: "Postgres SQL",
       icon: {
-        src: "/icons/logo-javascript.svg",
+        src: "/icons/logo-postgresql.svg",
         alt: "Postgres SQL API Icon",
       },
     },
