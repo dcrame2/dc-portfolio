@@ -45,6 +45,11 @@ const ComapnyTabContainer = styled(motion.ul)`
       transform: rotate(0deg);
     }
   }
+
+  @media ${MediaQueries.mobile} {
+    max-height: ${({ activeDropdown }) => (activeDropdown ? "500px" : "50px")};
+    transition: max-height 0.8s ease-in-out;
+  }
 `;
 
 const ComapnyTab = styled(motion.li)`
@@ -113,7 +118,7 @@ const DescList = styled.li`
 function Tab({ companies, companiesInfo }) {
   const [activeTab, setActiveTab] = useState(0);
   const [activeDropdown, setActiveDropdown] = useState(false);
-  console.log(activeTab);
+  console.log(activeDropdown);
 
   function handleTabClick(index) {
     setActiveTab(index);
@@ -126,8 +131,7 @@ function Tab({ companies, companiesInfo }) {
   return (
     <TabContainer>
       <ComapnyTabContainer
-        // initial={{ maxHeight: "0" }}
-        animate={{ maxHeight: activeDropdown ? "500px" : "50px" }}
+        // animate={{ maxHeight: activeDropdown ? "500px" : "50px" }}
         transition={{ duration: 0.8, ease: "easeInOut" }}
         $activeDropdown={activeDropdown}
         onClick={openDropdownHandler}
@@ -136,9 +140,6 @@ function Tab({ companies, companiesInfo }) {
         {companies.map((company, index) => {
           return (
             <ComapnyTab
-              //   initial={{ maxHeight: "500px" }}
-              //   animate={{ maxHeight: activeDropdown ? "50px" : "50px" }}
-              //   transition={{ duration: 0.8, ease: "easeInOut" }}
               className={activeDropdown || index === activeTab ? "active" : ""}
               key={index}
               active={index === activeTab}
