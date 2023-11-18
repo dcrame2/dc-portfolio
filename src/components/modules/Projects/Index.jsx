@@ -4,7 +4,9 @@ import Header from "@/components/ui/Header/Index";
 import styled from "styled-components";
 import { Container, MediaQueries } from "@/styles/Utilities";
 
-const ProjectContainer = styled.div``;
+const ProjectContainer = styled.div`
+  padding: 200px 0;
+`;
 
 const ProjectInnerContainer = styled.div`
   ${Container}

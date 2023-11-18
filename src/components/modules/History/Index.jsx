@@ -39,9 +39,7 @@ const ParallaxIntroVisual = styled.div`
     right: 0;
     @media ${MediaQueries.tablet} {
       bottom: 0;
-      /* transform: translate(50%); */
       left: 0;
-      /* position: unset; */
       display: flex;
       justify-content: center;
       align-items: center;
