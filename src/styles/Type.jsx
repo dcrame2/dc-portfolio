@@ -88,19 +88,19 @@ export const h3styles = css`
 
 export const h4styles = css`
   font-family: ${monsterrat};
-  font-size: 4.6rem;
-  line-height: 5.4rem;
+  font-size: 2rem;
+  line-height: 3.4rem;
   font-weight: 300;
   color: #ffff;
 
   @media ${MediaQueries.tablet} {
-    font-size: 4.1rem;
-    line-height: 5rem;
+    font-size: 1.8rem;
+    line-height: 3rem;
   }
 
   @media ${MediaQueries.mobile} {
-    font-size: 3.1rem;
-    line-height: 3.9rem;
+    font-size: 1.6rem;
+    line-height: 2.8rem;
   }
 `;
 

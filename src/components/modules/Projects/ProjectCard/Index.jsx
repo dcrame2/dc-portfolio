@@ -1,6 +1,7 @@
-import { h3styles, pLarge, pSmall } from "@/styles/Type";
+import { h4styles, h3styles, pLarge, pSmall } from "@/styles/Type";
 import { variables } from "@/styles/Variables";
 import React from "react";
+import { MediaQueries } from "@/styles/Utilities";
 
 import styled from "styled-components";
 
@@ -10,6 +11,7 @@ const CardContainer = styled.button`
   /* border-radius: 12px; */
   border: 2px solid ${variables.color2};
   text-align: left;
+  position: relative;
   /* cursor: pointer; */
   background: linear-gradient(
     135deg,
@@ -36,14 +38,25 @@ const ProjectImage = styled.img`
 `;
 
 const ProjectTitle = styled.p`
-  ${pLarge}
+  ${h4styles}
 `;
 
 const ProjectDesc = styled.p`
   ${pSmall}
 `;
 
-const DetailsButton = styled.p``;
+const DetailsButton = styled.p`
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+  img {
+    @media ${MediaQueries.mobile} {
+      width: 25px;
+      height: 25px;
+    }
+  }
+  /* transform: rotate(-40deg); */
+`;
 
 function ProjectCard({ data }) {
   // console.log(data);
@@ -55,7 +68,10 @@ function ProjectCard({ data }) {
       </ProjectImageContainer>
       <ProjectTitle>{projectTitle}</ProjectTitle>
       {/* <ProjectDesc>{desc}</ProjectDesc> */}
-      <DetailsButton>See Details</DetailsButton>
+      <DetailsButton>
+        <img src="/icons/Expand.svg" alt="" srcset="" />
+        {/* See Details */}
+      </DetailsButton>
     </CardContainer>
   );
 }
