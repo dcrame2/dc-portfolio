@@ -47,7 +47,8 @@ const ComapnyTabContainer = styled(motion.ul)`
   }
 
   @media ${MediaQueries.mobile} {
-    max-height: ${({ activeDropdown }) => (activeDropdown ? "500px" : "50px")};
+    max-height: ${({ $activeDropdown }) =>
+      $activeDropdown ? "500px" : "50px"};
     transition: max-height 0.8s ease-in-out;
   }
 `;
