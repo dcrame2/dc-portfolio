@@ -29,6 +29,7 @@ const ParallaxIntroVisual = styled.div`
 
   img {
     width: 100%;
+    max-width: 500px;
     @media ${MediaQueries.tablet} {
       max-width: 300px;
     }
