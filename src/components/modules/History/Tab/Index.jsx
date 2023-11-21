@@ -54,8 +54,8 @@ const ComapnyTabContainer = styled(motion.ul)`
 `;
 
 const ComapnyTab = styled(motion.li)`
-  background-color: ${({ active }) =>
-    active ? variables.color1 : variables.transparent};
+  background-color: ${({ $active }) =>
+    $active ? variables.color1 : variables.transparent};
   cursor: pointer;
   padding: 12px 8px;
   transition: background-color 0.3s ease-in-out;
@@ -86,7 +86,7 @@ const CompaniesInfoContainer = styled.div`
 `;
 
 const CompaniesInfo = styled(motion.div)`
-  display: ${({ active }) => (active ? "block" : "none")};
+  display: ${({ $active }) => ($active ? "block" : "none")};
 `;
 
 const TitleContainer = styled.div`
@@ -141,7 +141,7 @@ function Tab({ companies, companiesInfo }) {
             <ComapnyTab
               className={activeDropdown || index === activeTab ? "active" : ""}
               key={index}
-              active={index === activeTab}
+              $active={index === activeTab}
               onClick={() => handleTabClick(index)}
             >
               {company}
@@ -158,7 +158,7 @@ function Tab({ companies, companiesInfo }) {
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ duration: `0.3` }}
               key={index}
-              active={index === activeTab}
+              $active={index === activeTab}
             >
               <TitleContainer>
                 <Title>{title} @ </Title>

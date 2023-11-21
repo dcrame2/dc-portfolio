@@ -35,6 +35,7 @@ function Header({ data }) {
         {title.split("").map((letter, index) => {
           return (
             <Letter
+              key={index}
               initial={{ opacity: 0, rotateY: -360 }}
               whileInView={{ rotateY: 0, opacity: 1 }}
               transition={{ duration: `0.3`, delay: `${index * 0.15}` }}

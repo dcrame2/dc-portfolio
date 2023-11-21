@@ -206,7 +206,11 @@ function Navigation({ data }) {
           <MobileNavContainer $openNav={openNav}>
             {navLinks.map((navLink, index) => {
               const { text, url } = navLink;
-              return <NavLinks href={url}>{text}</NavLinks>;
+              return (
+                <NavLinks key={index} href={url}>
+                  {text}
+                </NavLinks>
+              );
             })}
           </MobileNavContainer>
         </HamburgerContainer>

@@ -38,7 +38,7 @@ function Projects({ data }) {
         <Header data={header} />
         <ProjectsGrid>
           {projects.map((project, index) => {
-            return <ProjectCard key={index} data={project} index={index} />;
+            return <ProjectCard key={index} data={project} />;
           })}
         </ProjectsGrid>
       </ProjectInnerContainer>
