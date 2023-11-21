@@ -9,7 +9,7 @@ export async function getStaticPaths() {
 
   return {
     paths: paths,
-    fallback: true,
+    fallback: false,
   };
 }
 
@@ -30,7 +30,7 @@ export default function Page({ data }) {
   return (
     <>
       <ProjectHero data={data} />
-      {/* <BuiltWith data={data} /> */}
+      <BuiltWith data={data} />
     </>
   );
 }

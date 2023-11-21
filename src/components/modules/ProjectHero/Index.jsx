@@ -2,6 +2,7 @@ import { h1styles, h2styles } from "@/styles/Type";
 import { Container } from "@/styles/Utilities";
 import React from "react";
 import styled from "styled-components";
+import BuiltWith from "../BuiltWith/Index";
 
 const ProjectHeroContainer = styled.div`
   padding: 50px 0;
@@ -42,11 +43,12 @@ const Bar = styled.div`
 const ProjectLogo = styled.img``;
 
 function ProjectHero({ data }) {
+  const { title } = data;
   return (
     <ProjectHeroContainer>
       <ProjectHeroInnerContainer>
         <ContentContainer>
-          <Title>{data ? data.title : "Test"}</Title>
+          <Title>{title}</Title>
         </ContentContainer>
         <Bar />
       </ProjectHeroInnerContainer>

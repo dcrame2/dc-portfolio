@@ -80,28 +80,23 @@ const SkillTitle = styled.p`
 `;
 
 function BuiltWith({ data }) {
-  const { builtWith, description, img } = data;
-  console.log(data);
+  const { description, builtWith, img } = data;
   return (
     <BuiltWithContainer>
       <BuiltWithInnerContainer>
         <ContentContainer>
-          {description && <Description>{description}</Description>}
-          {builtWith.icon ? (
-            <CardContainer>
-              {builtWith.map((lang, index) => {
-                const { skill, icon } = lang;
-                return (
-                  <IndividualCardContainer>
-                    <Icon src={icon.src} alt={icon.alt}></Icon>
-                    {/* <SkillTitle>{skill}</SkillTitle> */}
-                  </IndividualCardContainer>
-                );
-              })}
-            </CardContainer>
-          ) : (
-            ""
-          )}
+          <Description>{description}</Description>
+          <CardContainer>
+            {builtWith.map((lang, index) => {
+              const { skill, icon } = lang;
+              return (
+                <IndividualCardContainer>
+                  <Icon src={icon.src} alt={icon.alt}></Icon>
+                  {/* <SkillTitle>{skill}</SkillTitle> */}
+                </IndividualCardContainer>
+              );
+            })}
+          </CardContainer>
         </ContentContainer>
         {img && <Img src={img.src} alt={img.alt} />}
       </BuiltWithInnerContainer>
