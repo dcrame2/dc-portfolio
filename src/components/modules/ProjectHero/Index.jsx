@@ -46,10 +46,7 @@ function ProjectHero({ data }) {
   return (
     <ProjectHeroContainer>
       <ProjectHeroInnerContainer>
-        <ContentContainer>
-          {title && <Title>{title}</Title>}
-          {/* <ProjectLogo src="/logo/projectLogos/impact_logo.png" /> */}
-        </ContentContainer>
+        <ContentContainer>{title && <Title>{title}</Title>}</ContentContainer>
         <Bar />
       </ProjectHeroInnerContainer>
     </ProjectHeroContainer>
