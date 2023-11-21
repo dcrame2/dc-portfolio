@@ -105,7 +105,7 @@ function MainHero({ data }) {
           <ImgD
             initial="hidden"
             animate={isInView ? "visible" : "hidden"}
-            transition={{ ease: "easeInOut", duration: 2, delay: 1 }}
+            transition={{ ease: "easeInOut", duration: 1, delay: 1 }}
             variants={leftVariant}
             src={imgD.url}
             alt={imgD.alt}
@@ -113,7 +113,7 @@ function MainHero({ data }) {
           <ImgC
             initial="hidden"
             animate={isInView ? "visible" : "hidden"}
-            transition={{ ease: "easeInOut", duration: 2, delay: 1 }}
+            transition={{ ease: "easeInOut", duration: 1, delay: 1 }}
             variants={rightVariant}
             src={imgC.url}
             alt={imgC.alt}
