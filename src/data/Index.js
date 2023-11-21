@@ -547,4 +547,10 @@ export const projectPagesData = [
       title: "Zombie Game",
     },
   },
+  {
+    slug: "/mpi-wjw",
+    pageData: {
+      title: "MPI WJW",
+    },
+  },
 ];
