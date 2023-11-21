@@ -87,7 +87,7 @@ function BuiltWith({ data }) {
       <BuiltWithInnerContainer>
         <ContentContainer>
           {description && <Description>{description}</Description>}
-          {builtWith && (
+          {builtWith.icon ? (
             <CardContainer>
               {builtWith.map((lang, index) => {
                 const { skill, icon } = lang;
@@ -99,6 +99,8 @@ function BuiltWith({ data }) {
                 );
               })}
             </CardContainer>
+          ) : (
+            ""
           )}
         </ContentContainer>
         {img && <Img src={img.src} alt={img.alt} />}

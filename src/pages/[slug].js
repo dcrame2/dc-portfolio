@@ -20,18 +20,17 @@ export async function getStaticProps(context) {
     if (page.slug === `/${currentPage}`) {
       data = page.pageData;
     }
-    return;
+    // return;
   });
 
   return { props: { data } };
 }
 
 export default function Page({ data }) {
-  //   console.log(data);
   return (
     <>
       <ProjectHero data={data} />
-      <BuiltWith data={data} />
+      {/* <BuiltWith data={data} /> */}
     </>
   );
 }
