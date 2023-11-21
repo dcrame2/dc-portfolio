@@ -42,8 +42,6 @@ const Bar = styled.div`
 const ProjectLogo = styled.img``;
 
 function ProjectHero({ data }) {
-  //   const { title } = data;
-  //   console.log(data.title);
   return (
     <ProjectHeroContainer>
       <ProjectHeroInnerContainer>
