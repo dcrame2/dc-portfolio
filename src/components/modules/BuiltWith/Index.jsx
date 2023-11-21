@@ -25,7 +25,7 @@ const ContentContainer = styled.div`
   width: 50%;
   @media ${MediaQueries.tablet} {
     width: 100%;
-    flex-direction: row;
+    /* flex-direction: row; */
     justify-content: space-between;
     gap: 50px;
   }
@@ -53,9 +53,9 @@ const Description = styled.p`
 const CardContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
-  /* @media ${MediaQueries.tablet} {
-    flex-direction: column;
-  } */
+  @media ${MediaQueries.tablet} {
+    justify-content: center;
+  }
 `;
 
 const IndividualCardContainer = styled.div`

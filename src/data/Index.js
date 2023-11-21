@@ -127,7 +127,21 @@ export const aboutData = {
       skill: "Postgres SQL",
       icon: {
         src: "/icons/logo-postgresql.svg",
-        alt: "Postgres SQL API Icon",
+        alt: "Postgres SQL Icon",
+      },
+    },
+    {
+      skill: "Framer Motion",
+      icon: {
+        src: "/icons/logo-framer-motion.svg",
+        alt: "Framer Motion Icon",
+      },
+    },
+    {
+      skill: "Bash",
+      icon: {
+        src: "/icons/logo-bash.svg",
+        alt: "Bash Icon",
       },
     },
   ],
@@ -386,12 +400,12 @@ export const projectPagesData = [
   {
     slug: "/beggars-pizza",
     pageData: {
-      title: "Beggars Zaski",
+      title: "Beggars Pizza",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magni repudiandae aliquid fuga eveniet nihil ad aperiam vel pariatur quidem officia error maxime voluptatibus corporis accusamus, veritatis, ea tempore! Autem quo ad architecto vitae nam officia ex ab, et nisi tenetur maiores cumque perferendis ut nesciunt nostrum rerum, ipsam officiis!",
+        "The Beggars Pizza website was built in a team of 2 developers in an Agile Methodology approach. Working together with the UX and UI team to put together a masterpiece. ",
       img: {
-        src: "/projects/impactmybiz.png",
-        alt: "Impact Homepage",
+        src: "/projects/beggars_pizza.png",
+        alt: "Beggars Pizza Homepage",
       },
       builtWith: [
         {
@@ -402,17 +416,38 @@ export const projectPagesData = [
           },
         },
         {
-          skill: "React.js",
+          skill: "Next.js",
           icon: {
-            src: "/icons/logo-react.svg",
-            alt: "React.js Icon",
+            src: "/icons/logo-next.svg",
+            alt: "Next.js Icon",
           },
         },
         {
-          skill: "React.js",
+          skill: "Styled Components",
           icon: {
-            src: "/icons/logo-react.svg",
-            alt: "React.js Icon",
+            src: "/icons/logo-styled-components.svg",
+            alt: "Styled Components Icon",
+          },
+        },
+        {
+          skill: "Postgres SQL",
+          icon: {
+            src: "/icons/logo-postgresql.svg",
+            alt: "Postgres SQL API Icon",
+          },
+        },
+        {
+          skill: "Strapi",
+          icon: {
+            src: "/icons/logo-strapi.svg",
+            alt: "Strapi Icon",
+          },
+        },
+        {
+          skill: "Framer Motion",
+          icon: {
+            src: "/icons/logo-framer-motion.svg",
+            alt: "Framer Motion Icon",
           },
         },
       ],
@@ -457,6 +492,20 @@ export const projectPagesData = [
             alt: "Postgres SQL API Icon",
           },
         },
+        {
+          skill: "Strapi",
+          icon: {
+            src: "/icons/logo-strapi.svg",
+            alt: "Strapi Icon",
+          },
+        },
+        {
+          skill: "Framer Motion",
+          icon: {
+            src: "/icons/logo-framer-motion.svg",
+            alt: "Framer Motion Icon",
+          },
+        },
       ],
     },
   },
@@ -467,8 +516,8 @@ export const projectPagesData = [
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magni repudiandae aliquid fuga eveniet nihil ad aperiam vel pariatur quidem officia error maxime voluptatibus corporis accusamus, veritatis, ea tempore! Autem quo ad architecto vitae nam officia ex ab, et nisi tenetur maiores cumque perferendis ut nesciunt nostrum rerum, ipsam officiis!",
       img: {
-        src: "/projects/impactmybiz.png",
-        alt: "Impact Homepage",
+        src: "/projects/zmac.png",
+        alt: "Zmac Transport",
       },
       builtWith: [
         {
@@ -479,17 +528,38 @@ export const projectPagesData = [
           },
         },
         {
-          skill: "React.js",
+          skill: "Next.js",
           icon: {
-            src: "/icons/logo-react.svg",
-            alt: "React.js Icon",
+            src: "/icons/logo-next.svg",
+            alt: "Next.js Icon",
           },
         },
         {
-          skill: "React.js",
+          skill: "Styled Components",
           icon: {
-            src: "/icons/logo-react.svg",
-            alt: "React.js Icon",
+            src: "/icons/logo-styled-components.svg",
+            alt: "Styled Components Icon",
+          },
+        },
+        {
+          skill: "Postgres SQL",
+          icon: {
+            src: "/icons/logo-postgresql.svg",
+            alt: "Postgres SQL API Icon",
+          },
+        },
+        {
+          skill: "Strapi",
+          icon: {
+            src: "/icons/logo-strapi.svg",
+            alt: "Strapi Icon",
+          },
+        },
+        {
+          skill: "Framer Motion",
+          icon: {
+            src: "/icons/logo-framer-motion.svg",
+            alt: "Framer Motion Icon",
           },
         },
       ],
@@ -502,8 +572,8 @@ export const projectPagesData = [
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magni repudiandae aliquid fuga eveniet nihil ad aperiam vel pariatur quidem officia error maxime voluptatibus corporis accusamus, veritatis, ea tempore! Autem quo ad architecto vitae nam officia ex ab, et nisi tenetur maiores cumque perferendis ut nesciunt nostrum rerum, ipsam officiis!",
       img: {
-        src: "/projects/impactmybiz.png",
-        alt: "Impact Homepage",
+        src: "/projects/dot_security.png",
+        alt: "DOT Security Homepage",
       },
       builtWith: [
         {
@@ -514,17 +584,38 @@ export const projectPagesData = [
           },
         },
         {
-          skill: "React.js",
+          skill: "Next.js",
           icon: {
-            src: "/icons/logo-react.svg",
-            alt: "React.js Icon",
+            src: "/icons/logo-next.svg",
+            alt: "Next.js Icon",
           },
         },
         {
-          skill: "React.js",
+          skill: "Styled Components",
           icon: {
-            src: "/icons/logo-react.svg",
-            alt: "React.js Icon",
+            src: "/icons/logo-styled-components.svg",
+            alt: "Styled Components Icon",
+          },
+        },
+        {
+          skill: "Postgres SQL",
+          icon: {
+            src: "/icons/logo-postgresql.svg",
+            alt: "Postgres SQL API Icon",
+          },
+        },
+        {
+          skill: "Strapi",
+          icon: {
+            src: "/icons/logo-strapi.svg",
+            alt: "Strapi Icon",
+          },
+        },
+        {
+          skill: "Framer Motion",
+          icon: {
+            src: "/icons/logo-framer-motion.svg",
+            alt: "Framer Motion Icon",
           },
         },
       ],
@@ -537,8 +628,8 @@ export const projectPagesData = [
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magni repudiandae aliquid fuga eveniet nihil ad aperiam vel pariatur quidem officia error maxime voluptatibus corporis accusamus, veritatis, ea tempore! Autem quo ad architecto vitae nam officia ex ab, et nisi tenetur maiores cumque perferendis ut nesciunt nostrum rerum, ipsam officiis!",
       img: {
-        src: "/projects/impactmybiz.png",
-        alt: "Impact Homepage",
+        src: "/projects/tulayna.png",
+        alt: "Tulayna Limo Service Homepage",
       },
       builtWith: [
         {
@@ -549,17 +640,38 @@ export const projectPagesData = [
           },
         },
         {
-          skill: "React.js",
+          skill: "Next.js",
           icon: {
-            src: "/icons/logo-react.svg",
-            alt: "React.js Icon",
+            src: "/icons/logo-next.svg",
+            alt: "Next.js Icon",
           },
         },
         {
-          skill: "React.js",
+          skill: "Styled Components",
           icon: {
-            src: "/icons/logo-react.svg",
-            alt: "React.js Icon",
+            src: "/icons/logo-styled-components.svg",
+            alt: "Styled Components Icon",
+          },
+        },
+        {
+          skill: "Postgres SQL",
+          icon: {
+            src: "/icons/logo-postgresql.svg",
+            alt: "Postgres SQL API Icon",
+          },
+        },
+        {
+          skill: "Strapi",
+          icon: {
+            src: "/icons/logo-strapi.svg",
+            alt: "Strapi Icon",
+          },
+        },
+        {
+          skill: "Framer Motion",
+          icon: {
+            src: "/icons/logo-framer-motion.svg",
+            alt: "Framer Motion Icon",
           },
         },
       ],
@@ -572,29 +684,43 @@ export const projectPagesData = [
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magni repudiandae aliquid fuga eveniet nihil ad aperiam vel pariatur quidem officia error maxime voluptatibus corporis accusamus, veritatis, ea tempore! Autem quo ad architecto vitae nam officia ex ab, et nisi tenetur maiores cumque perferendis ut nesciunt nostrum rerum, ipsam officiis!",
       img: {
-        src: "/projects/impactmybiz.png",
-        alt: "Impact Homepage",
+        src: "/projects/rowcare.png",
+        alt: "Rowcare Homepage",
       },
       builtWith: [
         {
-          skill: "React.js",
+          skill: "PHP",
           icon: {
-            src: "/icons/logo-react.svg",
-            alt: "React.js Icon",
+            src: "/icons/logo-php.svg",
+            alt: "PHP Icon",
           },
         },
         {
-          skill: "React.js",
+          skill: "JavaScript",
           icon: {
-            src: "/icons/logo-react.svg",
-            alt: "React.js Icon",
+            src: "/icons/logo-javascript.svg",
+            alt: "JavaScript Icon",
           },
         },
         {
-          skill: "React.js",
+          skill: "SASS",
           icon: {
-            src: "/icons/logo-react.svg",
-            alt: "React.js Icon",
+            src: "/icons/logo-sass.svg",
+            alt: "SASS Icon",
+          },
+        },
+        {
+          skill: "HTML",
+          icon: {
+            src: "/icons/logo-html.svg",
+            alt: "JavaScript Icon",
+          },
+        },
+        {
+          skill: "WordPress",
+          icon: {
+            src: "/icons/logo-wordpress.svg",
+            alt: "WordPress Icon",
           },
         },
       ],
@@ -607,29 +733,43 @@ export const projectPagesData = [
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magni repudiandae aliquid fuga eveniet nihil ad aperiam vel pariatur quidem officia error maxime voluptatibus corporis accusamus, veritatis, ea tempore! Autem quo ad architecto vitae nam officia ex ab, et nisi tenetur maiores cumque perferendis ut nesciunt nostrum rerum, ipsam officiis!",
       img: {
-        src: "/projects/impactmybiz.png",
-        alt: "Impact Homepage",
+        src: "/projects/nggilbert.png",
+        alt: "NG Gilbert Homepage",
       },
       builtWith: [
         {
-          skill: "React.js",
+          skill: "PHP",
           icon: {
-            src: "/icons/logo-react.svg",
-            alt: "React.js Icon",
+            src: "/icons/logo-php.svg",
+            alt: "PHP Icon",
           },
         },
         {
-          skill: "React.js",
+          skill: "JavaScript",
           icon: {
-            src: "/icons/logo-react.svg",
-            alt: "React.js Icon",
+            src: "/icons/logo-javascript.svg",
+            alt: "JavaScript Icon",
           },
         },
         {
-          skill: "React.js",
+          skill: "SASS",
           icon: {
-            src: "/icons/logo-react.svg",
-            alt: "React.js Icon",
+            src: "/icons/logo-sass.svg",
+            alt: "SASS Icon",
+          },
+        },
+        {
+          skill: "HTML",
+          icon: {
+            src: "/icons/logo-html.svg",
+            alt: "JavaScript Icon",
+          },
+        },
+        {
+          skill: "WordPress",
+          icon: {
+            src: "/icons/logo-wordpress.svg",
+            alt: "WordPress Icon",
           },
         },
       ],
@@ -642,8 +782,8 @@ export const projectPagesData = [
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magni repudiandae aliquid fuga eveniet nihil ad aperiam vel pariatur quidem officia error maxime voluptatibus corporis accusamus, veritatis, ea tempore! Autem quo ad architecto vitae nam officia ex ab, et nisi tenetur maiores cumque perferendis ut nesciunt nostrum rerum, ipsam officiis!",
       img: {
-        src: "/projects/impactmybiz.png",
-        alt: "Impact Homepage",
+        src: "/projects/chicago_living.png",
+        alt: "Chicago Living Homepage",
       },
       builtWith: [
         {
@@ -654,17 +794,38 @@ export const projectPagesData = [
           },
         },
         {
-          skill: "React.js",
+          skill: "Next.js",
           icon: {
-            src: "/icons/logo-react.svg",
-            alt: "React.js Icon",
+            src: "/icons/logo-next.svg",
+            alt: "Next.js Icon",
           },
         },
         {
-          skill: "React.js",
+          skill: "Styled Components",
           icon: {
-            src: "/icons/logo-react.svg",
-            alt: "React.js Icon",
+            src: "/icons/logo-styled-components.svg",
+            alt: "Styled Components Icon",
+          },
+        },
+        {
+          skill: "Postgres SQL",
+          icon: {
+            src: "/icons/logo-postgresql.svg",
+            alt: "Postgres SQL API Icon",
+          },
+        },
+        {
+          skill: "Strapi",
+          icon: {
+            src: "/icons/logo-strapi.svg",
+            alt: "Strapi Icon",
+          },
+        },
+        {
+          skill: "Framer Motion",
+          icon: {
+            src: "/icons/logo-framer-motion.svg",
+            alt: "Framer Motion Icon",
           },
         },
       ],
@@ -677,8 +838,8 @@ export const projectPagesData = [
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magni repudiandae aliquid fuga eveniet nihil ad aperiam vel pariatur quidem officia error maxime voluptatibus corporis accusamus, veritatis, ea tempore! Autem quo ad architecto vitae nam officia ex ab, et nisi tenetur maiores cumque perferendis ut nesciunt nostrum rerum, ipsam officiis!",
       img: {
-        src: "/projects/impactmybiz.png",
-        alt: "Impact Homepage",
+        src: "/projects/digitaldelightpic.png",
+        alt: "Digital Delight Homepage",
       },
       builtWith: [
         {
@@ -689,17 +850,25 @@ export const projectPagesData = [
           },
         },
         {
-          skill: "React.js",
+          skill: "Next.js",
           icon: {
-            src: "/icons/logo-react.svg",
-            alt: "React.js Icon",
+            src: "/icons/logo-next.svg",
+            alt: "Next.js Icon",
           },
         },
         {
-          skill: "React.js",
+          skill: "Styled Components",
           icon: {
-            src: "/icons/logo-react.svg",
-            alt: "React.js Icon",
+            src: "/icons/logo-styled-components.svg",
+            alt: "Styled Components Icon",
+          },
+        },
+
+        {
+          skill: "Framer Motion",
+          icon: {
+            src: "/icons/logo-framer-motion.svg",
+            alt: "Framer Motion Icon",
           },
         },
       ],
@@ -712,29 +881,43 @@ export const projectPagesData = [
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magni repudiandae aliquid fuga eveniet nihil ad aperiam vel pariatur quidem officia error maxime voluptatibus corporis accusamus, veritatis, ea tempore! Autem quo ad architecto vitae nam officia ex ab, et nisi tenetur maiores cumque perferendis ut nesciunt nostrum rerum, ipsam officiis!",
       img: {
-        src: "/projects/impactmybiz.png",
-        alt: "Impact Homepage",
+        src: "/projects/schuetz_insurance.png",
+        alt: "Schuetz Insurance Homepage",
       },
       builtWith: [
         {
-          skill: "React.js",
+          skill: "PHP",
           icon: {
-            src: "/icons/logo-react.svg",
-            alt: "React.js Icon",
+            src: "/icons/logo-php.svg",
+            alt: "PHP Icon",
           },
         },
         {
-          skill: "React.js",
+          skill: "JavaScript",
           icon: {
-            src: "/icons/logo-react.svg",
-            alt: "React.js Icon",
+            src: "/icons/logo-javascript.svg",
+            alt: "JavaScript Icon",
           },
         },
         {
-          skill: "React.js",
+          skill: "SASS",
           icon: {
-            src: "/icons/logo-react.svg",
-            alt: "React.js Icon",
+            src: "/icons/logo-sass.svg",
+            alt: "SASS Icon",
+          },
+        },
+        {
+          skill: "HTML",
+          icon: {
+            src: "/icons/logo-html.svg",
+            alt: "JavaScript Icon",
+          },
+        },
+        {
+          skill: "WordPress",
+          icon: {
+            src: "/icons/logo-wordpress.svg",
+            alt: "WordPress Icon",
           },
         },
       ],
@@ -747,8 +930,8 @@ export const projectPagesData = [
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magni repudiandae aliquid fuga eveniet nihil ad aperiam vel pariatur quidem officia error maxime voluptatibus corporis accusamus, veritatis, ea tempore! Autem quo ad architecto vitae nam officia ex ab, et nisi tenetur maiores cumque perferendis ut nesciunt nostrum rerum, ipsam officiis!",
       img: {
-        src: "/projects/impactmybiz.png",
-        alt: "Impact Homepage",
+        src: "/projects/moulisfinancial.png",
+        alt: "Moulis Financial Homepage",
       },
       builtWith: [
         {
@@ -758,18 +941,20 @@ export const projectPagesData = [
             alt: "React.js Icon",
           },
         },
+
         {
-          skill: "React.js",
+          skill: "Styled Components",
           icon: {
-            src: "/icons/logo-react.svg",
-            alt: "React.js Icon",
+            src: "/icons/logo-styled-components.svg",
+            alt: "Styled Components Icon",
           },
         },
+
         {
-          skill: "React.js",
+          skill: "Framer Motion",
           icon: {
-            src: "/icons/logo-react.svg",
-            alt: "React.js Icon",
+            src: "/icons/logo-framer-motion.svg",
+            alt: "Framer Motion Icon",
           },
         },
       ],
@@ -782,29 +967,29 @@ export const projectPagesData = [
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magni repudiandae aliquid fuga eveniet nihil ad aperiam vel pariatur quidem officia error maxime voluptatibus corporis accusamus, veritatis, ea tempore! Autem quo ad architecto vitae nam officia ex ab, et nisi tenetur maiores cumque perferendis ut nesciunt nostrum rerum, ipsam officiis!",
       img: {
-        src: "/projects/impactmybiz.png",
-        alt: "Impact Homepage",
+        src: "/projects/movie.png",
+        alt: "Movie API Homepage",
       },
       builtWith: [
         {
-          skill: "React.js",
+          skill: "JavaScript",
           icon: {
-            src: "/icons/logo-react.svg",
-            alt: "React.js Icon",
+            src: "/icons/logo-javascript.svg",
+            alt: "JavaScript Icon",
           },
         },
         {
-          skill: "React.js",
+          skill: "CSS",
           icon: {
-            src: "/icons/logo-react.svg",
-            alt: "React.js Icon",
+            src: "/icons/logo-css.svg",
+            alt: "CSS Icon",
           },
         },
         {
-          skill: "React.js",
+          skill: "HTML",
           icon: {
-            src: "/icons/logo-react.svg",
-            alt: "React.js Icon",
+            src: "/icons/logo-html.svg",
+            alt: "JavaScript Icon",
           },
         },
       ],
@@ -817,29 +1002,29 @@ export const projectPagesData = [
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magni repudiandae aliquid fuga eveniet nihil ad aperiam vel pariatur quidem officia error maxime voluptatibus corporis accusamus, veritatis, ea tempore! Autem quo ad architecto vitae nam officia ex ab, et nisi tenetur maiores cumque perferendis ut nesciunt nostrum rerum, ipsam officiis!",
       img: {
-        src: "/projects/impactmybiz.png",
-        alt: "Impact Homepage",
+        src: "/projects/pig-game.png",
+        alt: "Pig Game Homepage",
       },
       builtWith: [
         {
-          skill: "React.js",
+          skill: "JavaScript",
           icon: {
-            src: "/icons/logo-react.svg",
-            alt: "React.js Icon",
+            src: "/icons/logo-javascript.svg",
+            alt: "JavaScript Icon",
           },
         },
         {
-          skill: "React.js",
+          skill: "CSS",
           icon: {
-            src: "/icons/logo-react.svg",
-            alt: "React.js Icon",
+            src: "/icons/logo-css.svg",
+            alt: "CSS Icon",
           },
         },
         {
-          skill: "React.js",
+          skill: "HTML",
           icon: {
-            src: "/icons/logo-react.svg",
-            alt: "React.js Icon",
+            src: "/icons/logo-html.svg",
+            alt: "JavaScript Icon",
           },
         },
       ],
@@ -852,8 +1037,8 @@ export const projectPagesData = [
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magni repudiandae aliquid fuga eveniet nihil ad aperiam vel pariatur quidem officia error maxime voluptatibus corporis accusamus, veritatis, ea tempore! Autem quo ad architecto vitae nam officia ex ab, et nisi tenetur maiores cumque perferendis ut nesciunt nostrum rerum, ipsam officiis!",
       img: {
-        src: "/projects/impactmybiz.png",
-        alt: "Impact Homepage",
+        src: "/projects/delilahmae.png",
+        alt: "Delilah Mae Homepage",
       },
       builtWith: [
         {
@@ -864,17 +1049,10 @@ export const projectPagesData = [
           },
         },
         {
-          skill: "React.js",
+          skill: "Styled Components",
           icon: {
-            src: "/icons/logo-react.svg",
-            alt: "React.js Icon",
-          },
-        },
-        {
-          skill: "React.js",
-          icon: {
-            src: "/icons/logo-react.svg",
-            alt: "React.js Icon",
+            src: "/icons/logo-styled-components.svg",
+            alt: "Styled Components Icon",
           },
         },
       ],
@@ -887,29 +1065,29 @@ export const projectPagesData = [
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magni repudiandae aliquid fuga eveniet nihil ad aperiam vel pariatur quidem officia error maxime voluptatibus corporis accusamus, veritatis, ea tempore! Autem quo ad architecto vitae nam officia ex ab, et nisi tenetur maiores cumque perferendis ut nesciunt nostrum rerum, ipsam officiis!",
       img: {
-        src: "/projects/impactmybiz.png",
-        alt: "Impact Homepage",
+        src: "/projects/creativeagency.png",
+        alt: "Creative Agency Homepage",
       },
       builtWith: [
         {
-          skill: "React.js",
+          skill: "JavaScript",
           icon: {
-            src: "/icons/logo-react.svg",
-            alt: "React.js Icon",
+            src: "/icons/logo-javascript.svg",
+            alt: "JavaScript Icon",
           },
         },
         {
-          skill: "React.js",
+          skill: "HTML",
           icon: {
-            src: "/icons/logo-react.svg",
-            alt: "React.js Icon",
+            src: "/icons/logo-html.svg",
+            alt: "JavaScript Icon",
           },
         },
         {
-          skill: "React.js",
+          skill: "CSS",
           icon: {
-            src: "/icons/logo-react.svg",
-            alt: "React.js Icon",
+            src: "/icons/logo-css.svg",
+            alt: "CSS Icon",
           },
         },
       ],
@@ -922,8 +1100,8 @@ export const projectPagesData = [
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magni repudiandae aliquid fuga eveniet nihil ad aperiam vel pariatur quidem officia error maxime voluptatibus corporis accusamus, veritatis, ea tempore! Autem quo ad architecto vitae nam officia ex ab, et nisi tenetur maiores cumque perferendis ut nesciunt nostrum rerum, ipsam officiis!",
       img: {
-        src: "/projects/impactmybiz.png",
-        alt: "Impact Homepage",
+        src: "/projects/starsandstripes.png",
+        alt: "Stars and Stripes Homepage",
       },
       builtWith: [
         {
@@ -957,29 +1135,29 @@ export const projectPagesData = [
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magni repudiandae aliquid fuga eveniet nihil ad aperiam vel pariatur quidem officia error maxime voluptatibus corporis accusamus, veritatis, ea tempore! Autem quo ad architecto vitae nam officia ex ab, et nisi tenetur maiores cumque perferendis ut nesciunt nostrum rerum, ipsam officiis!",
       img: {
-        src: "/projects/impactmybiz.png",
-        alt: "Impact Homepage",
+        src: "/projects/greeklife.png",
+        alt: "Greek Life Homepage",
       },
       builtWith: [
         {
-          skill: "React.js",
+          skill: "JavaScript",
           icon: {
-            src: "/icons/logo-react.svg",
-            alt: "React.js Icon",
+            src: "/icons/logo-javascript.svg",
+            alt: "JavaScript Icon",
           },
         },
         {
-          skill: "React.js",
+          skill: "HTML",
           icon: {
-            src: "/icons/logo-react.svg",
-            alt: "React.js Icon",
+            src: "/icons/logo-html.svg",
+            alt: "JavaScript Icon",
           },
         },
         {
-          skill: "React.js",
+          skill: "CSS",
           icon: {
-            src: "/icons/logo-react.svg",
-            alt: "React.js Icon",
+            src: "/icons/logo-css.svg",
+            alt: "CSS Icon",
           },
         },
       ],
@@ -992,29 +1170,29 @@ export const projectPagesData = [
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magni repudiandae aliquid fuga eveniet nihil ad aperiam vel pariatur quidem officia error maxime voluptatibus corporis accusamus, veritatis, ea tempore! Autem quo ad architecto vitae nam officia ex ab, et nisi tenetur maiores cumque perferendis ut nesciunt nostrum rerum, ipsam officiis!",
       img: {
-        src: "/projects/impactmybiz.png",
-        alt: "Impact Homepage",
+        src: "/projects/zombie-game.png",
+        alt: "Zombie Game Homepage",
       },
       builtWith: [
         {
-          skill: "React.js",
+          skill: "JavaScript",
           icon: {
-            src: "/icons/logo-react.svg",
-            alt: "React.js Icon",
+            src: "/icons/logo-javascript.svg",
+            alt: "JavaScript Icon",
           },
         },
         {
-          skill: "React.js",
+          skill: "HTML",
           icon: {
-            src: "/icons/logo-react.svg",
-            alt: "React.js Icon",
+            src: "/icons/logo-html.svg",
+            alt: "JavaScript Icon",
           },
         },
         {
-          skill: "React.js",
+          skill: "CSS",
           icon: {
-            src: "/icons/logo-react.svg",
-            alt: "React.js Icon",
+            src: "/icons/logo-css.svg",
+            alt: "CSS Icon",
           },
         },
       ],
@@ -1027,29 +1205,43 @@ export const projectPagesData = [
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magni repudiandae aliquid fuga eveniet nihil ad aperiam vel pariatur quidem officia error maxime voluptatibus corporis accusamus, veritatis, ea tempore! Autem quo ad architecto vitae nam officia ex ab, et nisi tenetur maiores cumque perferendis ut nesciunt nostrum rerum, ipsam officiis!",
       img: {
-        src: "/projects/impactmybiz.png",
-        alt: "Impact Homepage",
+        src: "/projects/mpiwjw.png",
+        alt: "MPI WJW Homepage",
       },
       builtWith: [
         {
-          skill: "React.js",
+          skill: "PHP",
           icon: {
-            src: "/icons/logo-react.svg",
-            alt: "React.js Icon",
+            src: "/icons/logo-php.svg",
+            alt: "PHP Icon",
           },
         },
         {
-          skill: "React.js",
+          skill: "JavaScript",
           icon: {
-            src: "/icons/logo-react.svg",
-            alt: "React.js Icon",
+            src: "/icons/logo-javascript.svg",
+            alt: "JavaScript Icon",
           },
         },
         {
-          skill: "React.js",
+          skill: "SASS",
           icon: {
-            src: "/icons/logo-react.svg",
-            alt: "React.js Icon",
+            src: "/icons/logo-sass.svg",
+            alt: "SASS Icon",
+          },
+        },
+        {
+          skill: "HTML",
+          icon: {
+            src: "/icons/logo-html.svg",
+            alt: "JavaScript Icon",
+          },
+        },
+        {
+          skill: "WordPress",
+          icon: {
+            src: "/icons/logo-wordpress.svg",
+            alt: "WordPress Icon",
           },
         },
       ],
