@@ -47,7 +47,7 @@ function ProjectHero({ data }) {
     <ProjectHeroContainer>
       <ProjectHeroInnerContainer>
         <ContentContainer>
-          <Title>{title}</Title>
+          {title && <Title>{title}</Title>}
           {/* <ProjectLogo src="/logo/projectLogos/impact_logo.png" /> */}
         </ContentContainer>
         <Bar />
