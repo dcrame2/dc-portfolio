@@ -42,11 +42,14 @@ const Bar = styled.div`
 const ProjectLogo = styled.img``;
 
 function ProjectHero({ data }) {
-  const { title } = data;
+  //   const { title } = data;
+  //   console.log(data.title);
   return (
     <ProjectHeroContainer>
       <ProjectHeroInnerContainer>
-        <ContentContainer>{title && <Title>{title}</Title>}</ContentContainer>
+        <ContentContainer>
+          {data.title && <Title>{data.title}</Title>}
+        </ContentContainer>
         <Bar />
       </ProjectHeroInnerContainer>
     </ProjectHeroContainer>
