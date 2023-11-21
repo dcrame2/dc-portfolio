@@ -40,14 +40,6 @@ const ProjectImageContainer = styled.div`
 
 const ProjectImage = styled.img`
   width: 100%;
-  /* max-width: 450px;
-  height: 150px; */
-
-  /* transition: transform 0.3s ease-in-out;
-  &:hover {
-    transform: scale(1.1);
-    transition: transform 0.3s ease-in-out;
-  } */
 `;
 
 const ProjectTitle = styled.p`
@@ -73,7 +65,6 @@ const DetailsButton = styled.p`
       height: 25px;
     }
   }
-  /* transform: rotate(-40deg); */
 `;
 
 function ProjectCard({ data, index }) {

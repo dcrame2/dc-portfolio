@@ -72,6 +72,7 @@ function About({ data }) {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: `2` }}
+            viewport={{ once: true }}
           >
             {aboutParagraph}
           </AboutParagraph>

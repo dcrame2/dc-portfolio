@@ -37,7 +37,7 @@ function SkillCards({ data, index }) {
       ref={ref}
       initial={{ opacity: 0, rotateX: 180 }}
       animate={isInView ? { rotateX: 0, opacity: 1 } : {}}
-      transition={{ duration: `0.3`, ease: "easeInOut" }}
+      transition={{ duration: `0.5`, ease: "easeInOut" }}
     >
       <Icon src={icon.src} alt={icon.alt}></Icon>
       <SkillTitle>{skill}</SkillTitle>
