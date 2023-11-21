@@ -27,6 +27,7 @@ export async function getStaticProps(context) {
 }
 
 export default function Page({ data }) {
+  console.log(data);
   return (
     <>
       <ProjectHero data={data} />

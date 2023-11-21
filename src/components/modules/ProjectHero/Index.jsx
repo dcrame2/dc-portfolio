@@ -46,7 +46,7 @@ function ProjectHero({ data }) {
     <ProjectHeroContainer>
       <ProjectHeroInnerContainer>
         <ContentContainer>
-          {data.title && <Title>{data.title}</Title>}
+          <Title>{data.title}</Title>
         </ContentContainer>
         <Bar />
       </ProjectHeroInnerContainer>
