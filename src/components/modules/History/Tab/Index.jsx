@@ -119,7 +119,6 @@ const DescList = styled.li`
 function Tab({ companies, companiesInfo }) {
   const [activeTab, setActiveTab] = useState(0);
   const [activeDropdown, setActiveDropdown] = useState(false);
-  console.log(activeDropdown);
 
   function handleTabClick(index) {
     setActiveTab(index);
@@ -132,7 +131,6 @@ function Tab({ companies, companiesInfo }) {
   return (
     <TabContainer>
       <ComapnyTabContainer
-        // animate={{ maxHeight: activeDropdown ? "500px" : "50px" }}
         transition={{ duration: 0.8, ease: "easeInOut" }}
         $activeDropdown={activeDropdown}
         onClick={openDropdownHandler}

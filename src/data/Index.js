@@ -209,6 +209,7 @@ export const projectData = {
 
   projects: [
     {
+      href: "/impact-networking",
       img: {
         src: "/projects/impactmybiz.png",
         alt: "Impact Homepage",
@@ -217,6 +218,7 @@ export const projectData = {
       desc: "Impact Networking Impact Networking Impact Networking Impact NetworkingImpact Networking ",
     },
     {
+      href: "/beggars-pizza",
       img: {
         src: "/projects/beggars_pizza.png",
         alt: "Beggars Pizza Homepage",
@@ -225,6 +227,7 @@ export const projectData = {
       desc: "Impact Networking Impact Networking Impact Networking Impact NetworkingImpact Networking ",
     },
     {
+      href: "/dot-security",
       img: {
         src: "/projects/dot_security.png",
         alt: "DOT Security Homepage",
@@ -233,14 +236,16 @@ export const projectData = {
       desc: "Impact Networking Impact Networking Impact Networking Impact NetworkingImpact Networking ",
     },
     {
+      href: "/tulayna-limo-service",
       img: {
         src: "/projects/tulayna.png",
         alt: "Tulayna Limo Service Homepage",
       },
-      projectTitle: "Tulayna Limo Service",
+      projectTitle: "Tulayna Limo",
       desc: "Impact Networking Impact Networking Impact Networking Impact NetworkingImpact Networking ",
     },
     {
+      href: "/rowcare",
       img: {
         src: "/projects/rowcare.png",
         alt: "Rowcare Homepage",
@@ -249,6 +254,7 @@ export const projectData = {
       desc: "Impact Networking Impact Networking Impact Networking Impact NetworkingImpact Networking ",
     },
     {
+      href: "/nggilbert",
       img: {
         src: "/projects/nggilbert.png",
         alt: "NG Gilbert Homepage",
@@ -257,6 +263,7 @@ export const projectData = {
       desc: "Impact Networking Impact Networking Impact Networking Impact NetworkingImpact Networking ",
     },
     {
+      href: "/chicago-living-group",
       img: {
         src: "/projects/chicago_living.png",
         alt: "Chicago Living Homepage",
@@ -265,6 +272,7 @@ export const projectData = {
       desc: "Impact Networking Impact Networking Impact Networking Impact NetworkingImpact Networking ",
     },
     {
+      href: "/mpi-wjw",
       img: {
         src: "/projects/mpiwjw.png",
         alt: "MPIWJW Homepage",
@@ -273,6 +281,7 @@ export const projectData = {
       desc: "Impact Networking Impact Networking Impact Networking Impact NetworkingImpact Networking ",
     },
     {
+      href: "/digital-delight",
       img: {
         src: "/projects/digitaldelightpic.png",
         alt: "Digital Delight Homepage",
@@ -281,6 +290,7 @@ export const projectData = {
       desc: "Impact Networking Impact Networking Impact Networking Impact NetworkingImpact Networking ",
     },
     {
+      href: "/schuetz-insurance",
       img: {
         src: "/projects/schuetz_insurance.png",
         alt: "Schuetz Insurance Homepage",
@@ -289,6 +299,7 @@ export const projectData = {
       desc: "Impact Networking Impact Networking Impact Networking Impact NetworkingImpact Networking ",
     },
     {
+      href: "/moulis-financial",
       img: {
         src: "/projects/moulisfinancial.png",
         alt: "Moulis Financial Homepage",
@@ -297,6 +308,7 @@ export const projectData = {
       desc: "Impact Networking Impact Networking Impact Networking Impact NetworkingImpact Networking ",
     },
     {
+      href: "/movie-api",
       img: {
         src: "/projects/movie.png",
         alt: "Movie API Homepage",
@@ -305,6 +317,7 @@ export const projectData = {
       desc: "Impact Networking Impact Networking Impact Networking Impact NetworkingImpact Networking ",
     },
     {
+      href: "/pig-game",
       img: {
         src: "/projects/pig-game.png",
         alt: "Pig Game Homepage",
@@ -313,6 +326,7 @@ export const projectData = {
       desc: "Impact Networking Impact Networking Impact Networking Impact NetworkingImpact Networking ",
     },
     {
+      href: "/delilah-mae",
       img: {
         src: "/projects/delilahmae.png",
         alt: "Delilah Mae Homepage",
@@ -321,6 +335,7 @@ export const projectData = {
       desc: "Impact Networking Impact Networking Impact Networking Impact NetworkingImpact Networking ",
     },
     {
+      href: "/creative-agency",
       img: {
         src: "/projects/creativeagency.png",
         alt: "Creative Agency Homepage",
@@ -329,6 +344,7 @@ export const projectData = {
       desc: "Impact Networking Impact Networking Impact Networking Impact NetworkingImpact Networking ",
     },
     {
+      href: "/stars-and-stripes",
       img: {
         src: "/projects/starsandstripes.png",
         alt: "Stars and Stripes Homepage",
@@ -337,6 +353,7 @@ export const projectData = {
       desc: "Impact Networking Impact Networking Impact Networking Impact NetworkingImpact Networking ",
     },
     {
+      href: "/greek-life",
       img: {
         src: "/projects/greeklife.png",
         alt: "Greek Life Homepage",
@@ -345,6 +362,7 @@ export const projectData = {
       desc: "Impact Networking Impact Networking Impact Networking Impact NetworkingImpact Networking ",
     },
     {
+      href: "/zombie-game",
       img: {
         src: "/projects/zombie-game.png",
         alt: "Zombie Game Homepage",
@@ -354,3 +372,179 @@ export const projectData = {
     },
   ],
 };
+
+export const projectPagesData = [
+  {
+    slug: "/beggars-pizza",
+    pageData: {
+      title: "Beggars Zaski",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magni repudiandae aliquid fuga eveniet nihil ad aperiam vel pariatur quidem officia error maxime voluptatibus corporis accusamus, veritatis, ea tempore! Autem quo ad architecto vitae nam officia ex ab, et nisi tenetur maiores cumque perferendis ut nesciunt nostrum rerum, ipsam officiis!",
+      img: {
+        src: "/projects/impactmybiz.png",
+        alt: "Impact Homepage",
+      },
+      builtWith: [
+        {
+          skill: "React.js",
+          icon: {
+            src: "/icons/logo-react.svg",
+            alt: "React.js Icon",
+          },
+        },
+        {
+          skill: "React.js",
+          icon: {
+            src: "/icons/logo-react.svg",
+            alt: "React.js Icon",
+          },
+        },
+        {
+          skill: "React.js",
+          icon: {
+            src: "/icons/logo-react.svg",
+            alt: "React.js Icon",
+          },
+        },
+      ],
+    },
+  },
+  {
+    slug: "/impact-networking",
+    pageData: {
+      title: "Impact Networking",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magni repudiandae aliquid fuga eveniet nihil ad aperiam vel pariatur quidem officia error maxime voluptatibus corporis accusamus, veritatis, ea tempore! Autem quo ad architecto vitae nam officia ex ab, et nisi tenetur maiores cumque perferendis ut nesciunt nostrum rerum, ipsam officiis!",
+      img: {
+        src: "/projects/impactmybiz.png",
+        alt: "Impact Homepage",
+      },
+      builtWith: [
+        {
+          skill: "React.js",
+          icon: {
+            src: "/icons/logo-react.svg",
+            alt: "React.js Icon",
+          },
+        },
+        {
+          skill: "Next.js",
+          icon: {
+            src: "/icons/logo-next.svg",
+            alt: "Next.js Icon",
+          },
+        },
+        {
+          skill: "Styled Components",
+          icon: {
+            src: "/icons/logo-styled-components.svg",
+            alt: "Styled Components Icon",
+          },
+        },
+        {
+          skill: "Postgres SQL",
+          icon: {
+            src: "/icons/logo-postgresql.svg",
+            alt: "Postgres SQL API Icon",
+          },
+        },
+      ],
+    },
+  },
+  {
+    slug: "/zmac-transport",
+    pageData: {
+      title: "Zmac Transport",
+    },
+  },
+  {
+    slug: "/dot-security",
+    pageData: {
+      title: "DOT Security",
+    },
+  },
+  {
+    slug: "/tulayna-limo-service",
+    pageData: {
+      title: "Tulayna Limo Service",
+    },
+  },
+  {
+    slug: "/rowcare",
+    pageData: {
+      title: "Townsend Rowcare",
+    },
+  },
+  {
+    slug: "/nggilbert",
+    pageData: {
+      title: "Townsend NG Gilbert",
+    },
+  },
+  {
+    slug: "/chicago-living-group",
+    pageData: {
+      title: "Chicago Living Group",
+    },
+  },
+  {
+    slug: "/digital-delight",
+    pageData: {
+      title: "Digital Delight",
+    },
+  },
+  {
+    slug: "/schuetz-insurance",
+    pageData: {
+      title: "Schuetz Insurance",
+    },
+  },
+  {
+    slug: "/moulis-financial",
+    pageData: {
+      title: "Moulis Financial",
+    },
+  },
+  {
+    slug: "/movie-api",
+    pageData: {
+      title: "Movie API",
+    },
+  },
+  {
+    slug: "/pig-game",
+    pageData: {
+      title: "Pig Game",
+    },
+  },
+  {
+    slug: "/delilah-mae",
+    pageData: {
+      title: "Delilah Mae",
+    },
+  },
+  {
+    slug: "/creative-agency",
+    pageData: {
+      title: "Creative Agency",
+    },
+  },
+  {
+    slug: "/stars-and-stripes",
+    pageData: {
+      title: "Stars and Stripes",
+    },
+  },
+  {
+    slug: "/greek-life",
+    pageData: {
+      title: "Greek Life",
+    },
+  },
+  {
+    slug: "/zombie-game",
+    pageData: {
+      title: "Zombie Game",
+    },
+  },
+];
