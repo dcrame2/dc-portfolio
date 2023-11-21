@@ -86,20 +86,22 @@ function BuiltWith({ data }) {
     <BuiltWithContainer>
       <BuiltWithInnerContainer>
         <ContentContainer>
-          <Description>{description}</Description>
-          <CardContainer>
-            {builtWith.map((lang, index) => {
-              const { skill, icon } = lang;
-              return (
-                <IndividualCardContainer>
-                  <Icon src={icon.src} alt={icon.alt}></Icon>
-                  {/* <SkillTitle>{skill}</SkillTitle> */}
-                </IndividualCardContainer>
-              );
-            })}
-          </CardContainer>
+          {description && <Description>{description}</Description>}
+          {builtWith && (
+            <CardContainer>
+              {builtWith.map((lang, index) => {
+                const { skill, icon } = lang;
+                return (
+                  <IndividualCardContainer>
+                    <Icon src={icon.src} alt={icon.alt}></Icon>
+                    {/* <SkillTitle>{skill}</SkillTitle> */}
+                  </IndividualCardContainer>
+                );
+              })}
+            </CardContainer>
+          )}
         </ContentContainer>
-        <Img src={img.src} alt={img.alt} />
+        {img && <Img src={img.src} alt={img.alt} />}
       </BuiltWithInnerContainer>
     </BuiltWithContainer>
   );
