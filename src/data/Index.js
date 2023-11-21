@@ -1,4 +1,26 @@
 // import { IconName } from "react-icons/io5";
+export const navData = {
+  logo: { url: "/logo/logo_no_bg.png", alt: "DC Logo" },
+  homeLink: "/",
+  navLinks: [
+    {
+      text: "About",
+      url: "/#about",
+    },
+    {
+      text: "Work History",
+      url: "/#work-history",
+    },
+    {
+      text: "Projects",
+      url: "/#projects",
+    },
+    {
+      text: "Contact",
+      url: "/#contact",
+    },
+  ],
+};
 
 export const heroData = {
   imgD: {
@@ -15,6 +37,7 @@ export const heroData = {
 };
 
 export const aboutData = {
+  id: "about",
   header: {
     eyebrow: "Learn",
     title: "About",
@@ -148,6 +171,7 @@ export const aboutData = {
 };
 
 export const historyData = {
+  id: "work-history",
   logo: {
     src: "/logo/logo_no_bg.png",
     alt: "DC Logo",
@@ -216,6 +240,7 @@ export const historyData = {
 };
 
 export const projectData = {
+  id: "projects",
   header: {
     eyebrow: "Learn",
     title: "Projects",

@@ -60,11 +60,11 @@ const SkillsContainer = styled.div`
 `;
 
 function About({ data }) {
-  const { header, aboutParagraph, cards } = data;
+  const { header, aboutParagraph, cards, id } = data;
   const ref = useRef(null);
 
   return (
-    <AboutContainer ref={ref}>
+    <AboutContainer id={id} ref={ref}>
       <InnerContainer>
         <TextContainer>
           <Header data={header} />

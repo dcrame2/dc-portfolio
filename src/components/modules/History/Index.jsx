@@ -54,7 +54,7 @@ const WorkContainer = styled.div`
 `;
 
 function History({ data }) {
-  const { header, logo, companies, companiesInfo } = data;
+  const { header, logo, companies, companiesInfo, id } = data;
   const ref = useRef(null);
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -77,7 +77,7 @@ function History({ data }) {
     },
   };
   return (
-    <HistoryContainer>
+    <HistoryContainer id={id}>
       <HistoryInnerContainer>
         <ParallaxIntroVisual ref={ref}>
           <motion.picture

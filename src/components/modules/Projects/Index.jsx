@@ -30,9 +30,9 @@ const ProjectsGrid = styled.div`
 `;
 
 function Projects({ data }) {
-  const { header, projects } = data;
+  const { header, projects, id } = data;
   return (
-    <ProjectContainer>
+    <ProjectContainer id={id}>
       <ProjectInnerContainer>
         <Header data={header} />
         <ProjectsGrid>
