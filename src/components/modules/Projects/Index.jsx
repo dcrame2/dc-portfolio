@@ -1,4 +1,4 @@
-import React from "react";
+import { useRef } from "react";
 import ProjectCard from "./ProjectCard/Index";
 import Header from "@/components/ui/Header/Index";
 import styled from "styled-components";
@@ -31,13 +31,14 @@ const ProjectsGrid = styled.div`
 
 function Projects({ data }) {
   const { header, projects, id } = data;
+
   return (
     <ProjectContainer id={id}>
       <ProjectInnerContainer>
         <Header data={header} />
         <ProjectsGrid>
           {projects.map((project, index) => {
-            return <ProjectCard key={index} data={project} />;
+            return <ProjectCard key={index} data={project} index={index} />;
           })}
         </ProjectsGrid>
       </ProjectInnerContainer>
