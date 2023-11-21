@@ -455,102 +455,595 @@ export const projectPagesData = [
     slug: "/zmac-transport",
     pageData: {
       title: "Zmac Transport",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magni repudiandae aliquid fuga eveniet nihil ad aperiam vel pariatur quidem officia error maxime voluptatibus corporis accusamus, veritatis, ea tempore! Autem quo ad architecto vitae nam officia ex ab, et nisi tenetur maiores cumque perferendis ut nesciunt nostrum rerum, ipsam officiis!",
+      img: {
+        src: "/projects/impactmybiz.png",
+        alt: "Impact Homepage",
+      },
+      builtWith: [
+        {
+          skill: "React.js",
+          icon: {
+            src: "/icons/logo-react.svg",
+            alt: "React.js Icon",
+          },
+        },
+        {
+          skill: "React.js",
+          icon: {
+            src: "/icons/logo-react.svg",
+            alt: "React.js Icon",
+          },
+        },
+        {
+          skill: "React.js",
+          icon: {
+            src: "/icons/logo-react.svg",
+            alt: "React.js Icon",
+          },
+        },
+      ],
     },
   },
   {
     slug: "/dot-security",
     pageData: {
       title: "DOT Security",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magni repudiandae aliquid fuga eveniet nihil ad aperiam vel pariatur quidem officia error maxime voluptatibus corporis accusamus, veritatis, ea tempore! Autem quo ad architecto vitae nam officia ex ab, et nisi tenetur maiores cumque perferendis ut nesciunt nostrum rerum, ipsam officiis!",
+      img: {
+        src: "/projects/impactmybiz.png",
+        alt: "Impact Homepage",
+      },
+      builtWith: [
+        {
+          skill: "React.js",
+          icon: {
+            src: "/icons/logo-react.svg",
+            alt: "React.js Icon",
+          },
+        },
+        {
+          skill: "React.js",
+          icon: {
+            src: "/icons/logo-react.svg",
+            alt: "React.js Icon",
+          },
+        },
+        {
+          skill: "React.js",
+          icon: {
+            src: "/icons/logo-react.svg",
+            alt: "React.js Icon",
+          },
+        },
+      ],
     },
   },
   {
     slug: "/tulayna-limo-service",
     pageData: {
       title: "Tulayna Limo Service",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magni repudiandae aliquid fuga eveniet nihil ad aperiam vel pariatur quidem officia error maxime voluptatibus corporis accusamus, veritatis, ea tempore! Autem quo ad architecto vitae nam officia ex ab, et nisi tenetur maiores cumque perferendis ut nesciunt nostrum rerum, ipsam officiis!",
+      img: {
+        src: "/projects/impactmybiz.png",
+        alt: "Impact Homepage",
+      },
+      builtWith: [
+        {
+          skill: "React.js",
+          icon: {
+            src: "/icons/logo-react.svg",
+            alt: "React.js Icon",
+          },
+        },
+        {
+          skill: "React.js",
+          icon: {
+            src: "/icons/logo-react.svg",
+            alt: "React.js Icon",
+          },
+        },
+        {
+          skill: "React.js",
+          icon: {
+            src: "/icons/logo-react.svg",
+            alt: "React.js Icon",
+          },
+        },
+      ],
     },
   },
   {
     slug: "/rowcare",
     pageData: {
       title: "Townsend Rowcare",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magni repudiandae aliquid fuga eveniet nihil ad aperiam vel pariatur quidem officia error maxime voluptatibus corporis accusamus, veritatis, ea tempore! Autem quo ad architecto vitae nam officia ex ab, et nisi tenetur maiores cumque perferendis ut nesciunt nostrum rerum, ipsam officiis!",
+      img: {
+        src: "/projects/impactmybiz.png",
+        alt: "Impact Homepage",
+      },
+      builtWith: [
+        {
+          skill: "React.js",
+          icon: {
+            src: "/icons/logo-react.svg",
+            alt: "React.js Icon",
+          },
+        },
+        {
+          skill: "React.js",
+          icon: {
+            src: "/icons/logo-react.svg",
+            alt: "React.js Icon",
+          },
+        },
+        {
+          skill: "React.js",
+          icon: {
+            src: "/icons/logo-react.svg",
+            alt: "React.js Icon",
+          },
+        },
+      ],
     },
   },
   {
     slug: "/nggilbert",
     pageData: {
       title: "Townsend NG Gilbert",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magni repudiandae aliquid fuga eveniet nihil ad aperiam vel pariatur quidem officia error maxime voluptatibus corporis accusamus, veritatis, ea tempore! Autem quo ad architecto vitae nam officia ex ab, et nisi tenetur maiores cumque perferendis ut nesciunt nostrum rerum, ipsam officiis!",
+      img: {
+        src: "/projects/impactmybiz.png",
+        alt: "Impact Homepage",
+      },
+      builtWith: [
+        {
+          skill: "React.js",
+          icon: {
+            src: "/icons/logo-react.svg",
+            alt: "React.js Icon",
+          },
+        },
+        {
+          skill: "React.js",
+          icon: {
+            src: "/icons/logo-react.svg",
+            alt: "React.js Icon",
+          },
+        },
+        {
+          skill: "React.js",
+          icon: {
+            src: "/icons/logo-react.svg",
+            alt: "React.js Icon",
+          },
+        },
+      ],
     },
   },
   {
     slug: "/chicago-living-group",
     pageData: {
       title: "Chicago Living Group",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magni repudiandae aliquid fuga eveniet nihil ad aperiam vel pariatur quidem officia error maxime voluptatibus corporis accusamus, veritatis, ea tempore! Autem quo ad architecto vitae nam officia ex ab, et nisi tenetur maiores cumque perferendis ut nesciunt nostrum rerum, ipsam officiis!",
+      img: {
+        src: "/projects/impactmybiz.png",
+        alt: "Impact Homepage",
+      },
+      builtWith: [
+        {
+          skill: "React.js",
+          icon: {
+            src: "/icons/logo-react.svg",
+            alt: "React.js Icon",
+          },
+        },
+        {
+          skill: "React.js",
+          icon: {
+            src: "/icons/logo-react.svg",
+            alt: "React.js Icon",
+          },
+        },
+        {
+          skill: "React.js",
+          icon: {
+            src: "/icons/logo-react.svg",
+            alt: "React.js Icon",
+          },
+        },
+      ],
     },
   },
   {
     slug: "/digital-delight",
     pageData: {
       title: "Digital Delight",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magni repudiandae aliquid fuga eveniet nihil ad aperiam vel pariatur quidem officia error maxime voluptatibus corporis accusamus, veritatis, ea tempore! Autem quo ad architecto vitae nam officia ex ab, et nisi tenetur maiores cumque perferendis ut nesciunt nostrum rerum, ipsam officiis!",
+      img: {
+        src: "/projects/impactmybiz.png",
+        alt: "Impact Homepage",
+      },
+      builtWith: [
+        {
+          skill: "React.js",
+          icon: {
+            src: "/icons/logo-react.svg",
+            alt: "React.js Icon",
+          },
+        },
+        {
+          skill: "React.js",
+          icon: {
+            src: "/icons/logo-react.svg",
+            alt: "React.js Icon",
+          },
+        },
+        {
+          skill: "React.js",
+          icon: {
+            src: "/icons/logo-react.svg",
+            alt: "React.js Icon",
+          },
+        },
+      ],
     },
   },
   {
     slug: "/schuetz-insurance",
     pageData: {
       title: "Schuetz Insurance",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magni repudiandae aliquid fuga eveniet nihil ad aperiam vel pariatur quidem officia error maxime voluptatibus corporis accusamus, veritatis, ea tempore! Autem quo ad architecto vitae nam officia ex ab, et nisi tenetur maiores cumque perferendis ut nesciunt nostrum rerum, ipsam officiis!",
+      img: {
+        src: "/projects/impactmybiz.png",
+        alt: "Impact Homepage",
+      },
+      builtWith: [
+        {
+          skill: "React.js",
+          icon: {
+            src: "/icons/logo-react.svg",
+            alt: "React.js Icon",
+          },
+        },
+        {
+          skill: "React.js",
+          icon: {
+            src: "/icons/logo-react.svg",
+            alt: "React.js Icon",
+          },
+        },
+        {
+          skill: "React.js",
+          icon: {
+            src: "/icons/logo-react.svg",
+            alt: "React.js Icon",
+          },
+        },
+      ],
     },
   },
   {
     slug: "/moulis-financial",
     pageData: {
       title: "Moulis Financial",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magni repudiandae aliquid fuga eveniet nihil ad aperiam vel pariatur quidem officia error maxime voluptatibus corporis accusamus, veritatis, ea tempore! Autem quo ad architecto vitae nam officia ex ab, et nisi tenetur maiores cumque perferendis ut nesciunt nostrum rerum, ipsam officiis!",
+      img: {
+        src: "/projects/impactmybiz.png",
+        alt: "Impact Homepage",
+      },
+      builtWith: [
+        {
+          skill: "React.js",
+          icon: {
+            src: "/icons/logo-react.svg",
+            alt: "React.js Icon",
+          },
+        },
+        {
+          skill: "React.js",
+          icon: {
+            src: "/icons/logo-react.svg",
+            alt: "React.js Icon",
+          },
+        },
+        {
+          skill: "React.js",
+          icon: {
+            src: "/icons/logo-react.svg",
+            alt: "React.js Icon",
+          },
+        },
+      ],
     },
   },
   {
     slug: "/movie-api",
     pageData: {
       title: "Movie API",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magni repudiandae aliquid fuga eveniet nihil ad aperiam vel pariatur quidem officia error maxime voluptatibus corporis accusamus, veritatis, ea tempore! Autem quo ad architecto vitae nam officia ex ab, et nisi tenetur maiores cumque perferendis ut nesciunt nostrum rerum, ipsam officiis!",
+      img: {
+        src: "/projects/impactmybiz.png",
+        alt: "Impact Homepage",
+      },
+      builtWith: [
+        {
+          skill: "React.js",
+          icon: {
+            src: "/icons/logo-react.svg",
+            alt: "React.js Icon",
+          },
+        },
+        {
+          skill: "React.js",
+          icon: {
+            src: "/icons/logo-react.svg",
+            alt: "React.js Icon",
+          },
+        },
+        {
+          skill: "React.js",
+          icon: {
+            src: "/icons/logo-react.svg",
+            alt: "React.js Icon",
+          },
+        },
+      ],
     },
   },
   {
     slug: "/pig-game",
     pageData: {
       title: "Pig Game",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magni repudiandae aliquid fuga eveniet nihil ad aperiam vel pariatur quidem officia error maxime voluptatibus corporis accusamus, veritatis, ea tempore! Autem quo ad architecto vitae nam officia ex ab, et nisi tenetur maiores cumque perferendis ut nesciunt nostrum rerum, ipsam officiis!",
+      img: {
+        src: "/projects/impactmybiz.png",
+        alt: "Impact Homepage",
+      },
+      builtWith: [
+        {
+          skill: "React.js",
+          icon: {
+            src: "/icons/logo-react.svg",
+            alt: "React.js Icon",
+          },
+        },
+        {
+          skill: "React.js",
+          icon: {
+            src: "/icons/logo-react.svg",
+            alt: "React.js Icon",
+          },
+        },
+        {
+          skill: "React.js",
+          icon: {
+            src: "/icons/logo-react.svg",
+            alt: "React.js Icon",
+          },
+        },
+      ],
     },
   },
   {
     slug: "/delilah-mae",
     pageData: {
       title: "Delilah Mae",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magni repudiandae aliquid fuga eveniet nihil ad aperiam vel pariatur quidem officia error maxime voluptatibus corporis accusamus, veritatis, ea tempore! Autem quo ad architecto vitae nam officia ex ab, et nisi tenetur maiores cumque perferendis ut nesciunt nostrum rerum, ipsam officiis!",
+      img: {
+        src: "/projects/impactmybiz.png",
+        alt: "Impact Homepage",
+      },
+      builtWith: [
+        {
+          skill: "React.js",
+          icon: {
+            src: "/icons/logo-react.svg",
+            alt: "React.js Icon",
+          },
+        },
+        {
+          skill: "React.js",
+          icon: {
+            src: "/icons/logo-react.svg",
+            alt: "React.js Icon",
+          },
+        },
+        {
+          skill: "React.js",
+          icon: {
+            src: "/icons/logo-react.svg",
+            alt: "React.js Icon",
+          },
+        },
+      ],
     },
   },
   {
     slug: "/creative-agency",
     pageData: {
       title: "Creative Agency",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magni repudiandae aliquid fuga eveniet nihil ad aperiam vel pariatur quidem officia error maxime voluptatibus corporis accusamus, veritatis, ea tempore! Autem quo ad architecto vitae nam officia ex ab, et nisi tenetur maiores cumque perferendis ut nesciunt nostrum rerum, ipsam officiis!",
+      img: {
+        src: "/projects/impactmybiz.png",
+        alt: "Impact Homepage",
+      },
+      builtWith: [
+        {
+          skill: "React.js",
+          icon: {
+            src: "/icons/logo-react.svg",
+            alt: "React.js Icon",
+          },
+        },
+        {
+          skill: "React.js",
+          icon: {
+            src: "/icons/logo-react.svg",
+            alt: "React.js Icon",
+          },
+        },
+        {
+          skill: "React.js",
+          icon: {
+            src: "/icons/logo-react.svg",
+            alt: "React.js Icon",
+          },
+        },
+      ],
     },
   },
   {
     slug: "/stars-and-stripes",
     pageData: {
       title: "Stars and Stripes",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magni repudiandae aliquid fuga eveniet nihil ad aperiam vel pariatur quidem officia error maxime voluptatibus corporis accusamus, veritatis, ea tempore! Autem quo ad architecto vitae nam officia ex ab, et nisi tenetur maiores cumque perferendis ut nesciunt nostrum rerum, ipsam officiis!",
+      img: {
+        src: "/projects/impactmybiz.png",
+        alt: "Impact Homepage",
+      },
+      builtWith: [
+        {
+          skill: "React.js",
+          icon: {
+            src: "/icons/logo-react.svg",
+            alt: "React.js Icon",
+          },
+        },
+        {
+          skill: "React.js",
+          icon: {
+            src: "/icons/logo-react.svg",
+            alt: "React.js Icon",
+          },
+        },
+        {
+          skill: "React.js",
+          icon: {
+            src: "/icons/logo-react.svg",
+            alt: "React.js Icon",
+          },
+        },
+      ],
     },
   },
   {
     slug: "/greek-life",
     pageData: {
       title: "Greek Life",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magni repudiandae aliquid fuga eveniet nihil ad aperiam vel pariatur quidem officia error maxime voluptatibus corporis accusamus, veritatis, ea tempore! Autem quo ad architecto vitae nam officia ex ab, et nisi tenetur maiores cumque perferendis ut nesciunt nostrum rerum, ipsam officiis!",
+      img: {
+        src: "/projects/impactmybiz.png",
+        alt: "Impact Homepage",
+      },
+      builtWith: [
+        {
+          skill: "React.js",
+          icon: {
+            src: "/icons/logo-react.svg",
+            alt: "React.js Icon",
+          },
+        },
+        {
+          skill: "React.js",
+          icon: {
+            src: "/icons/logo-react.svg",
+            alt: "React.js Icon",
+          },
+        },
+        {
+          skill: "React.js",
+          icon: {
+            src: "/icons/logo-react.svg",
+            alt: "React.js Icon",
+          },
+        },
+      ],
     },
   },
   {
     slug: "/zombie-game",
     pageData: {
       title: "Zombie Game",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magni repudiandae aliquid fuga eveniet nihil ad aperiam vel pariatur quidem officia error maxime voluptatibus corporis accusamus, veritatis, ea tempore! Autem quo ad architecto vitae nam officia ex ab, et nisi tenetur maiores cumque perferendis ut nesciunt nostrum rerum, ipsam officiis!",
+      img: {
+        src: "/projects/impactmybiz.png",
+        alt: "Impact Homepage",
+      },
+      builtWith: [
+        {
+          skill: "React.js",
+          icon: {
+            src: "/icons/logo-react.svg",
+            alt: "React.js Icon",
+          },
+        },
+        {
+          skill: "React.js",
+          icon: {
+            src: "/icons/logo-react.svg",
+            alt: "React.js Icon",
+          },
+        },
+        {
+          skill: "React.js",
+          icon: {
+            src: "/icons/logo-react.svg",
+            alt: "React.js Icon",
+          },
+        },
+      ],
     },
   },
   {
     slug: "/mpi-wjw",
     pageData: {
       title: "MPI WJW",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magni repudiandae aliquid fuga eveniet nihil ad aperiam vel pariatur quidem officia error maxime voluptatibus corporis accusamus, veritatis, ea tempore! Autem quo ad architecto vitae nam officia ex ab, et nisi tenetur maiores cumque perferendis ut nesciunt nostrum rerum, ipsam officiis!",
+      img: {
+        src: "/projects/impactmybiz.png",
+        alt: "Impact Homepage",
+      },
+      builtWith: [
+        {
+          skill: "React.js",
+          icon: {
+            src: "/icons/logo-react.svg",
+            alt: "React.js Icon",
+          },
+        },
+        {
+          skill: "React.js",
+          icon: {
+            src: "/icons/logo-react.svg",
+            alt: "React.js Icon",
+          },
+        },
+        {
+          skill: "React.js",
+          icon: {
+            src: "/icons/logo-react.svg",
+            alt: "React.js Icon",
+          },
+        },
+      ],
     },
   },
 ];
