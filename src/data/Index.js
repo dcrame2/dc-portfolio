@@ -245,6 +245,15 @@ export const projectData = {
       desc: "Impact Networking Impact Networking Impact Networking Impact NetworkingImpact Networking ",
     },
     {
+      href: "/zmac-transport",
+      img: {
+        src: "/projects/zmac.png",
+        alt: "Zmac Transport",
+      },
+      projectTitle: "Zmac Transport",
+      desc: "Impact Networking Impact Networking Impact Networking Impact NetworkingImpact Networking ",
+    },
+    {
       href: "/rowcare",
       img: {
         src: "/projects/rowcare.png",
@@ -275,7 +284,7 @@ export const projectData = {
       href: "/mpi-wjw",
       img: {
         src: "/projects/mpiwjw.png",
-        alt: "MPIWJW Homepage",
+        alt: "MPI WJW Homepage",
       },
       projectTitle: "MPI WJW",
       desc: "Impact Networking Impact Networking Impact Networking Impact NetworkingImpact Networking ",
