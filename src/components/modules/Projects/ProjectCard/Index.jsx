@@ -25,6 +25,12 @@ const CardContainer = styled(Link)`
     border-radius: 12px;
     transition: all 0.3s ease-in-out;
   }
+  @media ${MediaQueries.tablet} {
+    padding: 20px;
+  }
+  @media ${MediaQueries.tablet} {
+    padding: 14px;
+  }
 `;
 
 const ProjectImageContainer = styled.div`
