@@ -64,6 +64,7 @@ const HamburgerContainer = styled.div`
   z-index: 2;
   right: 20px;
   top: 20px;
+  background-color: #000;
   @media ${MediaQueries.mobile} {
     right: 6px;
   }
