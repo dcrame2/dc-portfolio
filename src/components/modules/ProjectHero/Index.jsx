@@ -38,6 +38,12 @@ const ProjectHeroInnerContainer = styled.div`
 const ContentContainer = styled.div`
   display: flex;
   gap: 12px;
+  @media ${MediaQueries.tablet} {
+    gap: unset;
+  }
+  /* @media ${MediaQueries.mobile} {
+    width: 70px;
+  } */
   /* justify-content: space-between; */
 `;
 
@@ -81,6 +87,12 @@ const wiggle = keyframes`
 const ExternalImg = styled.img`
   width: 100px;
   animation: ${wiggle} 1s infinite;
+  @media ${MediaQueries.tablet} {
+    width: 70px;
+  }
+  @media ${MediaQueries.mobile} {
+    width: 70px;
+  }
   &:hover {
     .external-link {
       fill: ${variables.color1};
@@ -91,6 +103,12 @@ const ExternalImg = styled.img`
 const VerticalLine = styled.p`
   ${h2styles}
   color: ${variables.color1};
+  @media ${MediaQueries.tablet} {
+    width: 70px;
+  }
+  @media ${MediaQueries.mobile} {
+    display: none;
+  }
 `;
 
 const ProjectLogo = styled.img``;

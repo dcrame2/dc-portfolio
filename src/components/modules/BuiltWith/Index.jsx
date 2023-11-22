@@ -15,7 +15,12 @@ const BuiltWithInnerContainer = styled.div`
   align-items: center;
   gap: 50px;
   @media ${MediaQueries.tablet} {
-    flex-direction: column;
+    gap: 30px;
+    flex-direction: column-reverse;
+  }
+  @media ${MediaQueries.mobile} {
+    gap: 20px;
+    flex-direction: column-reverse;
   }
 `;
 
@@ -44,10 +49,12 @@ const Img = styled.img`
   }
 `;
 
-const Description = styled.p`
-  /* margin: 0 auto; */
-  ${pSmall}/* max-width: 1000px; */
+const Description = styled.div`
+  p {
+    /* margin: 0 auto; */
+    ${pSmall}/* max-width: 1000px; */
   /* text-align: center; */
+  }
 `;
 
 const CardContainer = styled.div`
@@ -85,7 +92,7 @@ function BuiltWith({ data }) {
     <BuiltWithContainer>
       <BuiltWithInnerContainer>
         <ContentContainer>
-          <Description>{description}</Description>
+          <Description dangerouslySetInnerHTML={{ __html: description }} />
           <CardContainer>
             {builtWith.map((lang, index) => {
               const { skill, icon } = lang;
