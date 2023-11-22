@@ -20,7 +20,7 @@ export async function getStaticProps(context) {
     if (page.slug === `/${currentPage}`) {
       data = page.pageData;
     }
-    // return;
+    return;
   });
 
   return { props: { data } };

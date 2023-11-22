@@ -77,7 +77,7 @@ const DetailsButton = styled.p`
   }
 `;
 
-function ProjectCard({ data, index }) {
+function ProjectCard({ data }) {
   const { img, projectTitle, desc, href } = data;
 
   return (
@@ -91,7 +91,6 @@ function ProjectCard({ data, index }) {
         type: "spring",
         stiffness: 50,
       }}
-      // scroll={false}
     >
       <ProjectImageContainer>
         <ProjectImage src={img.src} alt={img.alt} />

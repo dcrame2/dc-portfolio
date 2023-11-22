@@ -23,13 +23,13 @@ const Logo = styled.img`
   }
 `;
 
-const NavItemsContainer = styled.div`
-  display: flex;
-  gap: 48px;
-  @media ${MediaQueries.mobile} {
-    display: none;
-  }
-`;
+// const NavItemsContainer = styled.div`
+//   display: flex;
+//   gap: 48px;
+//   @media ${MediaQueries.mobile} {
+//     display: none;
+//   }
+// `;
 
 const NavLinks = styled(Link)`
   ${pSmall}
@@ -57,8 +57,6 @@ const HamburgerContainer = styled.div`
   transition: all ease-in-out 0.3s;
   border: ${({ $openNav }) =>
     $openNav ? `2px solid ${variables.color1}` : "none"};
-
-  /* border: 2px solid ${variables.color1}; */
   position: absolute;
   z-index: 2;
   right: 20px;
@@ -67,7 +65,6 @@ const HamburgerContainer = styled.div`
   @media ${MediaQueries.mobile} {
     right: 6px;
   }
-
   .nav-icon-1 {
     width: 30px;
     height: 30px;
@@ -179,12 +176,6 @@ function Navigation({ data }) {
         <HomeLink href={homeLink}>
           <Logo src={logo.url} alt={logo.alt} />
         </HomeLink>
-        {/* <NavItemsContainer>
-          {navLinks.map((navLink, index) => {
-            const { text, url } = navLink;
-            return <NavLinks href={url}>{text}</NavLinks>;
-          })}
-        </NavItemsContainer> */}
         <HamburgerContainer
           className="icon"
           $openNav={openNav}
@@ -205,7 +196,7 @@ function Navigation({ data }) {
             {navLinks.map((navLink, index) => {
               const { text, url } = navLink;
               return (
-                <NavLinks key={index} href={url}>
+                <NavLinks key={index} href={url ? url : "/"}>
                   {text}
                 </NavLinks>
               );
