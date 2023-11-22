@@ -4,7 +4,7 @@ import Footer from "./Footer/Index";
 import StyledComponentsRegistry from "@/lib/registry";
 import { motion, AnimatePresence } from "framer-motion";
 import { useRouter } from "next/router";
-import { navData } from "@/data/Index";
+import { navData, footerData } from "@/data/Index";
 
 function Layout({ children }) {
   const router = useRouter();
@@ -26,7 +26,7 @@ function Layout({ children }) {
           </motion.div>
         </AnimatePresence>
       </StyledComponentsRegistry>
-      <Footer />
+      <Footer data={footerData} />
     </>
   );
 }

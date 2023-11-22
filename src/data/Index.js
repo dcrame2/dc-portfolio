@@ -1285,3 +1285,50 @@ export const projectPagesData = [
     },
   },
 ];
+
+export const footerData = {
+  logo: { url: "/logo/logo_no_bg.png", alt: "DC Logo" },
+  homeLink: "/",
+  copyright: " Dylan Cramer",
+  footerLinks: [
+    {
+      text: "About",
+      url: "/#about",
+    },
+    {
+      text: "Work History",
+      url: "/#work-history",
+    },
+    {
+      text: "Projects",
+      url: "/#projects",
+    },
+    {
+      text: "Contact",
+      url: "/#contact",
+    },
+  ],
+  socialIcons: [
+    {
+      url: "mailto: dcrame2@gmail.com",
+      icon: {
+        url: "/logo/logo_no_bg.png",
+        alt: "Mail Icon",
+      },
+    },
+    {
+      url: "https://github.com/dcrame2",
+      icon: {
+        url: "/logo/logo_no_bg.png",
+        alt: "Github Icon",
+      },
+    },
+    {
+      url: "https://www.linkedin.com/in/dylan-cramer/",
+      icon: {
+        url: "/logo/logo_no_bg.png",
+        alt: "LinkedIn Icon",
+      },
+    },
+  ],
+};
