@@ -78,13 +78,13 @@ function About({ data }) {
           </AboutParagraph>
         </TextContainer>
         <SkillsContainer>
-          <AnimatePresence initial={true}>
-            {cards.map((card, index) => {
-              return (
-                <SkillCards index={index} key={`${card.skill}`} data={card} />
-              );
-            })}
-          </AnimatePresence>
+          {/* <AnimatePresence initial={true}> */}
+          {cards.map((card, index) => {
+            return (
+              <SkillCards index={index} key={`${card.skill}`} data={card} />
+            );
+          })}
+          {/* </AnimatePresence> */}
         </SkillsContainer>
       </InnerContainer>
     </AboutContainer>

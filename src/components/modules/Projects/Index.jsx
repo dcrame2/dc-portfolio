@@ -38,11 +38,11 @@ function Projects({ data }) {
       <ProjectInnerContainer>
         <Header data={header} />
         <ProjectsGrid>
-          <AnimatePresence initial={true}>
-            {projects.map((project, index) => {
-              return <ProjectCard key={index} data={project} />;
-            })}
-          </AnimatePresence>
+          {/* <AnimatePresence initial={true}> */}
+          {projects.map((project, index) => {
+            return <ProjectCard key={index} data={project} />;
+          })}
+          {/* </AnimatePresence> */}
         </ProjectsGrid>
       </ProjectInnerContainer>
     </ProjectContainer>

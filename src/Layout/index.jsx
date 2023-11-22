@@ -20,7 +20,9 @@ function Layout({ children }) {
             transition={{ duration: 0.5 }}
             key={router.asPath}
           >
-            {children}
+            <AnimatePresence mode="wait" initial={true}>
+              {children}
+            </AnimatePresence>
           </motion.div>
         </AnimatePresence>
       </StyledComponentsRegistry>
