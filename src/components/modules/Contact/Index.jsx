@@ -7,14 +7,18 @@ import { Container, MediaQueries } from "@/styles/Utilities";
 
 import { pBase } from "@/styles/Type";
 
-const ContactContainer = styled.div``;
+const ContactContainer = styled.div`
+  padding: 80px 0;
+`;
 
 const ContactInnerContainer = styled.div`
   ${Container}
   display: flex;
   justify-content: space-between;
   gap: 50px;
-  /* align-items: center; */
+  flex-direction: column;
+
+  align-items: center;
   @media ${MediaQueries.tablet} {
     flex-direction: column;
     gap: 30px;
@@ -30,6 +34,7 @@ const ContactContentContainer = styled.div`
   display: flex;
   flex-direction: column;
   gap: 20px;
+  align-items: center;
   @media ${MediaQueries.tablet} {
     gap: 12px;
     align-items: center;
@@ -74,7 +79,7 @@ function Contact({ data }) {
         <ContactContentContainer>
           <Header data={header} />
           <Description>{description}</Description>
-          <Logo src={logo.url} alt={logo.alt} />
+          {/* <Logo src={logo.url} alt={logo.alt} /> */}
         </ContactContentContainer>
         <Form />
       </ContactInnerContainer>
