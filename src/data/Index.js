@@ -362,15 +362,6 @@ export const projectData = {
       projectTitle: "Movie API",
       desc: "Impact Networking Impact Networking Impact Networking Impact NetworkingImpact Networking ",
     },
-    // {
-    //   href: "/pig-game",
-    //   img: {
-    //     src: "/projects/pig-game.png",
-    //     alt: "Pig Game Homepage",
-    //   },
-    //   projectTitle: "Pig Game",
-    //   desc: "Impact Networking Impact Networking Impact Networking Impact NetworkingImpact Networking ",
-    // },
     {
       href: "/delilah-mae",
       img: {
@@ -1023,42 +1014,6 @@ export const projectPagesData = [
       ],
     },
   },
-  // {
-  //   slug: "/pig-game",
-  //   pageData: {
-  //     title: "Pig Game",
-  //     websiteUrl: "https://helpfindmeamovie.netlify.app",
-  //     description:
-  //       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magni repudiandae aliquid fuga eveniet nihil ad aperiam vel pariatur quidem officia error maxime voluptatibus corporis accusamus, veritatis, ea tempore! Autem quo ad architecto vitae nam officia ex ab, et nisi tenetur maiores cumque perferendis ut nesciunt nostrum rerum, ipsam officiis!",
-  //     img: {
-  //       src: "/projects/pig-game.png",
-  //       alt: "Pig Game Homepage",
-  //     },
-  //     builtWith: [
-  //       {
-  //         skill: "JavaScript",
-  //         icon: {
-  //           src: "/icons/logo-javascript.svg",
-  //           alt: "JavaScript Icon",
-  //         },
-  //       },
-  //       {
-  //         skill: "CSS",
-  //         icon: {
-  //           src: "/icons/logo-css.svg",
-  //           alt: "CSS Icon",
-  //         },
-  //       },
-  //       {
-  //         skill: "HTML",
-  //         icon: {
-  //           src: "/icons/logo-html.svg",
-  //           alt: "JavaScript Icon",
-  //         },
-  //       },
-  //     ],
-  //   },
-  // },
   {
     slug: "/delilah-mae",
     pageData: {
@@ -1329,4 +1284,13 @@ export const footerData = {
       },
     },
   ],
+};
+
+export const contactData = {
+  header: {
+    title: "Contact",
+  },
+  logo: { url: "/logo/logo_no_bg.png", alt: "DC Logo" },
+
+  description: "React out for any questions!",
 };

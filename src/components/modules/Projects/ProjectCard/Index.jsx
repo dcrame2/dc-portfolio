@@ -21,6 +21,7 @@ const CardContainer = styled(motion(Link))`
   display: flex;
   flex-direction: column;
   gap: 12px;
+
   &:hover {
     border: 2px solid ${variables.color1};
     border-radius: 12px;

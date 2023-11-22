@@ -5,7 +5,16 @@ import { variables } from "@/styles/Variables";
 
 import { pLarge, pSmall } from "@/styles/Type";
 
-const BuiltWithContainer = styled.div``;
+const BuiltWithContainer = styled.div`
+  /* background: linear-gradient(
+    193deg,
+    rgb(0, 0, 0) 0%,
+    rgb(0, 0, 0) 50%,
+    rgb(189, 23, 22) 100%
+  ); */
+  /* height: 60vh; */
+  padding-bottom: 80px;
+`;
 
 const BuiltWithInnerContainer = styled.div`
   ${Container}
