@@ -2,7 +2,7 @@ import { useState, useRef } from "react";
 import styled from "styled-components";
 import { Container, MediaQueries } from "@/styles/Utilities";
 import Header from "@/components/ui/Header/Index";
-import { pBase } from "@/styles/Type";
+import { pBase, pSmall } from "@/styles/Type";
 import SkillCards from "./SkillCards/Index";
 import { AnimatePresence, motion } from "framer-motion";
 
@@ -43,8 +43,10 @@ const TextContainer = styled.div`
   }
 `;
 
-const AboutParagraph = styled(motion.p)`
-  ${pBase}
+const AboutParagraph = styled(motion.div)`
+  p {
+    ${pBase}
+  }
 `;
 
 const SkillsContainer = styled.div`
@@ -73,18 +75,15 @@ function About({ data }) {
             whileInView={{ opacity: 1 }}
             transition={{ duration: `2` }}
             viewport={{ once: true }}
-          >
-            {aboutParagraph}
-          </AboutParagraph>
+            dangerouslySetInnerHTML={{ __html: aboutParagraph }}
+          />
         </TextContainer>
         <SkillsContainer>
-          {/* <AnimatePresence initial={true}> */}
           {cards.map((card, index) => {
             return (
               <SkillCards index={index} key={`${card.skill}`} data={card} />
             );
           })}
-          {/* </AnimatePresence> */}
         </SkillsContainer>
       </InnerContainer>
     </AboutContainer>

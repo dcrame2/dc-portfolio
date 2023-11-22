@@ -42,11 +42,9 @@ export const aboutData = {
     eyebrow: "Learn",
     title: "About",
   },
-  aboutParagraph: `I am a Full Stack Web Developer specializinng in JavaScript. With my skills and expertise, I can help bring your ideas to life and deliver a high-quality product that meets your needs. I am constantly learning and keeping up with the latest industry trends to ensure that I can provide the best solutions to any business.
-    
-    My educational background consists of receiving my Bachelors of Science in Information Systems - Web Application Development from Illinois State University in 2018. 
-    
-    Proficent programming languages/tools:`,
+  aboutParagraph: `<p>Welcome to my corner of the web! I am a passionate Full Stack Web Developer, specializing in the dynamic world of JavaScript.  My mission is to transform your ideas into digital reality, crafting high-quality, user-centric solutions tailored to meet your businesses unique needs. I thrive on perpetual learning, constantly staying abreast of the latest industry trends and technologies. I am steady taking Udemy courses, watching YouTube, and reading the latest tech news.<br /><br /> My journey began with a solid foundation, earning a Bachelor of Science in Information Systems - Web Application Development from Illinois State University in 2018. With a diverse skill set and proficiency in a range of programming languages and tools, I am ready to embark on new challenges and create innovative, cutting-edge web experiences. 
+
+  </p>`,
   cards: [
     {
       skill: "JavaScript",

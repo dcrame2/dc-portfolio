@@ -6,7 +6,7 @@ import Link from "next/link";
 import styled from "styled-components";
 import { motion, useInView } from "framer-motion";
 
-const CardContainer = styled(motion.div)`
+const CardContainer = styled(motion(Link))`
   padding: 30px;
   background-color: ${variables.color2};
   text-align: left;
@@ -18,6 +18,9 @@ const CardContainer = styled(motion.div)`
     rgb(0, 0, 0) 75%,
     rgb(189, 23, 22) 100%
   );
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
   &:hover {
     border: 2px solid ${variables.color1};
     border-radius: 12px;
@@ -33,10 +36,13 @@ const CardContainer = styled(motion.div)`
 
 const ProjectImageContainer = styled.div`
   overflow: hidden;
+  width: 100%;
+  max-height: 200px;
 `;
 
 const ProjectImage = styled.img`
   width: 100%;
+  object-fit: cover;
 `;
 
 const ProjectTitle = styled.p`
@@ -49,13 +55,20 @@ const ProjectDesc = styled.p`
 
 const DetailsButton = styled.p`
   background-color: ${variables.color1};
-  padding: 10px 24px;
+  padding: 10px 44px 10px 24px;
   max-width: 200px;
   width: fit-content;
   text-align: center;
-  /* position: absolute;
-  right: 8px;
-  bottom: 8px; */
+  position: relative;
+  &::after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    transform: rotate(-90deg);
+    background-image: url("/icons/caret-down.svg");
+  }
+
   img {
     @media ${MediaQueries.mobile} {
       width: 25px;
@@ -69,6 +82,7 @@ function ProjectCard({ data, index }) {
 
   return (
     <CardContainer
+      href={href ? href : "/"}
       initial={{ opacity: 0, y: 100, scale: 0.2 }}
       whileInView={{ opacity: 1, y: 0, scale: 1 }}
       viewport={{ once: true, amount: 0.85 }}
@@ -77,15 +91,13 @@ function ProjectCard({ data, index }) {
         type: "spring",
         stiffness: 50,
       }}
+      scroll={false}
     >
-      <Link href={href ? href : "/"}>
-        <ProjectImageContainer>
-          <ProjectImage src={img.src} alt={img.alt} />
-        </ProjectImageContainer>
-        <ProjectTitle>{projectTitle}</ProjectTitle>
-        {/* <ProjectDesc>{desc}</ProjectDesc> */}
-        <DetailsButton>See Details</DetailsButton>
-      </Link>
+      <ProjectImageContainer>
+        <ProjectImage src={img.src} alt={img.alt} />
+      </ProjectImageContainer>
+      <ProjectTitle>{projectTitle}</ProjectTitle>
+      <DetailsButton>See Details</DetailsButton>
     </CardContainer>
   );
 }

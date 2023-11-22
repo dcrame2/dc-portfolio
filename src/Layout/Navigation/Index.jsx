@@ -54,12 +54,11 @@ const NavLinks = styled(Link)`
 const HomeLink = styled(Link)``;
 
 const HamburgerContainer = styled.div`
-  /* width: ${({ $openNav }) => ($openNav ? "200px" : "48px")};
-
-  height: ${({ $openNav }) => ($openNav ? "auto" : "48px")}; */
   transition: all ease-in-out 0.3s;
   border: ${({ $openNav }) =>
-    $openNav ? `2px solid ${variables.color1}` : "unset"};
+    $openNav ? `2px solid ${variables.color1}` : "none"};
+
+  /* border: 2px solid ${variables.color1}; */
   position: absolute;
   z-index: 2;
   right: 20px;
@@ -75,7 +74,6 @@ const HamburgerContainer = styled.div`
     position: absolute;
     top: 0;
     right: 0;
-
     transition: 0.1s;
     margin: 10px 10px;
     cursor: pointer;
