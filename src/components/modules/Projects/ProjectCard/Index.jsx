@@ -9,24 +9,18 @@ import { motion, useInView } from "framer-motion";
 const CardContainer = styled(motion.div)`
   padding: 30px;
   background-color: ${variables.color2};
-  /* border-radius: 12px; */
-  border: 2px solid ${variables.color2};
   text-align: left;
   position: relative;
-  /* cursor: pointer; */
   background: linear-gradient(
     135deg,
     rgb(0, 0, 0) 0%,
     rgb(0, 0, 0) 75%,
     rgb(189, 23, 22) 100%
   );
-  /* transform: scale(1); */
-  /* transition: all 0.3s ease-in-out; */
   &:hover {
     border: 2px solid ${variables.color1};
     border-radius: 12px;
     transition: all 0.3s ease-in-out;
-    /* transform: scale(1.1); */
   }
   @media ${MediaQueries.tablet} {
     padding: 20px;
