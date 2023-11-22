@@ -5,6 +5,8 @@ import { variables } from "@/styles/Variables";
 
 import { pLarge, pSmall } from "@/styles/Type";
 
+import Contact from "../Contact/Index";
+
 const BuiltWithContainer = styled.div`
   /* background: linear-gradient(
     193deg,
