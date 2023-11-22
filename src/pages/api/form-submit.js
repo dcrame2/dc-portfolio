@@ -37,7 +37,7 @@ export default function handler(req, res) {
       let emailHtml = createHTMLTableFromObject(formDataObj);
 
       let message = {
-        from: `Form Submission from your website ${process.env.GOOGLE_EMAIL}`,
+        from: `Dylan your ish poppin' ${process.env.GOOGLE_EMAIL}`,
         to: `${process.env.GOOGLE_EMAIL}`,
         subject: `${req.body.email} has submitted a form`,
         html: `${emailHtml}`,
