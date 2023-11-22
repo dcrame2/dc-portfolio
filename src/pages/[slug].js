@@ -1,7 +1,7 @@
 import { projectPagesData } from "@/data/Index";
 import ProjectHero from "@/components/modules/ProjectHero/Index";
 import BuiltWith from "@/components/modules/BuiltWith/Index";
-import { contactData } from "@/data/Index";
+import { contactProjectData } from "@/data/Index";
 import Contact from "@/components/modules/Contact/Index";
 
 export async function getStaticPaths() {
@@ -33,7 +33,7 @@ export default function Page({ data }) {
     <>
       <ProjectHero data={data} />
       <BuiltWith data={data} />
-      <Contact data={contactData} />
+      <Contact data={contactProjectData} />
     </>
   );
 }

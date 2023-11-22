@@ -1294,3 +1294,12 @@ export const contactData = {
 
   description: "React out for any questions!",
 };
+
+export const contactProjectData = {
+  header: {
+    title: "Contact",
+  },
+  logo: { url: "/logo/logo_no_bg.png", alt: "DC Logo" },
+
+  description: "React out for any questions regarding this specifc project!",
+};
