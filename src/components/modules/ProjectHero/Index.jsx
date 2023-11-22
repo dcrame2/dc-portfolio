@@ -90,7 +90,7 @@ const ExternalImg = styled.img`
 
 const VerticalLine = styled.p`
   ${h2styles}
-  color: ${variables.color1}
+  color: ${variables.color1};
 `;
 
 const ProjectLogo = styled.img``;
