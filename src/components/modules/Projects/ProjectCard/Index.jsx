@@ -78,7 +78,7 @@ function ProjectCard({ data, index }) {
       whileInView={{ opacity: 1, y: 0, scale: 1 }}
       viewport={{ once: true, amount: 0.85 }}
       transition={{
-        duration: 1,
+        duration: 0.8,
         type: "spring",
         stiffness: 50,
       }}
