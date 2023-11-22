@@ -91,7 +91,7 @@ function ProjectCard({ data, index }) {
         type: "spring",
         stiffness: 50,
       }}
-      scroll={false}
+      // scroll={false}
     >
       <ProjectImageContainer>
         <ProjectImage src={img.src} alt={img.alt} />
