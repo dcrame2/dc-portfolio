@@ -11,6 +11,7 @@ const CardContainer = styled(motion.div)`
   background-color: ${variables.color2};
   text-align: left;
   position: relative;
+  border: 2px solid ${variables.color2};
   background: linear-gradient(
     135deg,
     rgb(0, 0, 0) 0%,
