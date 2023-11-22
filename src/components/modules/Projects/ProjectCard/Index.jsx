@@ -21,7 +21,7 @@ const CardContainer = styled(motion.div)`
     rgb(189, 23, 22) 100%
   );
   /* transform: scale(1); */
-  transition: all 0.3s ease-in-out;
+  /* transition: all 0.3s ease-in-out; */
   &:hover {
     border: 2px solid ${variables.color1};
     border-radius: 12px;
@@ -74,13 +74,13 @@ function ProjectCard({ data, index }) {
 
   return (
     <CardContainer
-      initial={{ opacity: 0, y: 100, scale: 0.3 }}
+      initial={{ opacity: 0, y: 100, scale: 0.2 }}
       whileInView={{ opacity: 1, y: 0, scale: 1 }}
       viewport={{ once: true, amount: 0.85 }}
       transition={{
-        duration: 0.5,
+        duration: 1,
         type: "spring",
-        stiffness: 80,
+        stiffness: 50,
       }}
     >
       <Link href={href ? href : "/"}>
