@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import styled, { css } from "styled-components";
 import { motion } from "framer-motion";
 import { useForm } from "react-hook-form";
 import { variables } from "@/styles/Variables";
-import { pXSmall } from "@/styles/Type";
+import { pXSmall, pBase } from "@/styles/Type";
 import { MediaQueries } from "@/styles/Utilities";
+import axios from "axios";
 
 const ContactForm = styled.form`
   width: 50%;
@@ -57,7 +58,12 @@ const SubmitButton = styled.button`
   }
 `;
 
+const PostSubmissionMessage = styled.p`
+  ${pBase};
+`;
+
 function Form() {
+  const [formSubmitStatus, setFormSubmitStatus] = useState(null);
   const {
     register,
     handleSubmit,
@@ -65,33 +71,51 @@ function Form() {
     formState: { errors },
   } = useForm();
 
-  const onSubmit = (data) => console.log(data);
+  const onSubmit = (data) => {
+    axios
+      .post("/api/form-submit", data)
+      .then((response) => setFormSubmitStatus(response.status));
+    console.log(data);
+  };
 
   return (
     /* "handleSubmit" will validate your inputs before invoking "onSubmit" */
-    <ContactForm onSubmit={handleSubmit(onSubmit)}>
-      <Input placeholder="Name*" {...register("name", { required: true })} />
-      {errors.email && <span>A name is required</span>}
-      <Input
-        placeholder="Email Address*"
-        {...register("email", {
-          required: true,
-          pattern: /^[\w\.-]+@[\w\.-]+\.\w+$/,
-        })}
-      />
-      {errors.email && <span>An email address is required</span>}
-      <TextArea
-        placeholder="Message*"
-        {...register("message", {
-          required: true,
-        })}
-      ></TextArea>
-      {errors.message && <span>A message is required</span>}
+    <>
+      {formSubmitStatus ? (
+        <PostSubmissionMessage>
+          {formSubmitStatus === 200
+            ? "Yo, imma hit you up g"
+            : "shit aint work brotha sorry"}
+        </PostSubmissionMessage>
+      ) : (
+        <ContactForm onSubmit={handleSubmit(onSubmit)}>
+          <Input
+            placeholder="Name*"
+            {...register("name", { required: true })}
+          />
+          {errors.email && <span>A name is required</span>}
+          <Input
+            placeholder="Email Address*"
+            {...register("email", {
+              required: true,
+              pattern: /^[\w\.-]+@[\w\.-]+\.\w+$/,
+            })}
+          />
+          {errors.email && <span>An email address is required</span>}
+          <TextArea
+            placeholder="Message*"
+            {...register("message", {
+              required: true,
+            })}
+          ></TextArea>
+          {errors.message && <span>A message is required</span>}
 
-      <SubmitButton disabled={false} type="submit">
-        Submit
-      </SubmitButton>
-    </ContactForm>
+          <SubmitButton disabled={false} type="submit">
+            Submit
+          </SubmitButton>
+        </ContactForm>
+      )}
+    </>
   );
 }
 
