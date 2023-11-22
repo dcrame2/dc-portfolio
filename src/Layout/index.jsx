@@ -12,17 +12,17 @@ function Layout({ children }) {
     <>
       <Navigation data={navData} />
       <StyledComponentsRegistry>
-        {/* <AnimatePresence mode="wait" initial={false}>
+        <AnimatePresence mode="wait" initial={false}>
           <motion.div
             initial={{ opacity: 0, x: "-100%" }}
             exit={{ opacity: 0, x: "100%" }}
             animate={{ opacity: 1, x: "0%" }}
             transition={{ duration: 0.5 }}
             key={router.asPath}
-          > */}
-        {children}
-        {/* </motion.div>
-        </AnimatePresence> */}
+          >
+            {children}
+          </motion.div>
+        </AnimatePresence>
       </StyledComponentsRegistry>
       <Footer />
     </>

@@ -4,7 +4,7 @@ import { Container, MediaQueries } from "@/styles/Utilities";
 import Header from "@/components/ui/Header/Index";
 import { pBase } from "@/styles/Type";
 import SkillCards from "./SkillCards/Index";
-import { motion } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 
 const AboutContainer = styled.div`
   background: rgb(0, 0, 0);
@@ -78,11 +78,13 @@ function About({ data }) {
           </AboutParagraph>
         </TextContainer>
         <SkillsContainer>
-          {cards.map((card, index) => {
-            return (
-              <SkillCards index={index} key={`${card.skill}`} data={card} />
-            );
-          })}
+          <AnimatePresence initial={true}>
+            {cards.map((card, index) => {
+              return (
+                <SkillCards index={index} key={`${card.skill}`} data={card} />
+              );
+            })}
+          </AnimatePresence>
         </SkillsContainer>
       </InnerContainer>
     </AboutContainer>

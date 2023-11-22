@@ -364,15 +364,15 @@ export const projectData = {
       projectTitle: "Movie API",
       desc: "Impact Networking Impact Networking Impact Networking Impact NetworkingImpact Networking ",
     },
-    {
-      href: "/pig-game",
-      img: {
-        src: "/projects/pig-game.png",
-        alt: "Pig Game Homepage",
-      },
-      projectTitle: "Pig Game",
-      desc: "Impact Networking Impact Networking Impact Networking Impact NetworkingImpact Networking ",
-    },
+    // {
+    //   href: "/pig-game",
+    //   img: {
+    //     src: "/projects/pig-game.png",
+    //     alt: "Pig Game Homepage",
+    //   },
+    //   projectTitle: "Pig Game",
+    //   desc: "Impact Networking Impact Networking Impact Networking Impact NetworkingImpact Networking ",
+    // },
     {
       href: "/delilah-mae",
       img: {
@@ -426,6 +426,7 @@ export const projectPagesData = [
     slug: "/beggars-pizza",
     pageData: {
       title: "Beggars Pizza",
+      websiteUrl: "https://www.beggarspizza.com/",
       description:
         "The Beggars Pizza website was built in a team of 2 developers in an Agile Methodology approach. Working together with the UX and UI team to put together a masterpiece. ",
       img: {
@@ -482,6 +483,7 @@ export const projectPagesData = [
     slug: "/impact-networking",
     pageData: {
       title: "Impact Networking",
+      websiteUrl: "https://www.impactmybiz.com/",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magni repudiandae aliquid fuga eveniet nihil ad aperiam vel pariatur quidem officia error maxime voluptatibus corporis accusamus, veritatis, ea tempore! Autem quo ad architecto vitae nam officia ex ab, et nisi tenetur maiores cumque perferendis ut nesciunt nostrum rerum, ipsam officiis!",
       img: {
@@ -538,6 +540,7 @@ export const projectPagesData = [
     slug: "/zmac-transport",
     pageData: {
       title: "Zmac Transport",
+      websiteUrl: "https://frontend-staging.zmactransport.com/",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magni repudiandae aliquid fuga eveniet nihil ad aperiam vel pariatur quidem officia error maxime voluptatibus corporis accusamus, veritatis, ea tempore! Autem quo ad architecto vitae nam officia ex ab, et nisi tenetur maiores cumque perferendis ut nesciunt nostrum rerum, ipsam officiis!",
       img: {
@@ -594,6 +597,7 @@ export const projectPagesData = [
     slug: "/dot-security",
     pageData: {
       title: "DOT Security",
+      websiteUrl: "https://dotsecurity.com/",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magni repudiandae aliquid fuga eveniet nihil ad aperiam vel pariatur quidem officia error maxime voluptatibus corporis accusamus, veritatis, ea tempore! Autem quo ad architecto vitae nam officia ex ab, et nisi tenetur maiores cumque perferendis ut nesciunt nostrum rerum, ipsam officiis!",
       img: {
@@ -650,6 +654,7 @@ export const projectPagesData = [
     slug: "/tulayna-limo-service",
     pageData: {
       title: "Tulayna Limo Service",
+      websiteUrl: "https://www.tulaynalimoservice.com/",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magni repudiandae aliquid fuga eveniet nihil ad aperiam vel pariatur quidem officia error maxime voluptatibus corporis accusamus, veritatis, ea tempore! Autem quo ad architecto vitae nam officia ex ab, et nisi tenetur maiores cumque perferendis ut nesciunt nostrum rerum, ipsam officiis!",
       img: {
@@ -706,6 +711,7 @@ export const projectPagesData = [
     slug: "/rowcare",
     pageData: {
       title: "Townsend Rowcare",
+      websiteUrl: "https://dev-townsendcorp.impactpreview.com/new-rowcare-com",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magni repudiandae aliquid fuga eveniet nihil ad aperiam vel pariatur quidem officia error maxime voluptatibus corporis accusamus, veritatis, ea tempore! Autem quo ad architecto vitae nam officia ex ab, et nisi tenetur maiores cumque perferendis ut nesciunt nostrum rerum, ipsam officiis!",
       img: {
@@ -755,6 +761,8 @@ export const projectPagesData = [
     slug: "/nggilbert",
     pageData: {
       title: "Townsend NG Gilbert",
+      websiteUrl:
+        "https://dev-townsendcorp.impactpreview.com/new-nggilbert-com",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magni repudiandae aliquid fuga eveniet nihil ad aperiam vel pariatur quidem officia error maxime voluptatibus corporis accusamus, veritatis, ea tempore! Autem quo ad architecto vitae nam officia ex ab, et nisi tenetur maiores cumque perferendis ut nesciunt nostrum rerum, ipsam officiis!",
       img: {
@@ -804,6 +812,7 @@ export const projectPagesData = [
     slug: "/chicago-living-group",
     pageData: {
       title: "Chicago Living Group",
+      websiteUrl: "https://chicagolivinggroup.com/",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magni repudiandae aliquid fuga eveniet nihil ad aperiam vel pariatur quidem officia error maxime voluptatibus corporis accusamus, veritatis, ea tempore! Autem quo ad architecto vitae nam officia ex ab, et nisi tenetur maiores cumque perferendis ut nesciunt nostrum rerum, ipsam officiis!",
       img: {
@@ -860,6 +869,7 @@ export const projectPagesData = [
     slug: "/digital-delight",
     pageData: {
       title: "Digital Delight",
+      websiteUrl: "https://thedigitaldelight.com/",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magni repudiandae aliquid fuga eveniet nihil ad aperiam vel pariatur quidem officia error maxime voluptatibus corporis accusamus, veritatis, ea tempore! Autem quo ad architecto vitae nam officia ex ab, et nisi tenetur maiores cumque perferendis ut nesciunt nostrum rerum, ipsam officiis!",
       img: {
@@ -903,6 +913,7 @@ export const projectPagesData = [
     slug: "/schuetz-insurance",
     pageData: {
       title: "Schuetz Insurance",
+      websiteUrl: "https://schuetzinsurance.com/",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magni repudiandae aliquid fuga eveniet nihil ad aperiam vel pariatur quidem officia error maxime voluptatibus corporis accusamus, veritatis, ea tempore! Autem quo ad architecto vitae nam officia ex ab, et nisi tenetur maiores cumque perferendis ut nesciunt nostrum rerum, ipsam officiis!",
       img: {
@@ -952,6 +963,7 @@ export const projectPagesData = [
     slug: "/moulis-financial",
     pageData: {
       title: "Moulis Financial",
+      websiteUrl: "https://moulisfinancial.com/",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magni repudiandae aliquid fuga eveniet nihil ad aperiam vel pariatur quidem officia error maxime voluptatibus corporis accusamus, veritatis, ea tempore! Autem quo ad architecto vitae nam officia ex ab, et nisi tenetur maiores cumque perferendis ut nesciunt nostrum rerum, ipsam officiis!",
       img: {
@@ -989,6 +1001,7 @@ export const projectPagesData = [
     slug: "/movie-api",
     pageData: {
       title: "Movie API",
+      websiteUrl: "https://helpfindmeamovie.netlify.app",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magni repudiandae aliquid fuga eveniet nihil ad aperiam vel pariatur quidem officia error maxime voluptatibus corporis accusamus, veritatis, ea tempore! Autem quo ad architecto vitae nam officia ex ab, et nisi tenetur maiores cumque perferendis ut nesciunt nostrum rerum, ipsam officiis!",
       img: {
@@ -1020,45 +1033,47 @@ export const projectPagesData = [
       ],
     },
   },
-  {
-    slug: "/pig-game",
-    pageData: {
-      title: "Pig Game",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magni repudiandae aliquid fuga eveniet nihil ad aperiam vel pariatur quidem officia error maxime voluptatibus corporis accusamus, veritatis, ea tempore! Autem quo ad architecto vitae nam officia ex ab, et nisi tenetur maiores cumque perferendis ut nesciunt nostrum rerum, ipsam officiis!",
-      img: {
-        src: "/projects/pig-game.png",
-        alt: "Pig Game Homepage",
-      },
-      builtWith: [
-        {
-          skill: "JavaScript",
-          icon: {
-            src: "/icons/logo-javascript.svg",
-            alt: "JavaScript Icon",
-          },
-        },
-        {
-          skill: "CSS",
-          icon: {
-            src: "/icons/logo-css.svg",
-            alt: "CSS Icon",
-          },
-        },
-        {
-          skill: "HTML",
-          icon: {
-            src: "/icons/logo-html.svg",
-            alt: "JavaScript Icon",
-          },
-        },
-      ],
-    },
-  },
+  // {
+  //   slug: "/pig-game",
+  //   pageData: {
+  //     title: "Pig Game",
+  //     websiteUrl: "https://helpfindmeamovie.netlify.app",
+  //     description:
+  //       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magni repudiandae aliquid fuga eveniet nihil ad aperiam vel pariatur quidem officia error maxime voluptatibus corporis accusamus, veritatis, ea tempore! Autem quo ad architecto vitae nam officia ex ab, et nisi tenetur maiores cumque perferendis ut nesciunt nostrum rerum, ipsam officiis!",
+  //     img: {
+  //       src: "/projects/pig-game.png",
+  //       alt: "Pig Game Homepage",
+  //     },
+  //     builtWith: [
+  //       {
+  //         skill: "JavaScript",
+  //         icon: {
+  //           src: "/icons/logo-javascript.svg",
+  //           alt: "JavaScript Icon",
+  //         },
+  //       },
+  //       {
+  //         skill: "CSS",
+  //         icon: {
+  //           src: "/icons/logo-css.svg",
+  //           alt: "CSS Icon",
+  //         },
+  //       },
+  //       {
+  //         skill: "HTML",
+  //         icon: {
+  //           src: "/icons/logo-html.svg",
+  //           alt: "JavaScript Icon",
+  //         },
+  //       },
+  //     ],
+  //   },
+  // },
   {
     slug: "/delilah-mae",
     pageData: {
       title: "Delilah Mae",
+      websiteUrl: "https://delilahmae.netlify.app",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magni repudiandae aliquid fuga eveniet nihil ad aperiam vel pariatur quidem officia error maxime voluptatibus corporis accusamus, veritatis, ea tempore! Autem quo ad architecto vitae nam officia ex ab, et nisi tenetur maiores cumque perferendis ut nesciunt nostrum rerum, ipsam officiis!",
       img: {
@@ -1087,6 +1102,7 @@ export const projectPagesData = [
     slug: "/creative-agency",
     pageData: {
       title: "Creative Agency",
+      websiteUrl: "https://creativeagencyllc.netlify.app",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magni repudiandae aliquid fuga eveniet nihil ad aperiam vel pariatur quidem officia error maxime voluptatibus corporis accusamus, veritatis, ea tempore! Autem quo ad architecto vitae nam officia ex ab, et nisi tenetur maiores cumque perferendis ut nesciunt nostrum rerum, ipsam officiis!",
       img: {
@@ -1122,6 +1138,7 @@ export const projectPagesData = [
     slug: "/stars-and-stripes",
     pageData: {
       title: "Stars and Stripes",
+      websiteUrl: "https://carsandstripesforeverinc.com/",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magni repudiandae aliquid fuga eveniet nihil ad aperiam vel pariatur quidem officia error maxime voluptatibus corporis accusamus, veritatis, ea tempore! Autem quo ad architecto vitae nam officia ex ab, et nisi tenetur maiores cumque perferendis ut nesciunt nostrum rerum, ipsam officiis!",
       img: {
@@ -1157,6 +1174,7 @@ export const projectPagesData = [
     slug: "/greek-life",
     pageData: {
       title: "Greek Life",
+      websiteUrl: "https://isugreeklife.netlify.app",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magni repudiandae aliquid fuga eveniet nihil ad aperiam vel pariatur quidem officia error maxime voluptatibus corporis accusamus, veritatis, ea tempore! Autem quo ad architecto vitae nam officia ex ab, et nisi tenetur maiores cumque perferendis ut nesciunt nostrum rerum, ipsam officiis!",
       img: {
@@ -1192,6 +1210,7 @@ export const projectPagesData = [
     slug: "/zombie-game",
     pageData: {
       title: "Zombie Game",
+      websiteUrl: "https://eatthebrains.netlify.app",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magni repudiandae aliquid fuga eveniet nihil ad aperiam vel pariatur quidem officia error maxime voluptatibus corporis accusamus, veritatis, ea tempore! Autem quo ad architecto vitae nam officia ex ab, et nisi tenetur maiores cumque perferendis ut nesciunt nostrum rerum, ipsam officiis!",
       img: {
@@ -1227,6 +1246,7 @@ export const projectPagesData = [
     slug: "/mpi-wjw",
     pageData: {
       title: "MPI WJW",
+      websiteUrl: "https://mpiwjw.com/",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magni repudiandae aliquid fuga eveniet nihil ad aperiam vel pariatur quidem officia error maxime voluptatibus corporis accusamus, veritatis, ea tempore! Autem quo ad architecto vitae nam officia ex ab, et nisi tenetur maiores cumque perferendis ut nesciunt nostrum rerum, ipsam officiis!",
       img: {

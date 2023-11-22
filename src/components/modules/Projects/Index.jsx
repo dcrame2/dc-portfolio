@@ -3,6 +3,7 @@ import ProjectCard from "./ProjectCard/Index";
 import Header from "@/components/ui/Header/Index";
 import styled from "styled-components";
 import { Container, MediaQueries } from "@/styles/Utilities";
+import { AnimatePresence } from "framer-motion";
 
 const ProjectContainer = styled.div`
   padding: 200px 0;
@@ -37,9 +38,11 @@ function Projects({ data }) {
       <ProjectInnerContainer>
         <Header data={header} />
         <ProjectsGrid>
-          {projects.map((project, index) => {
-            return <ProjectCard key={index} data={project} />;
-          })}
+          <AnimatePresence initial={true}>
+            {projects.map((project, index) => {
+              return <ProjectCard key={index} data={project} />;
+            })}
+          </AnimatePresence>
         </ProjectsGrid>
       </ProjectInnerContainer>
     </ProjectContainer>
