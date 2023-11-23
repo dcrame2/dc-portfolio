@@ -1,8 +1,8 @@
 import { projectPagesData } from "@/data/Index";
 import ProjectHero from "@/components/modules/ProjectHero/Index";
 import BuiltWith from "@/components/modules/BuiltWith/Index";
-import { contactProjectData } from "@/data/Index";
-import Contact from "@/components/modules/Contact/Index";
+import { contactCTAData } from "@/data/Index";
+import ContactCTA from "@/components/modules/ContactCTA/Index";
 
 export async function getStaticPaths() {
   const paths = projectPagesData.map((page) => {
@@ -33,7 +33,7 @@ export default function Page({ data }) {
     <>
       <ProjectHero data={data} />
       <BuiltWith data={data} />
-      <Contact data={contactProjectData} />
+      <ContactCTA data={contactCTAData} />
     </>
   );
 }

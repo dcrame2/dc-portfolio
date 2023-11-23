@@ -72,9 +72,9 @@ const Description = styled.p`
 `;
 
 function Contact({ data }) {
-  const { header, logo, description } = data;
+  const { header, logo, description, id } = data;
   return (
-    <ContactContainer>
+    <ContactContainer id={id}>
       <ContactInnerContainer>
         <ContactContentContainer>
           <Header data={header} />

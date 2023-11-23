@@ -1287,6 +1287,7 @@ export const footerData = {
 };
 
 export const contactData = {
+  id: "contact",
   header: {
     title: "Contact",
   },
@@ -1295,11 +1296,9 @@ export const contactData = {
   description: "React out for any questions!",
 };
 
-export const contactProjectData = {
-  header: {
-    title: "Contact",
-  },
+export const contactCTAData = {
+  header: "Contact Me",
   logo: { url: "/logo/logo_no_bg.png", alt: "DC Logo" },
-
-  description: "React out for any questions regarding this specifc project!",
+  href: "/#contact",
+  description: "Have any questions for me?",
 };

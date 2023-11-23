@@ -31,7 +31,7 @@ const Logo = styled.img`
 //   }
 // `;
 
-const NavLinks = styled(Link)`
+const NavLinks = styled.a`
   ${pSmall}
   &::after {
     content: "";
