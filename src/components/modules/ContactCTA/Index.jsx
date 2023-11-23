@@ -8,6 +8,9 @@ import { pLarge, pBase, pSmall, h3styles } from "@/styles/Type";
 const CTAContainer = styled.div`
   background-color: ${variables.color1};
   padding: 48px 0;
+  @media ${MediaQueries.tablet} {
+    padding: 24px 0;
+  }
 `;
 
 const CTAInnerContainer = styled.div`
