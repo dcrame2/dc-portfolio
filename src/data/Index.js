@@ -1265,21 +1265,21 @@ export const footerData = {
     {
       url: "mailto: dcrame2@gmail.com",
       icon: {
-        url: "/logo/logo_no_bg.png",
+        url: "/icons/mail.svg",
         alt: "Mail Icon",
       },
     },
     {
       url: "https://github.com/dcrame2",
       icon: {
-        url: "/logo/logo_no_bg.png",
+        url: "/icons/github.svg",
         alt: "Github Icon",
       },
     },
     {
       url: "https://www.linkedin.com/in/dylan-cramer/",
       icon: {
-        url: "/logo/logo_no_bg.png",
+        url: "/icons/linkedin.svg",
         alt: "LinkedIn Icon",
       },
     },

@@ -54,7 +54,7 @@ const ContentContainer = styled.div`
 `;
 
 const Img = styled.img`
-  width: 50%;
+  width: 60%;
   @media ${MediaQueries.tablet} {
     width: 100%;
   }

@@ -57,6 +57,12 @@ const Icon = styled.img`
   width: 48px;
   background-color: ${variables.color2};
   padding: 10px;
+  transition: all ease-in 0.2s;
+  &:hover {
+    transition: all ease-in 0.2s;
+    transform: scale(1.1);
+    opacity: 0.8;
+  }
 `;
 
 const FooterSocialContainer = styled.div`

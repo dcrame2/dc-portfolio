@@ -8,6 +8,12 @@ import { pLarge, pBase, pSmall, h3styles } from "@/styles/Type";
 const CTAContainer = styled.div`
   background-color: ${variables.color1};
   padding: 48px 0;
+  background: linear-gradient(
+    300deg,
+    rgb(0, 0, 0) 0%,
+    rgb(0, 0, 0) 10%,
+    rgb(189, 23, 22) 100%
+  );
   @media ${MediaQueries.tablet} {
     padding: 24px 0;
   }
