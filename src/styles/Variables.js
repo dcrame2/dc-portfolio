@@ -27,7 +27,4 @@ export const variables = {
   monsterrat: "monsterrat, sans-serif",
   monsterrat: "Montserrat, sans-serif",
   Pacifico: "Pacifico, sans-serif",
-
-  // Company names
-  companyName: "Dylan Cramer",
 };

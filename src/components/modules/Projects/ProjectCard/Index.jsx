@@ -21,12 +21,25 @@ const CardContainer = styled(motion(Link))`
   display: flex;
   flex-direction: column;
   gap: 12px;
-
   &:hover {
-    border: 2px solid ${variables.color1};
-    border-radius: 12px;
-    transition: all 0.3s ease-in-out;
+    transition: transform 0.3s ease-in;
+    .details-text {
+      transition: transform 0.3s ease-in;
+
+      &::after {
+        content: "";
+        color: ${variables.color1} !important;
+        transform: translateX(6px) rotate(-90deg);
+        transition: transform 0.3s ease-in;
+      }
+    }
+
+    .image {
+      transition: transform 0.3s ease-in;
+      transform: scale(1.1);
+    }
   }
+
   @media ${MediaQueries.tablet} {
     padding: 20px;
   }
@@ -38,34 +51,35 @@ const CardContainer = styled(motion(Link))`
 const ProjectImageContainer = styled.div`
   overflow: hidden;
   width: 100%;
-  max-height: 200px;
+  max-height: 175px;
 `;
 
 const ProjectImage = styled.img`
   width: 100%;
   object-fit: cover;
+  transition: transform 0.3s ease-in;
 `;
 
 const ProjectTitle = styled.p`
   ${h4styles}
 `;
 
-const ProjectDesc = styled.p`
-  ${pSmall}
-`;
-
 const DetailsButton = styled.p`
-  background-color: ${variables.color1};
-  padding: 10px 44px 10px 24px;
+  color: ${variables.color4} !important;
+  ${pSmall}
+
   max-width: 200px;
   width: fit-content;
   text-align: center;
   position: relative;
+  transition: transform 0.3s ease-in;
   &::after {
     content: "";
+    transition: transform 0.3s ease-in;
     position: absolute;
-    width: 20px;
-    height: 20px;
+    top: 3px;
+    width: 17px;
+    height: 17px;
     transform: rotate(-90deg);
     background-image: url("/icons/caret-down.svg");
   }
@@ -92,12 +106,17 @@ function ProjectCard({ data }) {
         type: "spring",
         stiffness: 50,
       }}
+      whileHover={{
+        border: `2px solid ${variables.color1}`,
+        borderRadius: "12px",
+        transition: { duration: 0.3 },
+      }}
     >
       <ProjectImageContainer>
-        <ProjectImage src={img.src} alt={img.alt} />
+        <ProjectImage className="image" src={img.src} alt={img.alt} />
       </ProjectImageContainer>
       <ProjectTitle>{projectTitle}</ProjectTitle>
-      <DetailsButton>See Details</DetailsButton>
+      <DetailsButton className="details-text">See Details</DetailsButton>
     </CardContainer>
   );
 }
