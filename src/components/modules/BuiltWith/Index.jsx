@@ -5,16 +5,7 @@ import { variables } from "@/styles/Variables";
 
 import { pLarge, pSmall } from "@/styles/Type";
 
-import Contact from "../Contact/Index";
-
 const BuiltWithContainer = styled.div`
-  /* background: linear-gradient(
-    193deg,
-    rgb(0, 0, 0) 0%,
-    rgb(0, 0, 0) 50%,
-    rgb(189, 23, 22) 100%
-  ); */
-  /* height: 60vh; */
   padding-bottom: 80px;
 `;
 
@@ -41,7 +32,7 @@ const ContentContainer = styled.div`
   width: 50%;
   @media ${MediaQueries.tablet} {
     width: 100%;
-    /* flex-direction: row; */
+
     justify-content: space-between;
     gap: 50px;
   }
@@ -62,9 +53,7 @@ const Img = styled.img`
 
 const Description = styled.div`
   p {
-    /* margin: 0 auto; */
-    ${pSmall}/* max-width: 1000px; */
-  /* text-align: center; */
+    ${pSmall}
   }
 `;
 
@@ -77,7 +66,6 @@ const CardContainer = styled.div`
 `;
 
 const IndividualCardContainer = styled.div`
-  /* border: 1px solid ${variables.color1}; */
   background-color: ${variables.black};
   padding: 10px;
   display: flex;
@@ -93,7 +81,6 @@ const Icon = styled.img`
 `;
 
 const SkillTitle = styled.p`
-  /* text-align: center; */
   ${pSmall}
 `;
 

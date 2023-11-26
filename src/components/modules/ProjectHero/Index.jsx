@@ -8,6 +8,7 @@ import { variables } from "@/styles/Variables";
 
 const ProjectHeroContainer = styled.div`
   padding: 40px 0;
+  position: relative;
   /* background: linear-gradient(
     -205deg,
     rgb(0, 0, 0) 0%,
@@ -36,11 +37,11 @@ const ProjectHeroInnerContainer = styled.div`
 `;
 
 const ContentContainer = styled.div`
-  display: flex;
+  /* display: flex;
   gap: 12px;
   @media ${MediaQueries.tablet} {
     gap: unset;
-  }
+  } */
   /* @media ${MediaQueries.mobile} {
     width: 70px;
   } */
@@ -61,10 +62,9 @@ const Bar = styled.div`
   );
 `;
 
-const LinkContainer = styled.div``;
-
-const ExternalLink = styled(Link)``;
-
+const LinkContainer = styled.div`
+  position: sticky;
+`;
 const wiggle = keyframes`
    0% {
       transform: rotate(0deg);
@@ -84,9 +84,51 @@ const wiggle = keyframes`
   
 `;
 
+const ExternalLink = styled(Link)`
+  position: fixed;
+  padding: 10px 20px;
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+  border-bottom: 1px solid white;
+  border-radius: 0px 0px 12px 12px;
+  background-color: ${variables.color1};
+  top: 300px;
+  transform: rotate(-90deg);
+  left: -58px;
+  display: flex;
+  gap: 4px;
+  transition: all 0.3s ease-in;
+  &:hover {
+    border-right: 1px solid ${variables.color1};
+    border-left: 1px solid ${variables.color1};
+    border-bottom: 1px solid ${variables.color1};
+    background-color: transparent;
+    transition: all 0.3s ease-in;
+    &::after {
+      animation: ${wiggle} 0.7s infinite;
+    }
+  }
+  &::after {
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    content: "";
+    display: block;
+    background-image: url("/icons/external_link.svg");
+  }
+  @media ${MediaQueries.mobile} {
+    padding: 3px 8px;
+    top: 275px;
+  }
+`;
+
 const ExternalImg = styled.img`
-  width: 100px;
+  width: 55px;
   animation: ${wiggle} 1s infinite;
+  /* position: fixed; */
+  background-color: ${variables.color1};
+  border-radius: 12px;
   @media ${MediaQueries.tablet} {
     width: 70px;
   }
@@ -117,15 +159,16 @@ function ProjectHero({ data }) {
   const { title, websiteUrl } = data;
   return (
     <ProjectHeroContainer>
+      {/* <LinkContainer> */}
+      <ExternalLink target="_blank" href={websiteUrl}>
+        Visit Project
+        {/* <ExternalImg src="/icons/external_link.svg" /> */}
+      </ExternalLink>
+      {/* </LinkContainer> */}
       <ProjectHeroInnerContainer>
         <ContentContainer>
           <Title>{title}</Title>
-          <VerticalLine>|</VerticalLine>
-          <LinkContainer>
-            <ExternalLink target="_blank" href={websiteUrl}>
-              <ExternalImg src="/icons/external_link.svg" />
-            </ExternalLink>
-          </LinkContainer>
+          {/* <VerticalLine>|</VerticalLine> */}
         </ContentContainer>
         <Bar />
       </ProjectHeroInnerContainer>
