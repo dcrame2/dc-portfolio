@@ -9,12 +9,6 @@ import { variables } from "@/styles/Variables";
 const ProjectHeroContainer = styled.div`
   padding: 40px 0;
   position: relative;
-  /* background: linear-gradient(
-    -205deg,
-    rgb(0, 0, 0) 0%,
-    rgb(0, 0, 0) 75%,
-    rgb(189, 23, 22) 100%
-  ); */
   @media ${MediaQueries.tablet} {
     padding: 30px 0;
   }
@@ -118,7 +112,7 @@ const ExternalLink = styled(Link)`
     background-image: url("/icons/external_link.svg");
   }
   @media ${MediaQueries.mobile} {
-    padding: 3px 8px;
+    padding: 2px 8px;
     top: 275px;
   }
 `;
