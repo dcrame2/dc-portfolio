@@ -119,7 +119,6 @@ const ExternalLink = styled(Link)`
   transition: all 0.3s ease-in;
   &:hover {
     background-color: ${variables.color2};
-
     transition: all 0.3s ease-in;
     &::after {
       animation: ${wiggle} 0.7s infinite;

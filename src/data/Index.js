@@ -1298,5 +1298,6 @@ export const contactCTAData = {
   header: "Contact Me",
   logo: { url: "/logo/logo_no_bg.png", alt: "DC Logo" },
   href: "/#contact",
-  description: "Have any questions for me?",
+  description:
+    "Have any questions for me? I'd be happy to answer them via my contact form.",
 };

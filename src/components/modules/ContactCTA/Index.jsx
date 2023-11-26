@@ -41,15 +41,18 @@ const DetailsButton = styled.a`
   background-color: white;
   padding: 10px 24px 10px 24px;
   max-width: 200px;
-  width: fit-content;
+  width: 100%;
   text-align: center;
   position: relative;
   color: black;
-  border: 2px solid white;
+  /* border: 2px solid white; */
   transition: background-color ease-in-out 0.3s;
   &:hover {
     transition: background-color ease-in-out 0.3s;
-    background-color: transparent;
+    background-color: ${variables.color2};
+  }
+  @media ${MediaQueries.mobile} {
+    max-width: unset;
   }
 
   img {
