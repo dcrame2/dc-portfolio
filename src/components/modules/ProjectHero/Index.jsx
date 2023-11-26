@@ -113,7 +113,7 @@ const ExternalLink = styled(Link)`
   }
   @media ${MediaQueries.mobile} {
     padding: 3px 8px;
-    top: 275px;
+    top: 375px;
   }
 `;
 
