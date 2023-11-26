@@ -21,6 +21,7 @@ const ProjectHeroInnerContainer = styled.div`
   ${Container}
   display: flex;
   flex-direction: column;
+  position: relative;
   gap: 40px;
   @media ${MediaQueries.tablet} {
     gap: 30px;
@@ -81,9 +82,7 @@ const wiggle = keyframes`
 const ExternalLink = styled(Link)`
   position: fixed;
   padding: 10px 20px;
-  /* border-right: 1px solid white;
-  border-left: 1px solid white;
-  border-bottom: 1px solid white; */
+  z-index: 1;
   border-radius: 0px 0px 12px 12px;
   background-color: ${variables.color1};
   top: 300px;
@@ -93,9 +92,6 @@ const ExternalLink = styled(Link)`
   gap: 4px;
   transition: all 0.3s ease-in;
   &:hover {
-    /* border-right: 1px solid ${variables.color1};
-    border-left: 1px solid ${variables.color1};
-    border-bottom: 1px solid ${variables.color1}; */
     background-color: transparent;
     transition: all 0.3s ease-in;
     &::after {
@@ -154,10 +150,10 @@ function ProjectHero({ data }) {
   return (
     <ProjectHeroContainer>
       {/* <LinkContainer> */}
-      <ExternalLink target="_blank" href={websiteUrl}>
+      {/* <ExternalLink target="_blank" href={websiteUrl}>
         Visit Project
-        {/* <ExternalImg src="/icons/external_link.svg" /> */}
-      </ExternalLink>
+  
+      </ExternalLink> */}
       {/* </LinkContainer> */}
       <ProjectHeroInnerContainer>
         <ContentContainer>

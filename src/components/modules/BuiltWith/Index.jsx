@@ -1,12 +1,31 @@
 import { Container, MediaQueries } from "@/styles/Utilities";
 import React from "react";
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 import { variables } from "@/styles/Variables";
-
+import Link from "next/link";
 import { pLarge, pSmall } from "@/styles/Type";
 
 const BuiltWithContainer = styled.div`
   padding-bottom: 80px;
+`;
+
+const wiggle = keyframes`
+   0% {
+      transform: rotate(0deg);
+    }
+    80% {
+      transform: rotate(0deg);
+    }
+    85% {
+      transform: rotate(10deg);
+    }
+    95% {
+      transform: rotate(-10deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  
 `;
 
 const BuiltWithInnerContainer = styled.div`
@@ -30,6 +49,7 @@ const ContentContainer = styled.div`
   display: flex;
   flex-direction: column;
   width: 50%;
+  gap: 12px;
   @media ${MediaQueries.tablet} {
     width: 100%;
 
@@ -84,12 +104,52 @@ const SkillTitle = styled.p`
   ${pSmall}
 `;
 
+const ExternalLink = styled(Link)`
+  /* position: fixed; */
+  padding: 10px 20px;
+  z-index: 1;
+  /* border-radius: 0px 0px 12px 12px; */
+  background-color: ${variables.color1};
+  top: 300px;
+  /* transform: rotate(-90deg); */
+  max-width: 160px;
+  width: 100%;
+  display: flex;
+  gap: 4px;
+  transition: all 0.3s ease-in;
+  &:hover {
+    background-color: ${variables.color2};
+
+    transition: all 0.3s ease-in;
+    &::after {
+      animation: ${wiggle} 0.7s infinite;
+    }
+  }
+  &::after {
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    content: "";
+    display: block;
+    background-image: url("/icons/external_link.svg");
+  }
+  @media ${MediaQueries.mobile} {
+    max-width: unset;
+    justify-content: center;
+  }
+`;
+
 function BuiltWith({ data }) {
-  const { description, builtWith, img } = data;
+  const { description, builtWith, img, websiteUrl } = data;
   return (
     <BuiltWithContainer>
       <BuiltWithInnerContainer>
         <ContentContainer>
+          <ExternalLink target="_blank" href={websiteUrl}>
+            Visit Project
+            {/* <ExternalImg src="/icons/external_link.svg" /> */}
+          </ExternalLink>
           <Description dangerouslySetInnerHTML={{ __html: description }} />
           <CardContainer>
             {builtWith.map((lang, index) => {
