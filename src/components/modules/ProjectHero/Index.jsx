@@ -81,9 +81,9 @@ const wiggle = keyframes`
 const ExternalLink = styled(Link)`
   position: fixed;
   padding: 10px 20px;
-  border-right: 1px solid white;
+  /* border-right: 1px solid white;
   border-left: 1px solid white;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid white; */
   border-radius: 0px 0px 12px 12px;
   background-color: ${variables.color1};
   top: 300px;
@@ -93,9 +93,9 @@ const ExternalLink = styled(Link)`
   gap: 4px;
   transition: all 0.3s ease-in;
   &:hover {
-    border-right: 1px solid ${variables.color1};
+    /* border-right: 1px solid ${variables.color1};
     border-left: 1px solid ${variables.color1};
-    border-bottom: 1px solid ${variables.color1};
+    border-bottom: 1px solid ${variables.color1}; */
     background-color: transparent;
     transition: all 0.3s ease-in;
     &::after {
@@ -112,7 +112,7 @@ const ExternalLink = styled(Link)`
     background-image: url("/icons/external_link.svg");
   }
   @media ${MediaQueries.mobile} {
-    padding: 2px 8px;
+    padding: 3px 8px;
     top: 275px;
   }
 `;
