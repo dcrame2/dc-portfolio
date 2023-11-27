@@ -250,7 +250,6 @@ export const projectData = {
         alt: "Impact Homepage",
       },
       projectTitle: "Impact Networking",
-      desc: "Impact Networking Impact Networking Impact Networking Impact NetworkingImpact Networking ",
     },
     {
       href: "/beggars-pizza",
@@ -259,7 +258,6 @@ export const projectData = {
         alt: "Beggars Pizza Homepage",
       },
       projectTitle: "Beggars Pizza",
-      desc: "Impact Networking Impact Networking Impact Networking Impact NetworkingImpact Networking ",
     },
     {
       href: "/dot-security",
@@ -268,7 +266,6 @@ export const projectData = {
         alt: "DOT Security Homepage",
       },
       projectTitle: "DOT Security",
-      desc: "Impact Networking Impact Networking Impact Networking Impact NetworkingImpact Networking ",
     },
     {
       href: "/tulayna-limo-service",
@@ -277,7 +274,6 @@ export const projectData = {
         alt: "Tulayna Limo Service Homepage",
       },
       projectTitle: "Tulayna Limo",
-      desc: "Impact Networking Impact Networking Impact Networking Impact NetworkingImpact Networking ",
     },
     {
       href: "/zmac-transport",
@@ -286,7 +282,6 @@ export const projectData = {
         alt: "Zmac Transport",
       },
       projectTitle: "Zmac Transport",
-      desc: "Impact Networking Impact Networking Impact Networking Impact NetworkingImpact Networking ",
     },
     {
       href: "/rowcare",
@@ -295,7 +290,6 @@ export const projectData = {
         alt: "Rowcare Homepage",
       },
       projectTitle: "Rowcare",
-      desc: "Impact Networking Impact Networking Impact Networking Impact NetworkingImpact Networking ",
     },
     {
       href: "/nggilbert",
@@ -304,7 +298,6 @@ export const projectData = {
         alt: "NG Gilbert Homepage",
       },
       projectTitle: "NG Gilbert",
-      desc: "Impact Networking Impact Networking Impact Networking Impact NetworkingImpact Networking ",
     },
     {
       href: "/chicago-living-group",
@@ -313,7 +306,6 @@ export const projectData = {
         alt: "Chicago Living Homepage",
       },
       projectTitle: "Chicago Living",
-      desc: "Impact Networking Impact Networking Impact Networking Impact NetworkingImpact Networking ",
     },
     {
       href: "/mpi-wjw",
@@ -322,7 +314,6 @@ export const projectData = {
         alt: "MPI WJW Homepage",
       },
       projectTitle: "MPI WJW",
-      desc: "Impact Networking Impact Networking Impact Networking Impact NetworkingImpact Networking ",
     },
     {
       href: "/digital-delight",
@@ -331,7 +322,6 @@ export const projectData = {
         alt: "Digital Delight Homepage",
       },
       projectTitle: "Digital Delight",
-      desc: "Impact Networking Impact Networking Impact Networking Impact NetworkingImpact Networking ",
     },
     {
       href: "/schuetz-insurance",
@@ -340,7 +330,6 @@ export const projectData = {
         alt: "Schuetz Insurance Homepage",
       },
       projectTitle: "Schuetz Insurance",
-      desc: "Impact Networking Impact Networking Impact Networking Impact NetworkingImpact Networking ",
     },
     {
       href: "/moulis-financial",
@@ -349,7 +338,6 @@ export const projectData = {
         alt: "Moulis Financial Homepage",
       },
       projectTitle: "Moulis Financial",
-      desc: "Impact Networking Impact Networking Impact Networking Impact NetworkingImpact Networking ",
     },
     {
       href: "/movie-api",
@@ -358,7 +346,6 @@ export const projectData = {
         alt: "Movie API Homepage",
       },
       projectTitle: "Movie API",
-      desc: "Impact Networking Impact Networking Impact Networking Impact NetworkingImpact Networking ",
     },
     {
       href: "/delilah-mae",
@@ -367,7 +354,6 @@ export const projectData = {
         alt: "Delilah Mae Homepage",
       },
       projectTitle: "Delilah Mae",
-      desc: "Impact Networking Impact Networking Impact Networking Impact NetworkingImpact Networking ",
     },
     {
       href: "/creative-agency",
@@ -376,7 +362,6 @@ export const projectData = {
         alt: "Creative Agency Homepage",
       },
       projectTitle: "Creative Agency",
-      desc: "Impact Networking Impact Networking Impact Networking Impact NetworkingImpact Networking ",
     },
     {
       href: "/stars-and-stripes",
@@ -385,7 +370,6 @@ export const projectData = {
         alt: "Stars and Stripes Homepage",
       },
       projectTitle: "Stars and Stripes",
-      desc: "Impact Networking Impact Networking Impact Networking Impact NetworkingImpact Networking ",
     },
     {
       href: "/greek-life",
@@ -394,7 +378,6 @@ export const projectData = {
         alt: "Greek Life Homepage",
       },
       projectTitle: "Greek Life",
-      desc: "Impact Networking Impact Networking Impact Networking Impact NetworkingImpact Networking ",
     },
     {
       href: "/zombie-game",
@@ -403,7 +386,6 @@ export const projectData = {
         alt: "Zombie Game Homepage",
       },
       projectTitle: "Zombie Game",
-      desc: "Impact Networking Impact Networking Impact Networking Impact NetworkingImpact Networking ",
     },
   ],
 };
@@ -695,7 +677,7 @@ export const projectPagesData = [
       title: "Townsend Rowcare",
       websiteUrl: "https://dev-townsendcorp.impactpreview.com/new-rowcare-com",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magni repudiandae aliquid fuga eveniet nihil ad aperiam vel pariatur quidem officia error maxime voluptatibus corporis accusamus, veritatis, ea tempore! Autem quo ad architecto vitae nam officia ex ab, et nisi tenetur maiores cumque perferendis ut nesciunt nostrum rerum, ipsam officiis!",
+        "<p>Engaged in a collaborative endeavor, Townsend Rowcare stands testament to my involvement in a sophisticated web development project executed within the structured framework of an agile methodology sprint cycle.<br/><br/> Operating at the intersection of design and functionality, my co-development with another skilled professional involved close collaboration with the UX and UI teams. This refined website, meticulously crafted on the robust foundation of WordPress as the Content Management System, attests to my nuanced understanding and adept utilization of an array of cutting-edge technologies and languages. <br/><br/>The seamless integration of PHP, JavaScript, SASS, HTML, and WordPress not only underscores the technical finesse brought to the project but also exemplifies my commitment to delivering a user-centric digital experience.</p>",
       img: {
         src: "/projects/rowcare.png",
         alt: "Rowcare Homepage",
@@ -746,7 +728,7 @@ export const projectPagesData = [
       websiteUrl:
         "https://dev-townsendcorp.impactpreview.com/new-nggilbert-com",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magni repudiandae aliquid fuga eveniet nihil ad aperiam vel pariatur quidem officia error maxime voluptatibus corporis accusamus, veritatis, ea tempore! Autem quo ad architecto vitae nam officia ex ab, et nisi tenetur maiores cumque perferendis ut nesciunt nostrum rerum, ipsam officiis!",
+        "<p>Engaged in a collaborative endeavor, Townsend NG Gilbert stands testament to my involvement in a sophisticated web development project executed within the structured framework of an agile methodology sprint cycle.<br/><br/> Operating at the intersection of design and functionality, my co-development with another skilled professional involved close collaboration with the UX and UI teams. This refined website, meticulously crafted on the robust foundation of WordPress as the Content Management System, attests to my nuanced understanding and adept utilization of an array of cutting-edge technologies and languages. <br/><br/>The seamless integration of PHP, JavaScript, SASS, HTML, and WordPress not only underscores the technical finesse brought to the project but also exemplifies my commitment to delivering a user-centric digital experience.</p>",
       img: {
         src: "/projects/nggilbert.png",
         alt: "NG Gilbert Homepage",
@@ -895,7 +877,7 @@ export const projectPagesData = [
       title: "Schuetz Insurance",
       websiteUrl: "https://schuetzinsurance.com/",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magni repudiandae aliquid fuga eveniet nihil ad aperiam vel pariatur quidem officia error maxime voluptatibus corporis accusamus, veritatis, ea tempore! Autem quo ad architecto vitae nam officia ex ab, et nisi tenetur maiores cumque perferendis ut nesciunt nostrum rerum, ipsam officiis!",
+        "<p>Engaged in a collaborative endeavor, Schuetz Insurance stands testament to my involvement in a sophisticated web development project executed within the structured framework of an agile methodology sprint cycle.<br/><br/> Operating at the intersection of design and functionality, my co-development with another skilled professional involved close collaboration with the UX and UI teams. This refined website, meticulously crafted on the robust foundation of WordPress as the Content Management System, attests to my nuanced understanding and adept utilization of an array of cutting-edge technologies and languages. <br/><br/>The seamless integration of PHP, JavaScript, SASS, HTML, and WordPress not only underscores the technical finesse brought to the project but also exemplifies my commitment to delivering a user-centric digital experience.</p>",
       img: {
         src: "/projects/schuetz_insurance.png",
         alt: "Schuetz Insurance Homepage",
@@ -982,7 +964,7 @@ export const projectPagesData = [
       title: "Movie API",
       websiteUrl: "https://helpfindmeamovie.netlify.app",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magni repudiandae aliquid fuga eveniet nihil ad aperiam vel pariatur quidem officia error maxime voluptatibus corporis accusamus, veritatis, ea tempore! Autem quo ad architecto vitae nam officia ex ab, et nisi tenetur maiores cumque perferendis ut nesciunt nostrum rerum, ipsam officiis!",
+        "<p>The Movie API serves as a solo venture, strategically crafted to push the boundaries of my web development skills. This independent project served as a comprehensive exploration of my proficiency in harnessing APIs, demonstrating my ability to dynamically manipulate data using JavaScript and Axios. <br /> <br />At its core, The Movie API is a showcase of my commitment to not only extracting valuable information from external sources but also transforming that data into an engaging frontend. The project emphasizes a visually appealing interface, thoughtfully designed to offer users a seamless experience enhanced by efficient search functionalities.<br /> <br />Technologically, this endeavor relied on a robust combination of JavaScript for dynamic scripting, Axios for streamlined API communication, and the foundational trio of HTML, CSS, and JavaScript to breathe vitality into every aspect of the project. Each line of code and design decision encapsulates my dedication to not just meeting technical benchmarks, but also elevating the overall user journey. The Movie API is more than a coding exercise; it stands as a testament to my passion for crafting web applications that seamlessly blend aesthetics with functionality.</p>",
       img: {
         src: "/projects/movie.png",
         alt: "Movie API Homepage",
@@ -1018,7 +1000,7 @@ export const projectPagesData = [
       title: "Delilah Mae",
       websiteUrl: "https://delilahmae.netlify.app",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magni repudiandae aliquid fuga eveniet nihil ad aperiam vel pariatur quidem officia error maxime voluptatibus corporis accusamus, veritatis, ea tempore! Autem quo ad architecto vitae nam officia ex ab, et nisi tenetur maiores cumque perferendis ut nesciunt nostrum rerum, ipsam officiis!",
+        "<p>The Delilah Mae website stands as a testament to my proficiency in React.js, showcased through a personal project inspired by my niece. Delilah Mae's digital timeline is a testament to both my technical skills and the heartfelt desire to create a meaningful online space.<br /> <br />Motivated by a personal connection, I undertook the development of this website to encapsulate key moments in Delilah's life. Beyond being a technical exercise in React.js and Styled Components, it's a heartfelt gift ensuring that, as she matures, Delilah will have a dedicated online platform chronicling her growth through carefully curated images. The Delilah Mae website represents a harmonious blend of technology and emotion, demonstrating the power of web development in preserving cherished memories.</p>",
       img: {
         src: "/projects/delilahmae.png",
         alt: "Delilah Mae Homepage",
@@ -1047,7 +1029,7 @@ export const projectPagesData = [
       title: "Creative Agency",
       websiteUrl: "https://creativeagencyllc.netlify.app",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magni repudiandae aliquid fuga eveniet nihil ad aperiam vel pariatur quidem officia error maxime voluptatibus corporis accusamus, veritatis, ea tempore! Autem quo ad architecto vitae nam officia ex ab, et nisi tenetur maiores cumque perferendis ut nesciunt nostrum rerum, ipsam officiis!",
+        "<p>The inception of The Creative Agency website marked a turning point in my journey through the intricacies of frontend development. As a fledgling developer, it served as a significant milestone, a canvas where I wove together JavaScript, HTML, and CSS into a cohesive masterpiece.<br /><br />This project wasn't merely a culmination of skills; it was a deliberate challenge I set for myself—a playground where I could synthesize and showcase the culmination of my learning. Crafting this website demanded not just technical prowess but a harmonious blend of creativity and precision, exemplifying my commitment to mastering frontend intricacies. The Creative Agency isn't just a project; it's a testament to my dedication, a tangible embodiment of my evolving expertise in the realm of web development.</p>",
       img: {
         src: "/projects/creativeagency.png",
         alt: "Creative Agency Homepage",
@@ -1083,7 +1065,7 @@ export const projectPagesData = [
       title: "Stars and Stripes",
       websiteUrl: "https://carsandstripesforeverinc.com/",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magni repudiandae aliquid fuga eveniet nihil ad aperiam vel pariatur quidem officia error maxime voluptatibus corporis accusamus, veritatis, ea tempore! Autem quo ad architecto vitae nam officia ex ab, et nisi tenetur maiores cumque perferendis ut nesciunt nostrum rerum, ipsam officiis!",
+        "<p>The inception of the Stars and Stripes Forever website underscores my dedication to web development, serving as the digital hub for a friend's family business specializing in car wrapping. As a solo initiative, I meticulously constructed this eCommerce platform, harnessing GoDaddy as the Content Management System.<br /> <br />Taking full ownership of the project, I not only orchestrated the initial design and development but also undertook the responsibility of its ongoing maintenance. Continuous updates and enhancements, including product updates, were integral to ensuring the website's relevance and functionality. Employing HTML, CSS, and JavaScript, the website breathes life into the business, offering a dynamic and visually engaging platform for showcasing car wrapping services.</p>",
       img: {
         src: "/projects/starsandstripes.png",
         alt: "Stars and Stripes Homepage",
@@ -1119,7 +1101,7 @@ export const projectPagesData = [
       title: "Greek Life",
       websiteUrl: "https://isugreeklife.netlify.app",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magni repudiandae aliquid fuga eveniet nihil ad aperiam vel pariatur quidem officia error maxime voluptatibus corporis accusamus, veritatis, ea tempore! Autem quo ad architecto vitae nam officia ex ab, et nisi tenetur maiores cumque perferendis ut nesciunt nostrum rerum, ipsam officiis!",
+        "<p>The Greek Life website represents a milestone in my college journey at Illinois State University, serving as the inaugural web project I undertook. Collaborating with a fellow classmate, we embarked on the creation of this website using Bootstrap, HTML, CSS, and JavaScript.<br /><br />This venture marked my entry into web development, as the Greek Life website aimed to provide a user-friendly platform showcasing the diverse chapters available to students at Illinois State University. As my maiden voyage into website construction, the project holds a special place in my development journey.<br /><br />Constructed with the powerful combination of Bootstrap for responsive design and the foundational trio of HTML, CSS, and JavaScript, the Greek Life website is a testament to my early exploration of web technologies. It stands not only as a practical project but also as a symbol of my commitment to delivering accessible and visually appealing web experiences during my formative years in the field.</p>",
       img: {
         src: "/projects/greeklife.png",
         alt: "Greek Life Homepage",
@@ -1155,7 +1137,7 @@ export const projectPagesData = [
       title: "Zombie Game",
       websiteUrl: "https://eatthebrains.netlify.app",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magni repudiandae aliquid fuga eveniet nihil ad aperiam vel pariatur quidem officia error maxime voluptatibus corporis accusamus, veritatis, ea tempore! Autem quo ad architecto vitae nam officia ex ab, et nisi tenetur maiores cumque perferendis ut nesciunt nostrum rerum, ipsam officiis!",
+        "<p>The creation of The Zombie Game marked a pivotal chapter in my academic journey at Illinois State University. This compact yet engaging project involved the clever utilization of arrow keys to simulate brain consumption, complete with an integrated counter to tally each brain devoured. <br /><br />Forged during my college years, The Zombie Game presented formidable challenges that, upon reflection, have ignited a desire to revisit and elevate the project. An introspective look at the codebase reveals opportunities for refactoring, a testament to my commitment to continual growth and the pursuit of coding excellence.<br /><br />While The Zombie Game currently caters to desktop users and lacks responsive design, it stands as a showcase of my proficiency in JavaScript, HTML, and CSS. Despite the initial intricacies encountered during its development, I successfully navigated the complexities, ultimately earning an A grade—a recognition of my unwavering dedication to delivering high-quality work. The Zombie Game, though rooted in the past, symbolizes an ongoing journey of refining and advancing my coding prowess.</p>",
       img: {
         src: "/projects/zombie-game.png",
         alt: "Zombie Game Homepage",
@@ -1191,7 +1173,7 @@ export const projectPagesData = [
       title: "MPI WJW",
       websiteUrl: "https://mpiwjw.com/",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magni repudiandae aliquid fuga eveniet nihil ad aperiam vel pariatur quidem officia error maxime voluptatibus corporis accusamus, veritatis, ea tempore! Autem quo ad architecto vitae nam officia ex ab, et nisi tenetur maiores cumque perferendis ut nesciunt nostrum rerum, ipsam officiis!",
+        "<p>Engaged in a collaborative endeavor, MPI WJW stands testament to my involvement in a sophisticated web development project executed within the structured framework of an agile methodology sprint cycle.<br/><br/> Operating at the intersection of design and functionality, my solo development involved close collaboration with the UX and UI teams. This refined website, meticulously crafted on the robust foundation of WordPress as the Content Management System, attests to my nuanced understanding and adept utilization of an array of cutting-edge technologies and languages. <br/><br/>The seamless integration of PHP, JavaScript, SASS, HTML, and WordPress not only underscores the technical finesse brought to the project but also exemplifies my commitment to delivering a user-centric digital experience.</p>",
       img: {
         src: "/projects/mpiwjw.png",
         alt: "MPI WJW Homepage",
