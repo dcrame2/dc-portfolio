@@ -58,7 +58,17 @@ const SubmitButton = styled.button`
   }
 `;
 
-const PostSubmissionMessage = styled.p`
+const FormSubmissionContainer = styled.div`
+  border: 2px solid ${variables.color1};
+  padding: 24px;
+  width: 50%;
+  @media ${MediaQueries.mobile} {
+    width: 100%;
+  }
+`;
+
+const FormSubmissionMessage = styled.p`
+  text-align: center;
   ${pBase};
 `;
 
@@ -82,11 +92,13 @@ function Form() {
     /* "handleSubmit" will validate your inputs before invoking "onSubmit" */
     <>
       {formSubmitStatus ? (
-        <PostSubmissionMessage>
-          {formSubmitStatus === 200
-            ? "Yo, imma hit you up g"
-            : "shit aint work brotha sorry"}
-        </PostSubmissionMessage>
+        <FormSubmissionContainer>
+          <FormSubmissionMessage>
+            {formSubmitStatus === 200
+              ? "Thank you! I have received your contact form submission and will respond as soon as I can."
+              : "An error has occured during the form submission, please try again."}
+          </FormSubmissionMessage>
+        </FormSubmissionContainer>
       ) : (
         <ContactForm onSubmit={handleSubmit(onSubmit)}>
           <Input
