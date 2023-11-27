@@ -147,16 +147,14 @@ function BuiltWith({ data }) {
         <ContentContainer>
           <ExternalLink target="_blank" href={websiteUrl}>
             Visit Project
-            {/* <ExternalImg src="/icons/external_link.svg" /> */}
           </ExternalLink>
           <Description dangerouslySetInnerHTML={{ __html: description }} />
           <CardContainer>
-            {builtWith.map((lang, index) => {
-              const { skill, icon } = lang;
+            {builtWith.map((lang) => {
+              const { icon } = lang;
               return (
                 <IndividualCardContainer>
                   <Icon src={icon.src} alt={icon.alt}></Icon>
-                  {/* <SkillTitle>{skill}</SkillTitle> */}
                 </IndividualCardContainer>
               );
             })}
