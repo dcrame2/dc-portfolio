@@ -77,10 +77,11 @@ function History({ data }) {
     },
   };
   return (
-    <HistoryContainer id={id}>
+    <HistoryContainer>
       <HistoryInnerContainer>
         <ParallaxIntroVisual ref={ref}>
           <motion.picture
+            id={id}
             initial="hidden"
             animate={isInView ? "visible" : "hidden"}
             variants={variants.logoVariant}
