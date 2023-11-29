@@ -12,6 +12,7 @@ import About from "@/components/modules/About/Index";
 import History from "@/components/modules/History/Index";
 import Projects from "@/components/modules/Projects/Index";
 import Contact from "@/components/modules/Contact/Index";
+import ModuleBlender from "@/components/ui/ModuleBlender/Index";
 
 export default function Home() {
   return (
@@ -24,7 +25,9 @@ export default function Home() {
       </Head>
       <main>
         <MainHero data={heroData} />
+        <ModuleBlender />
         <About data={aboutData} />
+        <ModuleBlender />
         <History data={historyData} />
         <Projects data={projectData} />
         <Contact data={contactData} />

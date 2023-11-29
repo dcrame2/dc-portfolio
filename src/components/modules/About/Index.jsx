@@ -9,9 +9,9 @@ import { AnimatePresence, motion } from "framer-motion";
 const AboutContainer = styled.div`
   background: rgb(0, 0, 0);
   background: linear-gradient(
-    135deg,
+    144deg,
     rgb(189, 23, 22) 0%,
-    rgb(0, 0, 0) 100%,
+    rgb(0, 0, 0) 80%,
     rgb(0, 0, 0) 100%
   );
   padding: 200px 0;

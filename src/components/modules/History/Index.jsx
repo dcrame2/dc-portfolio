@@ -9,8 +9,8 @@ const HistoryContainer = styled.div`
   height: 100vh;
   padding: 200px 0;
   background: linear-gradient(
-    120deg,
-    rgb(189, 23, 22) 0%,
+    150deg,
+    rgb(95, 23, 22) 0%,
     rgb(0, 0, 0) 30%,
     rgb(0, 0, 0) 100%
   );
@@ -37,6 +37,7 @@ const ParallaxIntroVisual = styled.div`
   .logo-image {
     position: absolute;
     right: 0;
+    z-index: 2;
     @media ${MediaQueries.tablet} {
       bottom: 0;
       left: 0;
