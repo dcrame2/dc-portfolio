@@ -1,10 +1,9 @@
-import { h4styles, h3styles, pLarge, pSmall } from "@/styles/Type";
+import { h4styles, pSmall } from "@/styles/Type";
 import { variables } from "@/styles/Variables";
-import { useRef } from "react";
 import { MediaQueries } from "@/styles/Utilities";
 import Link from "next/link";
 import styled from "styled-components";
-import { motion, useInView } from "framer-motion";
+import { motion } from "framer-motion";
 
 const CardContainer = styled(motion(Link))`
   padding: 30px;
@@ -67,7 +66,6 @@ const ProjectTitle = styled.p`
 const DetailsButton = styled.p`
   color: ${variables.color4} !important;
   ${pSmall}
-
   max-width: 200px;
   width: fit-content;
   text-align: center;

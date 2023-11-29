@@ -100,18 +100,11 @@ const Icon = styled.img`
   height: auto;
 `;
 
-const SkillTitle = styled.p`
-  ${pSmall}
-`;
-
 const ExternalLink = styled(Link)`
-  /* position: fixed; */
   padding: 10px 20px;
   z-index: 1;
-  /* border-radius: 0px 0px 12px 12px; */
   background-color: ${variables.color1};
   top: 300px;
-  /* transform: rotate(-90deg); */
   max-width: 160px;
   width: 100%;
   display: flex;

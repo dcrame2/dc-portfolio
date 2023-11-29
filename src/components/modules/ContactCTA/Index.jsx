@@ -46,7 +46,6 @@ const DetailsButton = styled(Link)`
   text-align: center;
   position: relative;
   color: black;
-  /* border: 2px solid white; */
   transition: background-color ease-in-out 0.3s;
   &:hover {
     transition: background-color ease-in-out 0.3s;

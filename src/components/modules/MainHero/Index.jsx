@@ -66,10 +66,6 @@ const ContentContainer = styled.div`
   gap: 12px;
 `;
 
-const Eyebrow = styled(motion.p)`
-  ${pSmall}
-`;
-
 const Name = styled(motion.h1)`
   ${h1styles}
   text-align: center;
@@ -120,14 +116,6 @@ function MainHero({ data }) {
           />
         </ImgContainer>
         <ContentContainer>
-          {/* <Eyebrow
-            initial="hidden"
-            animate={isInView ? "visible" : "hidden"}
-            transition={{ ease: "easeInOut", duration: 1 }}
-            variants={fadeInVariant}
-          >
-            {eyebrow}
-          </Eyebrow> */}
           <Name
             initial="hidden"
             animate={isInView ? "visible" : "hidden"}

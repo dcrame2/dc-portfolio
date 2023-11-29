@@ -31,17 +31,7 @@ const ProjectHeroInnerContainer = styled.div`
   }
 `;
 
-const ContentContainer = styled.div`
-  /* display: flex;
-  gap: 12px;
-  @media ${MediaQueries.tablet} {
-    gap: unset;
-  } */
-  /* @media ${MediaQueries.mobile} {
-    width: 70px;
-  } */
-  /* justify-content: space-between; */
-`;
+const ContentContainer = styled.div``;
 
 const Title = styled.h1`
   ${h2styles}
@@ -113,52 +103,13 @@ const ExternalLink = styled(Link)`
   }
 `;
 
-const ExternalImg = styled.img`
-  width: 55px;
-  animation: ${wiggle} 1s infinite;
-  /* position: fixed; */
-  background-color: ${variables.color1};
-  border-radius: 12px;
-  @media ${MediaQueries.tablet} {
-    width: 70px;
-  }
-  @media ${MediaQueries.mobile} {
-    width: 70px;
-  }
-  &:hover {
-    .external-link {
-      fill: ${variables.color1};
-    }
-  }
-`;
-
-const VerticalLine = styled.p`
-  ${h2styles}
-  color: ${variables.color1};
-  @media ${MediaQueries.tablet} {
-    width: 70px;
-  }
-  @media ${MediaQueries.mobile} {
-    display: none;
-  }
-`;
-
-const ProjectLogo = styled.img``;
-
 function ProjectHero({ data }) {
-  const { title, websiteUrl } = data;
+  const { title } = data;
   return (
     <ProjectHeroContainer>
-      {/* <LinkContainer> */}
-      {/* <ExternalLink target="_blank" href={websiteUrl}>
-        Visit Project
-  
-      </ExternalLink> */}
-      {/* </LinkContainer> */}
       <ProjectHeroInnerContainer>
         <ContentContainer>
           <Title>{title}</Title>
-          {/* <VerticalLine>|</VerticalLine> */}
         </ContentContainer>
         <Bar />
       </ProjectHeroInnerContainer>

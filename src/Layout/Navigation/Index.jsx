@@ -23,15 +23,7 @@ const Logo = styled.img`
   }
 `;
 
-// const NavItemsContainer = styled.div`
-//   display: flex;
-//   gap: 48px;
-//   @media ${MediaQueries.mobile} {
-//     display: none;
-//   }
-// `;
-
-const NavLinks = styled(Link)`
+const NavLinks = styled.a`
   ${pSmall}
   &::after {
     content: "";

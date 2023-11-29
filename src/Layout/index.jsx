@@ -1,4 +1,4 @@
-import React from "react";
+import { useEffect } from "react";
 import Navigation from "./Navigation/Index";
 import Footer from "./Footer/Index";
 import StyledComponentsRegistry from "@/lib/registry";
@@ -8,6 +8,15 @@ import { navData, footerData } from "@/data/Index";
 
 function Layout({ children }) {
   const router = useRouter();
+
+  useEffect(() => {
+    const hash = window.location.hash;
+    console.log(hash);
+    if (hash.length > 0) {
+      // window.location.hash = "";
+      window.location.hash = hash;
+    }
+  });
   return (
     <>
       <Navigation data={navData} />

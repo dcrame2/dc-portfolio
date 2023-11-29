@@ -79,7 +79,6 @@ function Contact({ data }) {
         <ContactContentContainer>
           <Header data={header} />
           <Description>{description}</Description>
-          {/* <Logo src={logo.url} alt={logo.alt} /> */}
         </ContactContentContainer>
         <Form />
       </ContactInnerContainer>

@@ -8,12 +8,6 @@ import { AnimatePresence, motion } from "framer-motion";
 
 const AboutContainer = styled.div`
   background: rgb(0, 0, 0);
-  /* background: linear-gradient(
-    0deg,
-    rgba(0, 0, 0, 1) 0%,
-    rgba(0, 0, 0, 1) 40%,
-    #bd1716 100%
-  ); */
   background: linear-gradient(
     135deg,
     rgb(189, 23, 22) 0%,
@@ -52,7 +46,6 @@ const AboutParagraph = styled(motion.div)`
 const SkillsContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  /* gap: 10px; */
   @media ${MediaQueries.tablet} {
     grid-template-columns: repeat(3, 1fr);
   }

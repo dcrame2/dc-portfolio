@@ -62,8 +62,6 @@ function History({ data }) {
   });
 
   const translateY = useTransform(scrollYProgress, [0, 1], ["-40%", "0%"]);
-  const translateY2 = useTransform(scrollYProgress, [0, 1], ["-10%", "0%"]);
-  const translateX2 = useTransform(scrollYProgress, [0, 1], ["-1%", "1%"]);
 
   const isInView = useInView(ref, {
     once: true,
