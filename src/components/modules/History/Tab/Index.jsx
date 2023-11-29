@@ -26,7 +26,6 @@ const ComapnyTabContainer = styled(motion.ul)`
     border: 1px solid ${variables.color1};
     overflow: hidden;
     &.active {
-      /* display: flex; */
       &::after {
         transform: rotate(180deg);
         transition: transform 0.3s ease-in;
@@ -40,7 +39,7 @@ const ComapnyTabContainer = styled(motion.ul)`
       height: 30px;
       top: 6px;
       background-repeat: no-repeat;
-      background-image: url("/icons/caret-down.svg");
+      background-image: url("/icons/caret-down-white.svg");
       transition: transform 0.3s ease-in;
       transform: rotate(0deg);
     }

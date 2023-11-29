@@ -17,7 +17,7 @@ const CardContainer = styled(motion.div)`
 
 const Icon = styled.img`
   width: 50px;
-  height: auto;
+  height: 50px;
 `;
 
 const SkillTitle = styled.p`

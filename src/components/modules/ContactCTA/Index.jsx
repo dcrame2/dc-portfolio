@@ -38,7 +38,7 @@ const Description = styled.p`
 `;
 
 // TODO: Make this Details button a reusable
-const DetailsButton = styled(Link)`
+const DetailsButton = styled.a`
   background-color: white;
   padding: 10px 24px 10px 24px;
   max-width: 200px;
