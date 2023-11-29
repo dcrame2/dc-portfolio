@@ -1079,17 +1079,17 @@ export const projectPagesData = [
           },
         },
         {
-          skill: "React.js",
+          skill: "HTML",
           icon: {
-            src: "/icons/logo-react.svg",
-            alt: "React.js Icon",
+            src: "/icons/logo-html.svg",
+            alt: "HTML Icon",
           },
         },
         {
-          skill: "React.js",
+          skill: "CSS",
           icon: {
-            src: "/icons/logo-react.svg",
-            alt: "React.js Icon",
+            src: "/icons/logo-css.svg",
+            alt: "CSS Icon",
           },
         },
       ],
