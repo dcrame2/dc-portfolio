@@ -92,14 +92,18 @@ function Footer({ data }) {
         <FooterLinksContainer>
           {footerLinks.map((footerLink, index) => {
             const { text, url } = footerLink;
-            return <FooterLinks href={url}>{text}</FooterLinks>;
+            return (
+              <FooterLinks key={`${text}-${index}`} href={url}>
+                {text}
+              </FooterLinks>
+            );
           })}
         </FooterLinksContainer>
         <FooterSocialContainer>
           {socialIcons.map((socialIcon, index) => {
             const { url, icon } = socialIcon;
             return (
-              <Link href={url}>
+              <Link key={`socialIcons-${index}`} href={url}>
                 <Icon src={icon.url} alt={icon.alt} />
               </Link>
             );
