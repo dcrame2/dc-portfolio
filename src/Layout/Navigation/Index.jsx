@@ -48,7 +48,9 @@ const HomeLink = styled(Link)``;
 const HamburgerContainer = styled.div`
   transition: all ease-in-out 0.3s;
   border: ${({ $openNav }) =>
-    $openNav ? `2px solid ${variables.color1}` : "none"};
+    $openNav
+      ? `2px solid ${variables.color1}`
+      : `2px solid ${variables.black}`};
   position: absolute;
   z-index: 2;
   right: 20px;

@@ -8,7 +8,7 @@ const TabContainer = styled.div`
   display: flex;
   gap: 30px;
   align-items: center;
-  @media ${MediaQueries.tablet} {
+  @media ${MediaQueries.smallDesktop} {
     flex-direction: column;
   }
 `;
@@ -21,7 +21,7 @@ const ComapnyTabContainer = styled(motion.ul)`
   width: 100%;
   position: relative;
 
-  @media ${MediaQueries.tablet} {
+  @media ${MediaQueries.smallDesktop} {
     max-width: unset;
     border: 1px solid ${variables.color1};
     overflow: hidden;
@@ -63,7 +63,7 @@ const ComapnyTab = styled(motion.li)`
     background-color: ${variables.color2};
   }
 
-  @media ${MediaQueries.tablet} {
+  @media ${MediaQueries.smallDesktop} {
     display: none;
     &.active {
       display: block;
@@ -78,7 +78,7 @@ const ComapnyTab = styled(motion.li)`
 
 const CompaniesInfoContainer = styled.div`
   width: 40%;
-  @media ${MediaQueries.tablet} {
+  @media ${MediaQueries.smallDesktop} {
     flex-direction: column;
     width: 100%;
   }
@@ -91,7 +91,7 @@ const CompaniesInfo = styled(motion.div)`
 const TitleContainer = styled.div`
   display: flex;
   gap: 8px;
-  @media ${MediaQueries.tablet} {
+  @media ${MediaQueries.smallDesktop} {
     flex-direction: column;
   }
 `;

@@ -30,7 +30,7 @@ const ParallaxIntroVisual = styled.div`
   img {
     width: 100%;
     max-width: 500px;
-    @media ${MediaQueries.tablet} {
+    @media ${MediaQueries.smallDesktop} {
       max-width: 300px;
     }
   }
@@ -38,7 +38,7 @@ const ParallaxIntroVisual = styled.div`
     position: absolute;
     right: 0;
     z-index: 2;
-    @media ${MediaQueries.tablet} {
+    @media ${MediaQueries.smallDesktop} {
       bottom: 0;
       left: 0;
       display: flex;

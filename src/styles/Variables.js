@@ -4,6 +4,7 @@ export const tabletWidthInt = 1099;
 export const customSmallTabletInt = 772;
 export const customXSTabletInt = 646;
 export const mobileWidthInt = 499;
+export const smallDesktop = 1260;
 
 export const variables = {
   maxWidth: `${maxWidthInt}px`,

@@ -54,7 +54,7 @@ const ContentContainer = styled.div`
     width: 100%;
 
     justify-content: space-between;
-    gap: 50px;
+    gap: 24px;
   }
 
   @media ${MediaQueries.mobile} {
@@ -143,10 +143,10 @@ function BuiltWith({ data }) {
           </ExternalLink>
           <Description dangerouslySetInnerHTML={{ __html: description }} />
           <CardContainer>
-            {builtWith.map((lang) => {
-              const { icon } = lang;
+            {builtWith.map((lang, index) => {
+              const { icon, skill } = lang;
               return (
-                <IndividualCardContainer>
+                <IndividualCardContainer key={`${skill}-${index}`}>
                   <Icon src={icon.src} alt={icon.alt}></Icon>
                 </IndividualCardContainer>
               );

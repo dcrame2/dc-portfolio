@@ -4,6 +4,7 @@ import {
   customSmallTabletInt,
   customXSTabletInt,
   mobileWidthInt,
+  smallDesktop,
 } from "./Variables";
 import { css, keyframes } from "styled-components";
 
@@ -16,6 +17,7 @@ export const MediaQueries = {
   customSmallTablet: `(max-width: ${customSmallTabletInt}px)`,
   customXSTablet: `(max-width: ${customXSTabletInt}px)`,
   mobile: `(max-width: ${mobileWidthInt}px)`,
+  smallDesktop: `(max-width: ${smallDesktop}px)`,
 };
 
 export const Container = css`
