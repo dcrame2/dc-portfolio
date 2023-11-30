@@ -363,14 +363,14 @@ export const projectData = {
       },
       projectTitle: "Creative Agency",
     },
-    {
-      href: "/stars-and-stripes",
-      img: {
-        src: "/projects/starsandstripes.png",
-        alt: "Stars and Stripes Homepage",
-      },
-      projectTitle: "Stars and Stripes",
-    },
+    // {
+    //   href: "/stars-and-stripes",
+    //   img: {
+    //     src: "/projects/starsandstripes.png",
+    //     alt: "Stars and Stripes Homepage",
+    //   },
+    //   projectTitle: "Stars and Stripes",
+    // },
     {
       href: "/greek-life",
       img: {
@@ -1059,42 +1059,42 @@ export const projectPagesData = [
       ],
     },
   },
-  {
-    slug: "/stars-and-stripes",
-    pageData: {
-      title: "Stars and Stripes",
-      websiteUrl: "https://carsandstripesforeverinc.com/",
-      description:
-        "<p>The inception of the Stars and Stripes Forever website underscores my dedication to web development, serving as the digital hub for a friend's family business specializing in car wrapping. As a solo initiative, I meticulously constructed this eCommerce platform, harnessing GoDaddy as the Content Management System.<br /> <br />Taking full ownership of the project, I not only orchestrated the initial design and development but also undertook the responsibility of its ongoing maintenance. Continuous updates and enhancements, including product updates, were integral to ensuring the website's relevance and functionality. Employing HTML, CSS, and JavaScript, the website breathes life into the business, offering a dynamic and visually engaging platform for showcasing car wrapping services.</p>",
-      img: {
-        src: "/projects/starsandstripes.png",
-        alt: "Stars and Stripes Homepage",
-      },
-      builtWith: [
-        {
-          skill: "React.js",
-          icon: {
-            src: "/icons/logo-react.svg",
-            alt: "React.js Icon",
-          },
-        },
-        {
-          skill: "HTML",
-          icon: {
-            src: "/icons/logo-html.svg",
-            alt: "HTML Icon",
-          },
-        },
-        {
-          skill: "CSS",
-          icon: {
-            src: "/icons/logo-css.svg",
-            alt: "CSS Icon",
-          },
-        },
-      ],
-    },
-  },
+  // {
+  //   slug: "/stars-and-stripes",
+  //   pageData: {
+  //     title: "Stars and Stripes",
+  //     websiteUrl: "https://carsandstripesforeverinc.com/",
+  //     description:
+  //       "<p>The inception of the Stars and Stripes Forever website underscores my dedication to web development, serving as the digital hub for a friend's family business specializing in car wrapping. As a solo initiative, I meticulously constructed this eCommerce platform, harnessing GoDaddy as the Content Management System.<br /> <br />Taking full ownership of the project, I not only orchestrated the initial design and development but also undertook the responsibility of its ongoing maintenance. Continuous updates and enhancements, including product updates, were integral to ensuring the website's relevance and functionality. Employing HTML, CSS, and JavaScript, the website breathes life into the business, offering a dynamic and visually engaging platform for showcasing car wrapping services.</p>",
+  //     img: {
+  //       src: "/projects/starsandstripes.png",
+  //       alt: "Stars and Stripes Homepage",
+  //     },
+  //     builtWith: [
+  //       {
+  //         skill: "React.js",
+  //         icon: {
+  //           src: "/icons/logo-react.svg",
+  //           alt: "React.js Icon",
+  //         },
+  //       },
+  //       {
+  //         skill: "HTML",
+  //         icon: {
+  //           src: "/icons/logo-html.svg",
+  //           alt: "HTML Icon",
+  //         },
+  //       },
+  //       {
+  //         skill: "CSS",
+  //         icon: {
+  //           src: "/icons/logo-css.svg",
+  //           alt: "CSS Icon",
+  //         },
+  //       },
+  //     ],
+  //   },
+  // },
   {
     slug: "/greek-life",
     pageData: {
