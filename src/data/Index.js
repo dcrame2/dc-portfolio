@@ -334,38 +334,38 @@ export const projectData = {
       },
       projectTitle: "Movie API",
     },
-    {
-      href: "/delilah-mae",
-      img: {
-        src: "/projects/delilahmae.png",
-        alt: "Delilah Mae Homepage",
-      },
-      projectTitle: "Delilah Mae",
-    },
-    {
-      href: "/creative-agency",
-      img: {
-        src: "/projects/creativeagency.png",
-        alt: "Creative Agency Homepage",
-      },
-      projectTitle: "Creative Agency",
-    },
-    {
-      href: "/greek-life",
-      img: {
-        src: "/projects/greeklife.png",
-        alt: "Greek Life Homepage",
-      },
-      projectTitle: "Greek Life",
-    },
-    {
-      href: "/zombie-game",
-      img: {
-        src: "/projects/zombie-game.png",
-        alt: "Zombie Game Homepage",
-      },
-      projectTitle: "Zombie Game",
-    },
+    // {
+    //   href: "/delilah-mae",
+    //   img: {
+    //     src: "/projects/delilahmae.png",
+    //     alt: "Delilah Mae Homepage",
+    //   },
+    //   projectTitle: "Delilah Mae",
+    // },
+    // {
+    //   href: "/creative-agency",
+    //   img: {
+    //     src: "/projects/creativeagency.png",
+    //     alt: "Creative Agency Homepage",
+    //   },
+    //   projectTitle: "Creative Agency",
+    // },
+    // {
+    //   href: "/greek-life",
+    //   img: {
+    //     src: "/projects/greeklife.png",
+    //     alt: "Greek Life Homepage",
+    //   },
+    //   projectTitle: "Greek Life",
+    // },
+    // {
+    //   href: "/zombie-game",
+    //   img: {
+    //     src: "/projects/zombie-game.png",
+    //     alt: "Zombie Game Homepage",
+    //   },
+    //   projectTitle: "Zombie Game",
+    // },
   ],
 };
 
@@ -973,143 +973,143 @@ export const projectPagesData = [
       ],
     },
   },
-  {
-    slug: "/delilah-mae",
-    pageData: {
-      title: "Delilah Mae",
-      websiteUrl: "https://delilahmae.netlify.app",
-      description:
-        "<p>The Delilah Mae website stands as a testament to my proficiency in React.js, showcased through a personal project inspired by my niece. Delilah Mae's digital timeline is a testament to both my technical skills and the heartfelt desire to create a meaningful online space.<br /> <br />Motivated by a personal connection, I undertook the development of this website to encapsulate key moments in Delilah's life. Beyond being a technical exercise in React.js and Styled Components, it's a heartfelt gift ensuring that, as she matures, Delilah will have a dedicated online platform chronicling her growth through carefully curated images. The Delilah Mae website represents a harmonious blend of technology and emotion, demonstrating the power of web development in preserving cherished memories.</p>",
-      img: {
-        src: "/projects/delilahmae.png",
-        alt: "Delilah Mae Homepage",
-      },
-      builtWith: [
-        {
-          skill: "React.js",
-          icon: {
-            src: "/icons/logo-react.svg",
-            alt: "React.js Icon",
-          },
-        },
-        {
-          skill: "Styled Components",
-          icon: {
-            src: "/icons/logo-styled-components.svg",
-            alt: "Styled Components Icon",
-          },
-        },
-      ],
-    },
-  },
-  {
-    slug: "/creative-agency",
-    pageData: {
-      title: "Creative Agency",
-      websiteUrl: "https://creativeagencyllc.netlify.app",
-      description:
-        "<p>The inception of The Creative Agency website marked a turning point in my journey through the intricacies of frontend development. As a fledgling developer, it served as a significant milestone, a canvas where I wove together JavaScript, HTML, and CSS into a cohesive masterpiece.<br /><br />This project wasn't merely a culmination of skills; it was a deliberate challenge I set for myself—a playground where I could synthesize and showcase the culmination of my learning. Crafting this website demanded not just technical prowess but a harmonious blend of creativity and precision, exemplifying my commitment to mastering frontend intricacies. The Creative Agency isn't just a project; it's a testament to my dedication, a tangible embodiment of my evolving expertise in the realm of web development.</p>",
-      img: {
-        src: "/projects/creativeagency.png",
-        alt: "Creative Agency Homepage",
-      },
-      builtWith: [
-        {
-          skill: "JavaScript",
-          icon: {
-            src: "/icons/logo-javascript.svg",
-            alt: "JavaScript Icon",
-          },
-        },
-        {
-          skill: "HTML",
-          icon: {
-            src: "/icons/logo-html.svg",
-            alt: "JavaScript Icon",
-          },
-        },
-        {
-          skill: "CSS",
-          icon: {
-            src: "/icons/logo-css.svg",
-            alt: "CSS Icon",
-          },
-        },
-      ],
-    },
-  },
-  {
-    slug: "/greek-life",
-    pageData: {
-      title: "Greek Life",
-      websiteUrl: "https://isugreeklife.netlify.app",
-      description:
-        "<p>The Greek Life website represents a milestone in my college journey at Illinois State University, serving as the inaugural web project I undertook. Collaborating with a fellow classmate, we embarked on the creation of this website using Bootstrap, HTML, CSS, and JavaScript.<br /><br />This venture marked my entry into web development, as the Greek Life website aimed to provide a user-friendly platform showcasing the diverse chapters available to students at Illinois State University. As my maiden voyage into website construction, the project holds a special place in my development journey.<br /><br />Constructed with the powerful combination of Bootstrap for responsive design and the foundational trio of HTML, CSS, and JavaScript, the Greek Life website is a testament to my early exploration of web technologies. It stands not only as a practical project but also as a symbol of my commitment to delivering accessible and visually appealing web experiences during my formative years in the field.</p>",
-      img: {
-        src: "/projects/greeklife.png",
-        alt: "Greek Life Homepage",
-      },
-      builtWith: [
-        {
-          skill: "JavaScript",
-          icon: {
-            src: "/icons/logo-javascript.svg",
-            alt: "JavaScript Icon",
-          },
-        },
-        {
-          skill: "HTML",
-          icon: {
-            src: "/icons/logo-html.svg",
-            alt: "JavaScript Icon",
-          },
-        },
-        {
-          skill: "CSS",
-          icon: {
-            src: "/icons/logo-css.svg",
-            alt: "CSS Icon",
-          },
-        },
-      ],
-    },
-  },
-  {
-    slug: "/zombie-game",
-    pageData: {
-      title: "Zombie Game",
-      websiteUrl: "https://eatthebrains.netlify.app",
-      description:
-        "<p>The creation of The Zombie Game marked a pivotal chapter in my academic journey at Illinois State University. This compact yet engaging project involved the clever utilization of arrow keys to simulate brain consumption, complete with an integrated counter to tally each brain devoured. <br /><br />Forged during my college years, The Zombie Game presented formidable challenges that, upon reflection, have ignited a desire to revisit and elevate the project. An introspective look at the codebase reveals opportunities for refactoring, a testament to my commitment to continual growth and the pursuit of coding excellence.<br /><br />While The Zombie Game currently caters to desktop users and lacks responsive design, it stands as a showcase of my proficiency in JavaScript, HTML, and CSS. Despite the initial intricacies encountered during its development, I successfully navigated the complexities, ultimately earning an A grade—a recognition of my unwavering dedication to delivering high-quality work. The Zombie Game, though rooted in the past, symbolizes an ongoing journey of refining and advancing my coding prowess.</p>",
-      img: {
-        src: "/projects/zombie-game.png",
-        alt: "Zombie Game Homepage",
-      },
-      builtWith: [
-        {
-          skill: "JavaScript",
-          icon: {
-            src: "/icons/logo-javascript.svg",
-            alt: "JavaScript Icon",
-          },
-        },
-        {
-          skill: "HTML",
-          icon: {
-            src: "/icons/logo-html.svg",
-            alt: "JavaScript Icon",
-          },
-        },
-        {
-          skill: "CSS",
-          icon: {
-            src: "/icons/logo-css.svg",
-            alt: "CSS Icon",
-          },
-        },
-      ],
-    },
-  },
+  // {
+  //   slug: "/delilah-mae",
+  //   pageData: {
+  //     title: "Delilah Mae",
+  //     websiteUrl: "https://delilahmae.netlify.app",
+  //     description:
+  //       "<p>The Delilah Mae website stands as a testament to my proficiency in React.js, showcased through a personal project inspired by my niece. Delilah Mae's digital timeline is a testament to both my technical skills and the heartfelt desire to create a meaningful online space.<br /> <br />Motivated by a personal connection, I undertook the development of this website to encapsulate key moments in Delilah's life. Beyond being a technical exercise in React.js and Styled Components, it's a heartfelt gift ensuring that, as she matures, Delilah will have a dedicated online platform chronicling her growth through carefully curated images. The Delilah Mae website represents a harmonious blend of technology and emotion, demonstrating the power of web development in preserving cherished memories.</p>",
+  //     img: {
+  //       src: "/projects/delilahmae.png",
+  //       alt: "Delilah Mae Homepage",
+  //     },
+  //     builtWith: [
+  //       {
+  //         skill: "React.js",
+  //         icon: {
+  //           src: "/icons/logo-react.svg",
+  //           alt: "React.js Icon",
+  //         },
+  //       },
+  //       {
+  //         skill: "Styled Components",
+  //         icon: {
+  //           src: "/icons/logo-styled-components.svg",
+  //           alt: "Styled Components Icon",
+  //         },
+  //       },
+  //     ],
+  //   },
+  // },
+  // {
+  //   slug: "/creative-agency",
+  //   pageData: {
+  //     title: "Creative Agency",
+  //     websiteUrl: "https://creativeagencyllc.netlify.app",
+  //     description:
+  //       "<p>The inception of The Creative Agency website marked a turning point in my journey through the intricacies of frontend development. As a fledgling developer, it served as a significant milestone, a canvas where I wove together JavaScript, HTML, and CSS into a cohesive masterpiece.<br /><br />This project wasn't merely a culmination of skills; it was a deliberate challenge I set for myself—a playground where I could synthesize and showcase the culmination of my learning. Crafting this website demanded not just technical prowess but a harmonious blend of creativity and precision, exemplifying my commitment to mastering frontend intricacies. The Creative Agency isn't just a project; it's a testament to my dedication, a tangible embodiment of my evolving expertise in the realm of web development.</p>",
+  //     img: {
+  //       src: "/projects/creativeagency.png",
+  //       alt: "Creative Agency Homepage",
+  //     },
+  //     builtWith: [
+  //       {
+  //         skill: "JavaScript",
+  //         icon: {
+  //           src: "/icons/logo-javascript.svg",
+  //           alt: "JavaScript Icon",
+  //         },
+  //       },
+  //       {
+  //         skill: "HTML",
+  //         icon: {
+  //           src: "/icons/logo-html.svg",
+  //           alt: "JavaScript Icon",
+  //         },
+  //       },
+  //       {
+  //         skill: "CSS",
+  //         icon: {
+  //           src: "/icons/logo-css.svg",
+  //           alt: "CSS Icon",
+  //         },
+  //       },
+  //     ],
+  //   },
+  // },
+  // {
+  //   slug: "/greek-life",
+  //   pageData: {
+  //     title: "Greek Life",
+  //     websiteUrl: "https://isugreeklife.netlify.app",
+  //     description:
+  //       "<p>The Greek Life website represents a milestone in my college journey at Illinois State University, serving as the inaugural web project I undertook. Collaborating with a fellow classmate, we embarked on the creation of this website using Bootstrap, HTML, CSS, and JavaScript.<br /><br />This venture marked my entry into web development, as the Greek Life website aimed to provide a user-friendly platform showcasing the diverse chapters available to students at Illinois State University. As my maiden voyage into website construction, the project holds a special place in my development journey.<br /><br />Constructed with the powerful combination of Bootstrap for responsive design and the foundational trio of HTML, CSS, and JavaScript, the Greek Life website is a testament to my early exploration of web technologies. It stands not only as a practical project but also as a symbol of my commitment to delivering accessible and visually appealing web experiences during my formative years in the field.</p>",
+  //     img: {
+  //       src: "/projects/greeklife.png",
+  //       alt: "Greek Life Homepage",
+  //     },
+  //     builtWith: [
+  //       {
+  //         skill: "JavaScript",
+  //         icon: {
+  //           src: "/icons/logo-javascript.svg",
+  //           alt: "JavaScript Icon",
+  //         },
+  //       },
+  //       {
+  //         skill: "HTML",
+  //         icon: {
+  //           src: "/icons/logo-html.svg",
+  //           alt: "JavaScript Icon",
+  //         },
+  //       },
+  //       {
+  //         skill: "CSS",
+  //         icon: {
+  //           src: "/icons/logo-css.svg",
+  //           alt: "CSS Icon",
+  //         },
+  //       },
+  //     ],
+  //   },
+  // },
+  // {
+  //   slug: "/zombie-game",
+  //   pageData: {
+  //     title: "Zombie Game",
+  //     websiteUrl: "https://eatthebrains.netlify.app",
+  //     description:
+  //       "<p>The creation of The Zombie Game marked a pivotal chapter in my academic journey at Illinois State University. This compact yet engaging project involved the clever utilization of arrow keys to simulate brain consumption, complete with an integrated counter to tally each brain devoured. <br /><br />Forged during my college years, The Zombie Game presented formidable challenges that, upon reflection, have ignited a desire to revisit and elevate the project. An introspective look at the codebase reveals opportunities for refactoring, a testament to my commitment to continual growth and the pursuit of coding excellence.<br /><br />While The Zombie Game currently caters to desktop users and lacks responsive design, it stands as a showcase of my proficiency in JavaScript, HTML, and CSS. Despite the initial intricacies encountered during its development, I successfully navigated the complexities, ultimately earning an A grade—a recognition of my unwavering dedication to delivering high-quality work. The Zombie Game, though rooted in the past, symbolizes an ongoing journey of refining and advancing my coding prowess.</p>",
+  //     img: {
+  //       src: "/projects/zombie-game.png",
+  //       alt: "Zombie Game Homepage",
+  //     },
+  //     builtWith: [
+  //       {
+  //         skill: "JavaScript",
+  //         icon: {
+  //           src: "/icons/logo-javascript.svg",
+  //           alt: "JavaScript Icon",
+  //         },
+  //       },
+  //       {
+  //         skill: "HTML",
+  //         icon: {
+  //           src: "/icons/logo-html.svg",
+  //           alt: "JavaScript Icon",
+  //         },
+  //       },
+  //       {
+  //         skill: "CSS",
+  //         icon: {
+  //           src: "/icons/logo-css.svg",
+  //           alt: "CSS Icon",
+  //         },
+  //       },
+  //     ],
+  //   },
+  // },
   {
     slug: "/mpi-wjw",
     pageData: {
