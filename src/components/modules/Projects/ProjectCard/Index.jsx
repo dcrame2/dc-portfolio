@@ -10,7 +10,7 @@ const CardContainer = styled(motion(Link))`
   background-color: ${variables.color2};
   text-align: left;
   position: relative;
-  border: 2px solid ${variables.color2};
+  border: 3px solid ${variables.color2};
   background: linear-gradient(
     135deg,
     rgb(0, 0, 0) 0%,
@@ -105,7 +105,7 @@ function ProjectCard({ data }) {
         stiffness: 50,
       }}
       whileHover={{
-        border: `2px solid ${variables.color1}`,
+        border: `3px solid ${variables.color1}`,
         borderRadius: "12px",
         transition: { duration: 0.3 },
       }}

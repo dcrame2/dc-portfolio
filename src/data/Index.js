@@ -194,24 +194,14 @@ export const historyData = {
         "Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis",
       ],
     },
-    // {
-    //   title: "Web Developer",
-    //   company: "Digital Delight",
-    //   timePeriod: "June 2022 - Present",
-    //   jobDesc: [
-    //     " Write modern, performant, maintainable code for a diverse array of client and internal projects",
-    //     "Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, Strapi, React, WordPress, Next.js, and SASS",
-    //     "Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis",
-    //   ],
-    // },
     {
-      title: "Tech Specialist",
+      title: "Web Specialist",
       company: "Text2Drive LLC",
       timePeriod: "November 2018 - May 2022",
       jobDesc: [
         "Implementing & deploying our mobile Online Bill Pay solution through our gateway provider. Connecting our software to dealerships Merchant Accounts through APIs.",
         "Installing & troubleshooting EMV Chip Readers to the dealerships Internet network.",
-        "Completing Cost Analysis by collecting and analyzing our dealership’s credit card processing and comparing it to what we can save them.",
+        // "Completing Cost Analysis by collecting and analyzing our dealership’s credit card processing and comparing it to what we can save them.",
       ],
     },
     {
