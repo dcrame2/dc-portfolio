@@ -127,13 +127,13 @@ export const aboutData = {
         alt: "Styled Components Icon",
       },
     },
-    {
-      skill: "TypeScript",
-      icon: {
-        src: "/icons/logo-typescript.svg",
-        alt: "TypeScript Icon",
-      },
-    },
+    // {
+    //   skill: "TypeScript",
+    //   icon: {
+    //     src: "/icons/logo-typescript.svg",
+    //     alt: "TypeScript Icon",
+    //   },
+    // },
     {
       skill: "React Native",
       icon: {
