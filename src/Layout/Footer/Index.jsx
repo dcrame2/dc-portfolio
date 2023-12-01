@@ -33,7 +33,7 @@ const FooterLinksContainer = styled.div`
   }
 `;
 
-const FooterLinks = styled.a`
+const FooterLinks = styled(Link)`
   ${pSmall}
   &::after {
     content: "";
