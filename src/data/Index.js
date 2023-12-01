@@ -178,7 +178,7 @@ export const historyData = {
   },
   companies: [
     "Impact Networking",
-    "Digital Delight",
+    // "Digital Delight",
     "Text2Drive LLC",
     "SOGO Marketing",
     "Plainfield Central HS",
@@ -194,16 +194,16 @@ export const historyData = {
         "Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis",
       ],
     },
-    {
-      title: "Web Developer",
-      company: "Digital Delight",
-      timePeriod: "June 2022 - Present",
-      jobDesc: [
-        " Write modern, performant, maintainable code for a diverse array of client and internal projects",
-        "Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, Strapi, React, WordPress, Next.js, and SASS",
-        "Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis",
-      ],
-    },
+    // {
+    //   title: "Web Developer",
+    //   company: "Digital Delight",
+    //   timePeriod: "June 2022 - Present",
+    //   jobDesc: [
+    //     " Write modern, performant, maintainable code for a diverse array of client and internal projects",
+    //     "Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, Strapi, React, WordPress, Next.js, and SASS",
+    //     "Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis",
+    //   ],
+    // },
     {
       title: "Tech Specialist",
       company: "Text2Drive LLC",
