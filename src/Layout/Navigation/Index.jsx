@@ -4,6 +4,7 @@ import { variables } from "@/styles/Variables";
 import Link from "next/link";
 import { useState } from "react";
 import styled from "styled-components";
+import Image from "next/image";
 
 const NavContainer = styled.nav`
   padding: 20px 0;
@@ -16,8 +17,9 @@ const NavInnerContainer = styled.div`
   align-items: center;
 `;
 
-const Logo = styled.img`
+const Logo = styled(Image)`
   width: 80px;
+  height: auto;
   @media ${MediaQueries.mobile} {
     width: 50px;
   }
@@ -174,7 +176,13 @@ function Navigation({ data }) {
     <NavContainer>
       <NavInnerContainer>
         <HomeLink href={homeLink}>
-          <Logo src={logo.url} alt={logo.alt} />
+          <Logo
+            unoptimized
+            width={0}
+            height={0}
+            src={logo.url}
+            alt={logo.alt}
+          />
         </HomeLink>
         <HamburgerContainer
           className="icon"
