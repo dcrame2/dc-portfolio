@@ -61,6 +61,9 @@ const ComapnyTab = styled(motion.li)`
   &:hover {
     transition: background-color 0.3s ease-in-out;
     background-color: ${variables.color2};
+    @media ${MediaQueries.smallDesktop} {
+      background-color: unset;
+    }
   }
 
   @media ${MediaQueries.smallDesktop} {

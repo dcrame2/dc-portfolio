@@ -43,7 +43,13 @@ const NavLinks = styled(Link)`
   }
 `;
 
-const HomeLink = styled(Link)``;
+const HomeLink = styled(Link)`
+  transition: transform 0.3s ease-in-out;
+  &:hover {
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.1);
+  }
+`;
 
 const HamburgerContainer = styled.div`
   transition: all ease-in-out 0.3s;
