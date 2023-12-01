@@ -2,6 +2,7 @@ import { h4styles, pSmall } from "@/styles/Type";
 import { variables } from "@/styles/Variables";
 import { MediaQueries } from "@/styles/Utilities";
 import Link from "next/link";
+import Image from "next/image";
 import styled from "styled-components";
 import { motion } from "framer-motion";
 
@@ -53,8 +54,9 @@ const ProjectImageContainer = styled.div`
   max-height: 175px;
 `;
 
-const ProjectImage = styled.img`
+const ProjectImage = styled(Image)`
   width: 100%;
+  height: auto;
   object-fit: cover;
   transition: transform 0.3s ease-in;
 `;
@@ -111,7 +113,15 @@ function ProjectCard({ data }) {
       }}
     >
       <ProjectImageContainer>
-        <ProjectImage className="image" src={img.src} alt={img.alt} />
+        <ProjectImage
+          width={0}
+          height={0}
+          className="image"
+          src={img.src}
+          alt={img.alt}
+          quality={100}
+          unoptimized
+        />
       </ProjectImageContainer>
       <ProjectTitle>{projectTitle}</ProjectTitle>
       <DetailsButton className="details-text">See Details</DetailsButton>
