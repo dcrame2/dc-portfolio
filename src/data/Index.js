@@ -278,14 +278,14 @@ export const projectData = {
       },
       projectTitle: "Rowcare",
     },
-    {
-      href: "/nggilbert",
-      img: {
-        src: "/projects/nggilbert.png",
-        alt: "NG Gilbert Homepage",
-      },
-      projectTitle: "NG Gilbert",
-    },
+    // {
+    //   href: "/nggilbert",
+    //   img: {
+    //     src: "/projects/nggilbert.png",
+    //     alt: "NG Gilbert Homepage",
+    //   },
+    //   projectTitle: "NG Gilbert",
+    // },
     {
       href: "/chicago-living-group",
       img: {
@@ -700,57 +700,57 @@ export const projectPagesData = [
       ],
     },
   },
-  {
-    slug: "/nggilbert",
-    pageData: {
-      title: "Townsend NG Gilbert",
-      websiteUrl:
-        "https://dev-townsendcorp.impactpreview.com/new-nggilbert-com",
-      description:
-        "<p>Engaged in a collaborative endeavor, Townsend NG Gilbert stands testament to my involvement in a sophisticated web development project executed within the structured framework of an agile methodology sprint cycle.<br/><br/> Operating at the intersection of design and functionality, my co-development with another skilled professional involved close collaboration with the UX and UI teams. This refined website, meticulously crafted on the robust foundation of WordPress as the Content Management System, attests to my nuanced understanding and adept utilization of an array of cutting-edge technologies and languages. <br/><br/>The seamless integration of PHP, JavaScript, SASS, HTML, and WordPress not only underscores the technical finesse brought to the project but also exemplifies my commitment to delivering a user-centric digital experience.</p>",
-      img: {
-        src: "/projects/nggilbert.png",
-        alt: "NG Gilbert Homepage",
-      },
-      builtWith: [
-        {
-          skill: "PHP",
-          icon: {
-            src: "/icons/logo-php.svg",
-            alt: "PHP Icon",
-          },
-        },
-        {
-          skill: "JavaScript",
-          icon: {
-            src: "/icons/logo-javascript.svg",
-            alt: "JavaScript Icon",
-          },
-        },
-        {
-          skill: "SASS",
-          icon: {
-            src: "/icons/logo-sass.svg",
-            alt: "SASS Icon",
-          },
-        },
-        {
-          skill: "HTML",
-          icon: {
-            src: "/icons/logo-html.svg",
-            alt: "JavaScript Icon",
-          },
-        },
-        {
-          skill: "WordPress",
-          icon: {
-            src: "/icons/logo-wordpress.svg",
-            alt: "WordPress Icon",
-          },
-        },
-      ],
-    },
-  },
+  // {
+  //   slug: "/nggilbert",
+  //   pageData: {
+  //     title: "Townsend NG Gilbert",
+  //     websiteUrl:
+  //       "https://dev-townsendcorp.impactpreview.com/new-nggilbert-com",
+  //     description:
+  //       "<p>Engaged in a collaborative endeavor, Townsend NG Gilbert stands testament to my involvement in a sophisticated web development project executed within the structured framework of an agile methodology sprint cycle.<br/><br/> Operating at the intersection of design and functionality, my co-development with another skilled professional involved close collaboration with the UX and UI teams. This refined website, meticulously crafted on the robust foundation of WordPress as the Content Management System, attests to my nuanced understanding and adept utilization of an array of cutting-edge technologies and languages. <br/><br/>The seamless integration of PHP, JavaScript, SASS, HTML, and WordPress not only underscores the technical finesse brought to the project but also exemplifies my commitment to delivering a user-centric digital experience.</p>",
+  //     img: {
+  //       src: "/projects/nggilbert.png",
+  //       alt: "NG Gilbert Homepage",
+  //     },
+  //     builtWith: [
+  //       {
+  //         skill: "PHP",
+  //         icon: {
+  //           src: "/icons/logo-php.svg",
+  //           alt: "PHP Icon",
+  //         },
+  //       },
+  //       {
+  //         skill: "JavaScript",
+  //         icon: {
+  //           src: "/icons/logo-javascript.svg",
+  //           alt: "JavaScript Icon",
+  //         },
+  //       },
+  //       {
+  //         skill: "SASS",
+  //         icon: {
+  //           src: "/icons/logo-sass.svg",
+  //           alt: "SASS Icon",
+  //         },
+  //       },
+  //       {
+  //         skill: "HTML",
+  //         icon: {
+  //           src: "/icons/logo-html.svg",
+  //           alt: "JavaScript Icon",
+  //         },
+  //       },
+  //       {
+  //         skill: "WordPress",
+  //         icon: {
+  //           src: "/icons/logo-wordpress.svg",
+  //           alt: "WordPress Icon",
+  //         },
+  //       },
+  //     ],
+  //   },
+  // },
   {
     slug: "/chicago-living-group",
     pageData: {
