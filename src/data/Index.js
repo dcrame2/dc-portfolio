@@ -201,7 +201,6 @@ export const historyData = {
       jobDesc: [
         "Implementing & deploying our mobile Online Bill Pay solution through our gateway provider. Connecting our software to dealerships Merchant Accounts through APIs.",
         "Installing & troubleshooting EMV Chip Readers to the dealerships Internet network.",
-        // "Completing Cost Analysis by collecting and analyzing our dealership’s credit card processing and comparing it to what we can save them.",
       ],
     },
     {

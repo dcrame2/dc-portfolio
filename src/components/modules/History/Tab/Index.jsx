@@ -7,7 +7,7 @@ import { MediaQueries } from "@/styles/Utilities";
 const TabContainer = styled.div`
   display: flex;
   gap: 30px;
-  align-items: center;
+  align-items: flex-start;
   @media ${MediaQueries.smallDesktop} {
     flex-direction: column;
   }
@@ -91,8 +91,10 @@ const CompaniesInfo = styled(motion.div)`
 const TitleContainer = styled.div`
   display: flex;
   gap: 8px;
+  margin-bottom: 12px;
   @media ${MediaQueries.smallDesktop} {
     flex-direction: column;
+    gap: 2px;
   }
 `;
 
@@ -160,8 +162,8 @@ function Tab({ companies, companiesInfo }) {
               $active={index === activeTab}
             >
               <TitleContainer>
-                <Title>{title} @ </Title>
-                <Company>{company}</Company>
+                <Title>{title}</Title>
+                <Company> @ {company}</Company>
               </TitleContainer>
               <p>{timePeriod}</p>
               <DescContainer>
