@@ -103,7 +103,7 @@ function Footer({ data }) {
           {socialIcons.map((socialIcon, index) => {
             const { url, icon } = socialIcon;
             return (
-              <Link key={`socialIcons-${index}`} href={url}>
+              <Link key={`socialIcons-${index}`} href={url} target="_blank">
                 <Icon src={icon.url} alt={icon.alt} />
               </Link>
             );
