@@ -4,34 +4,6 @@ import { keyframes } from "styled-components";
 
 const monsterrat = `Montserrat, sans-serif`;
 const openSans = "Open Sans, sans-serif";
-// export const neonderthaw = "Neonderthaw, cursive";
-
-// export const eyebrow = css`
-//   font-family: ${neonderthaw};
-//   -webkit-animation: ${glow} 1s ease-in-out alternate;
-//   -moz-animation: ${glow} 1s ease-in-out alternate;
-//   animation: ${glow} 1s ease-in-out alternate;
-//   animation-fill-mode: forwards;
-//   font-size: 5rem;
-//   line-height: 5.6rem;
-//   display: inline-block;
-//   color: #ffff;
-
-//   @media ${MediaQueries.tablet} {
-//     font-size: 3.7rem;
-//     line-height: 3rem;
-//   }
-
-//   @media ${MediaQueries.mobile} {
-//     font-size: 3.2rem;
-//     line-height: 2rem;
-//     font-weight: 100;
-//     -webkit-animation: ${glowMobile} 1s ease-in-out alternate;
-//     -moz-animation: ${glowMobile} 1s ease-in-out alternate;
-//     animation: ${glowMobile} 1s ease-in-out alternate;
-//     animation-fill-mode: forwards;
-//   }
-// `;
 
 export const h1styles = css`
   font-family: ${monsterrat};

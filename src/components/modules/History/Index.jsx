@@ -62,6 +62,7 @@ function History({ data }) {
     offset: ["start end", "end start"],
   });
 
+  // Parallex logo using Framer motion useTransform and scoll progress
   const translateY = useTransform(scrollYProgress, [0, 1], ["-40%", "0%"]);
 
   const isInView = useInView(ref, {

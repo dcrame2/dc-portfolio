@@ -6,7 +6,7 @@ import {
   mobileWidthInt,
   smallDesktop,
 } from "./Variables";
-import { css, keyframes } from "styled-components";
+import { css } from "styled-components";
 
 export const MediaQueries = {
   desktop: `(min-width: ${desktopWidthInt}px)`,
@@ -34,44 +34,7 @@ export const Container = css`
   }
 `;
 
-export const FontStyles1 = css`
-  color: ${variables.white};
-  font-size: 22px;
-  text-transform: uppercase;
-`;
-
-export const GlassEffect = css`
-  backdrop-filter: blur(90px);
-  box-shadow: inset 0 0 0 0px rgba(255, 255, 255, 0.08);
-  -webkit-backdrop-filter: grayscale(0.2) blur(90px);
-`;
-
 export const BlurEffect = css`
   backdrop-filter: grayscale(0) blur(10px);
   box-shadow: inset 0 0 0 0px rgba(255, 255, 255, 0.08);
-`;
-
-export const shake = keyframes`
-   
-        10%,
-        90% {
-            transform: translate3d(-1px, 0, 0);
-        }
-
-        20%,
-        80% {
-            transform: translate3d(2px, 0, 0);
-        }
-
-        30%,
-        50%,
-        70% {
-            transform: translate3d(-4px, 0, 0);
-        }
-
-        40%,
-        60% {
-            transform: translate3d(4px, 0, 0);
-        }
-    
 `;

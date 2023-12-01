@@ -1,10 +1,7 @@
-import React from "react";
-import styled, { keyframes } from "styled-components";
-import { motion } from "framer-motion";
+import styled from "styled-components";
 import Form from "./Form/Index";
 import Header from "@/components/ui/Header/Index";
 import { Container, MediaQueries } from "@/styles/Utilities";
-
 import { pBase } from "@/styles/Type";
 
 const ContactContainer = styled.div`
@@ -17,7 +14,6 @@ const ContactInnerContainer = styled.div`
   justify-content: space-between;
   gap: 50px;
   flex-direction: column;
-
   align-items: center;
   @media ${MediaQueries.tablet} {
     flex-direction: column;
@@ -45,34 +41,12 @@ const ContactContentContainer = styled.div`
   }
 `;
 
-const LogoRotate = keyframes`
- 
-  0% {
-    transform: rotateY(0);
-  }
-  50% {
-    transform: rotateY(180deg);
-  }
-  100% {
-    transform: rotateY(0deg);
-  }
-
-`;
-
-const Logo = styled.img`
-  animation: ${LogoRotate} 3s both infinite;
-  width: 150px;
-  @media ${MediaQueries.mobile} {
-    display: none;
-  }
-`;
-
 const Description = styled.p`
   ${pBase}
 `;
 
 function Contact({ data }) {
-  const { header, logo, description, id } = data;
+  const { header, description, id } = data;
   return (
     <ContactContainer id={id}>
       <ContactInnerContainer>

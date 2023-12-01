@@ -1,13 +1,12 @@
-import { useState, useRef } from "react";
+import { useRef } from "react";
 import styled from "styled-components";
 import { Container, MediaQueries } from "@/styles/Utilities";
 import Header from "@/components/ui/Header/Index";
-import { pBase, pSmall } from "@/styles/Type";
+import { pBase } from "@/styles/Type";
 import SkillCards from "./SkillCards/Index";
-import { AnimatePresence, motion } from "framer-motion";
+import { motion } from "framer-motion";
 
 const AboutContainer = styled.div`
-  background: rgb(0, 0, 0);
   background: linear-gradient(
     144deg,
     rgb(189, 23, 22) 0%,
@@ -72,10 +71,8 @@ function About({ data }) {
           />
         </TextContainer>
         <SkillsContainer>
-          {cards.map((card, index) => {
-            return (
-              <SkillCards index={index} key={`${card.skill}`} data={card} />
-            );
+          {cards.map((card) => {
+            return <SkillCards key={`${card.skill}`} data={card} />;
           })}
         </SkillsContainer>
       </InnerContainer>

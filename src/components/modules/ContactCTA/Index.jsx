@@ -1,9 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-import { motion } from "framer-motion";
 import { Container, MediaQueries } from "@/styles/Utilities";
 import { variables } from "@/styles/Variables";
-import { pLarge, pBase, pSmall, h3styles } from "@/styles/Type";
+import { pLarge, pSmall, h3styles } from "@/styles/Type";
 import Link from "next/link";
 
 const CTAContainer = styled.div`

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import styled from "styled-components";
 import { variables } from "@/styles/Variables";
 import { motion } from "framer-motion";

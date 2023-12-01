@@ -46,12 +46,10 @@ const SubmitButton = styled(motion.button)`
   padding: 10px 20px;
   border: unset;
   background-color: ${variables.color1};
-
   cursor: pointer;
   transition: all ease-out 0.3s;
   margin-top: 8px;
   ${pXSmall}
-
   &:hover {
     background-color: ${variables.color2};
   }
@@ -76,7 +74,6 @@ function Form() {
   const {
     register,
     handleSubmit,
-    watch,
     formState: { errors },
   } = useForm();
 

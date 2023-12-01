@@ -25,7 +25,7 @@ const SkillTitle = styled.p`
   ${pSmall}
 `;
 
-function SkillCards({ data, index }) {
+function SkillCards({ data }) {
   const { skill, icon } = data;
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });

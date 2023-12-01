@@ -25,7 +25,6 @@ const CardContainer = styled(motion(Link))`
     transition: transform 0.3s ease-in;
     .details-text {
       transition: transform 0.3s ease-in;
-
       &::after {
         content: "";
         color: ${variables.color1} !important;
@@ -33,7 +32,6 @@ const CardContainer = styled(motion(Link))`
         transition: transform 0.3s ease-in;
       }
     }
-
     .image {
       transition: transform 0.3s ease-in;
       transform: scale(1.1);
@@ -93,7 +91,7 @@ const DetailsButton = styled.p`
 `;
 
 function ProjectCard({ data }) {
-  const { img, projectTitle, desc, href } = data;
+  const { img, projectTitle, href } = data;
 
   return (
     <CardContainer

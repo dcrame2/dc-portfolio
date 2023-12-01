@@ -1,9 +1,8 @@
 import { Container, MediaQueries } from "@/styles/Utilities";
-import React from "react";
 import styled, { keyframes } from "styled-components";
 import { variables } from "@/styles/Variables";
 import Link from "next/link";
-import { pLarge, pSmall } from "@/styles/Type";
+import { pSmall } from "@/styles/Type";
 
 const BuiltWithContainer = styled.div`
   padding-bottom: 80px;

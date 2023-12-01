@@ -4,7 +4,6 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head />
-
       {/* <!-- Google tag (gtag.js) --> */}
       <script
         async

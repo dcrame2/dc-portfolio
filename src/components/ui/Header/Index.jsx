@@ -2,7 +2,6 @@ import { h2styles, pBase } from "@/styles/Type";
 import { useRef } from "react";
 import styled from "styled-components";
 import { motion } from "framer-motion";
-import { MediaQueries } from "@/styles/Utilities";
 import { variables } from "@/styles/Variables";
 
 const HeaderContainer = styled.div`
@@ -26,7 +25,7 @@ const Title = styled(motion.h2)`
 const Letter = styled(motion.p)``;
 
 function Header({ data }) {
-  const { eyebrow, title } = data;
+  const { title } = data;
 
   const ref = useRef();
   return (

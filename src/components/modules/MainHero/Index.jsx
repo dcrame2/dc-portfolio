@@ -2,16 +2,9 @@ import { useRef } from "react";
 import styled from "styled-components";
 import { Container, MediaQueries } from "@/styles/Utilities";
 import { motion, useInView } from "framer-motion";
-import { h1styles, pBase, pSmall } from "@/styles/Type";
+import { h1styles, pBase } from "@/styles/Type";
 
 const MainContainer = styled.div`
-  background: rgb(0, 0, 0);
-  /* background: linear-gradient(
-    193deg,
-    rgba(0, 0, 0, 1) 0%,
-    rgba(0, 0, 0, 1) 56%,
-    #bd1716 100%
-  ); */
   background: linear-gradient(
     193deg,
     rgb(0, 0, 0) 0%,
@@ -35,7 +28,6 @@ const ImgContainer = styled.div`
   display: flex;
   justify-content: center;
   gap: 30px;
-  /* align-items: center; */
 `;
 
 const ImgD = styled(motion.img)`
@@ -76,7 +68,7 @@ const JobTitle = styled(motion.p)`
 `;
 
 function MainHero({ data }) {
-  const { imgD, imgC, eyebrow, name, title } = data;
+  const { imgD, imgC, name, title } = data;
   const ref = useRef(null);
   const leftVariant = {
     visible: { opacity: 1, x: 0, scale: 1, rotate: 0 },
@@ -89,7 +81,7 @@ function MainHero({ data }) {
   };
 
   const fadeInVariant = {
-    visible: { opacity: 1, scale: 1 }, // Add 'rotate' property
+    visible: { opacity: 1, scale: 1 },
     hidden: { opacity: 0, scale: 0.5 },
   };
 

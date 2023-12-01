@@ -26,6 +26,4 @@ export const variables = {
 
   // Type
   monsterrat: "monsterrat, sans-serif",
-  monsterrat: "Montserrat, sans-serif",
-  Pacifico: "Pacifico, sans-serif",
 };

@@ -1,5 +1,4 @@
 import "@/styles/globals.css";
-// import Layout from '@/layout/Index';
 import Layout from "@/Layout";
 import { motion, AnimatePresence } from "framer-motion";
 import { useRouter } from "next/router";
