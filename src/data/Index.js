@@ -187,7 +187,7 @@ export const historyData = {
       company: "Impact Networking",
       timePeriod: "June 2022 - Present",
       jobDesc: [
-        " Write modern, performant, maintainable code for a diverse array of client and internal projects",
+        "Write modern, performant, maintainable code for a diverse array of client and internal projects",
         "Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, Strapi, React, WordPress, Next.js, and SASS",
         "Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis",
       ],
@@ -197,8 +197,9 @@ export const historyData = {
       company: "Text2Drive LLC",
       timePeriod: "November 2018 - May 2022",
       jobDesc: [
-        "Implementing & deploying our mobile Online Bill Pay solution through our gateway provider. Connecting our software to dealerships Merchant Accounts through APIs.",
-        "Installing & troubleshooting EMV Chip Readers to the dealerships Internet network.",
+        "Created a library of responsive website widgets compatible with mobile & desktop",
+        "Handle frontend bug fixes to SaaS product",
+        "Led a team of three Web Specialists",
       ],
     },
     {
@@ -206,8 +207,9 @@ export const historyData = {
       company: "SOGO Marketing",
       timePeriod: "November 2018 - February 2019",
       jobDesc: [
-        "Creating & maintaining clients WordPress websites using JavaScript & HTML/CSS",
-        "Android Mobile Application new feature implementation & bug fixes",
+        "Three-month contract",
+        "WordPress maintenance edits for agency websites using PHP, JavaScript, HTML, & CSS",
+        "iOS & Android mobile application bug fixes on legacy applications",
       ],
     },
     {
@@ -375,7 +377,7 @@ export const projectPagesData = [
     pageData: {
       title: "Beggars Pizza",
       websiteUrl: "https://www.beggarspizza.com/",
-      description: `<p>The development of the Beggars Pizza website was a collaborative endeavor undertaken by a team of two developers, including myself, we worked in an Agile Methodology meaning every 3 weeks we would complete some pages of the website and show it off to the client.<br/> <br/> Engaging closely with the talented UX and UI teams, our collaborative approach seamlessly integrated design and functionality to create a digital masterpiece.<br/> <br/>  Leveraging cutting-edge technologies, the website was created using Next.js for a robust front-end, Strapi Headless CMS for efficient content management system, Styled Components to ensure a sleek and responsive design, Framer Motion for fluid and engaging animations, and a PostgreSQL database to enhance data management.<br/> <br/> This project includes SEO optimization, Google Analytics, etc for a successfully built marketing website.</p>`,
+      description: `<p>The development of the Beggars Pizza website was built by myself and another developer in an Agile Methodology. <br/> <br/> Engaging closely with our UX and UI teams, our collaborative approach seamlessly integrated design and functionality to create a digital masterpiece.<br/> <br/>Leveraging cutting-edge technologies, the website was crafted using Next.js for a robust front-end, Strapi Headless CMS for efficient content management, Styled Components to ensure a sleek and responsive design, Framer Motion for fluid and engaging animations, and a PostgreSQL database to enhance data management.</p>`,
       img: {
         src: "/projects/beggars_pizza.png",
         alt: "Beggars Pizza Homepage",
@@ -431,7 +433,7 @@ export const projectPagesData = [
     pageData: {
       title: "Impact Networking",
       websiteUrl: "https://www.impactmybiz.com/",
-      description: `<p>The development of the Impact Networking website was a collaborative endeavor undertaken by a team of two developers, including myself, we worked in an Agile Methodology meaning every 3 weeks we would complete some pages of the website and show it off to the client<br/> <br/> Engaging closely with the talented UX and UI teams, our collaborative approach seamlessly integrated design and functionality to create a digital masterpiece.<br/> <br/>  Leveraging cutting-edge technologies, the website was created using Next.js for a robust front-end, Strapi Headless CMS for efficient content management, Styled Components to ensure a sleek and responsive design, Framer Motion for fluid and engaging animations, and a PostgreSQL database to enhance data management.<br /><br /> This project includes SEO optimization, HubSpot Integrations, Google Analytics, etc. for a successfully marketing website.</p>`,
+      description: `<p>The development of the Impact Networking website was built by myself and two other developers in an Agile Methodology.<br/> <br/> Engaging closely with the UX and UI teams, our collaborative approach seamlessly integrated design and functionality to create a digital masterpiece.<br/> <br/>Leveraging cutting-edge technologies, the website was crafted using Next.js for a robust front-end, Strapi Headless CMS for efficient content management, Styled Components to ensure a sleek and responsive design, Framer Motion for fluid and engaging animations, and a PostgreSQL database to enhance data management.</p>`,
       img: {
         src: "/projects/impactmybiz.png",
         alt: "Impact Homepage",
@@ -487,7 +489,7 @@ export const projectPagesData = [
     pageData: {
       title: "Zmac Transport",
       websiteUrl: "https://frontend-staging.zmactransport.com/",
-      description: `<p>The development of the ZMac Transport website was a collaborative endeavor undertaken by a team of two developers, including myself, we worked in an Agile Methodology meaning every 3 weeks we would complete some pages of the website and show it off to the client<br/> <br/> Engaging closely with the talented UX and UI teams, our collaborative approach seamlessly integrated design and functionality to create a digital masterpiece.<br/> <br/>  Leveraging cutting-edge technologies, the website was created using Next.js for a robust front-end, Strapi Headless CMS for efficient content management, Styled Components to ensure a sleek and responsive design, Framer Motion for fluid and engaging animations, and a PostgreSQL database to enhance data management.<br /><br /> This project includes SEO optimization, HubSpot Integrations, Google Analytics, etc. for a successfully built marketing website. There is also integrations between an in-house app built for the client using a 3rd party API to display trucking data pick ups as well as an Instant Quote form that posts data back to the application.</p>`,
+      description: `<p>The development of the ZMac Transport website was built by myself and another developer in an Agile Methodology. <br/> <br/> Engaging closely with the UX and UI teams, our collaborative approach seamlessly integrated design and functionality to create a digital masterpiece.<br/> <br/>Leveraging cutting-edge technologies, the website was crafted using Next.js for a robust front-end, Strapi Headless CMS for efficient content management, Styled Components to ensure a sleek and responsive design, Framer Motion for fluid and engaging animations, and a PostgreSQL database to enhance data management.</p>`,
       img: {
         src: "/projects/zmac.png",
         alt: "Zmac Transport",
@@ -543,7 +545,7 @@ export const projectPagesData = [
     pageData: {
       title: "DOT Security",
       websiteUrl: "https://dotsecurity.com/",
-      description: `<p>The development of the DOT Security website was a collaborative endeavor undertaken by a team of two developers, including myself, we worked in an Agile Methodology meaning every 3 weeks we would complete some pages of the website and show it off to the client<br/> <br/> Engaging closely with the talented UX and UI teams, our collaborative approach seamlessly integrated design and functionality to create a digital masterpiece.<br/> <br/>  Leveraging cutting-edge technologies, the website was created using Next.js for a robust front-end, Strapi Headless CMS for efficient content management, Styled Components to ensure a sleek and responsive design, Framer Motion for fluid and engaging animations, and a PostgreSQL database to enhance data management.<br /><br /> This project includes SEO optimization, HubSpot Integrations, Google Analytics, etc. for a successfully built marketing website.</p>`,
+      description: `<p>The development of the DOT Security website was a collaborative endeavor undertaken by a dynamic team of three skilled developers, including myself, who synergized their efforts within the framework of an Agile Methodology. <br/> <br/> Engaging closely with the talented UX and UI teams, our collaborative approach seamlessly integrated design and functionality to create a digital masterpiece.<br/> <br/>  Leveraging cutting-edge technologies, the website was crafted using Next.js for a robust front-end, Strapi Headless CMS for efficient content management, Styled Components to ensure a sleek and responsive design, Framer Motion for fluid and engaging animations, and a PostgreSQL database to enhance data management.</p>`,
       img: {
         src: "/projects/dot_security.png",
         alt: "DOT Security Homepage",
@@ -599,7 +601,7 @@ export const projectPagesData = [
     pageData: {
       title: "Tulayna Limo Service",
       websiteUrl: "https://www.tulaynalimoservice.com/",
-      description: `<p>The creation of the Tulayna Limo Service website was a freelance endeavor that I undertook in collaboration with another developer. This unique opportunity allowed us to combine our technical expertise.<br/> <br/>Taking on the responsibility of both design and development, I worked closely with the other developer to bring the brand vision to life. The entire brand identity and website design were crafted by us using Figma, ensuring a cohesive and visually appealing user experience. <br/> <br/>The website itself was built using Next.js, Strapi Headless CMS, Styled Components, and Framer Motion — a powerful stack that seamlessly blended functionality and aesthetics. This project exemplifies not only our proficiency in web development but also our ability to deliver a comprehensive solution by integrating design and technology cohesively.</p>`,
+      description: `<p>The creation of the Tulayna Limo Service website was a freelance endeavor that I undertook in collaboration with another skilled developer. This unique opportunity allowed us to combine our technical expertise using a collaborative approach, implementing an Agile methodology for an effective workflow. <br/> <br/>Taking on the responsibility of both design and development, I worked closely with the other developer to bring the brand vision to life. The entire brand identity and website design were meticulously crafted by us using Figma, ensuring a cohesive and visually appealing user experience. <br/> <br/>The website itself was built using Next.js, Strapi Headless CMS, Styled Components, and Framer Motion — a powerful stack that seamlessly blended functionality and aesthetics. This project exemplifies not only our proficiency in web development but also our ability to deliver a comprehensive solution by integrating design and technology cohesively.</p>`,
       img: {
         src: "/projects/tulayna.png",
         alt: "Tulayna Limo Service Homepage",
@@ -656,7 +658,7 @@ export const projectPagesData = [
       title: "Townsend Rowcare",
       websiteUrl: "https://dev-townsendcorp.impactpreview.com/new-rowcare-com",
       description:
-        "<p>Engaged in a collaborative endeavor, Townsend Rowcare stands testament to my involvement in a sophisticated web development project executed within the structured framework of an agile methodology sprint cycle.<br/><br/> Operating at the intersection of design and functionality, my co-development with another developer involved close collaboration with the UX and UI teams. This refined website, meticulously crafted on the robust foundation of WordPress as the Content Management System, attests to my nuanced understanding and adept utilization of an array of cutting-edge technologies and languages. <br/><br/>The seamless integration of PHP, JavaScript, SASS, HTML, and WordPress not only underscores the technical finesse brought to the project but also exemplifies my commitment to delivering a user-centric digital experience.</p>",
+        "<p>Engaged in a collaborative endeavor, Townsend Rowcare stands testament to my involvement in a sophisticated web development project executed within the structured framework of an agile methodology sprint cycle.<br/><br/> Operating at the intersection of design and functionality, my co-development with another skilled professional involved close collaboration with the UX and UI teams. This refined website, meticulously crafted on the robust foundation of WordPress as the Content Management System, attests to my nuanced understanding and adept utilization of an array of cutting-edge technologies and languages. <br/><br/>The seamless integration of PHP, JavaScript, SASS, HTML, and WordPress not only underscores the technical finesse brought to the project but also exemplifies my commitment to delivering a user-centric digital experience.</p>",
       img: {
         src: "/projects/rowcare.png",
         alt: "Rowcare Homepage",
@@ -756,7 +758,7 @@ export const projectPagesData = [
     pageData: {
       title: "Chicago Living Group",
       websiteUrl: "https://chicagolivinggroup.com/",
-      description: `<p>The creation of the Chicago Living Group website was a freelance endeavor that I undertook in collaboration with another developer. This unique opportunity allowed us to combine our technical expertise.<br/> <br/>Taking on the responsibility of both design and development, I worked closely with the other developer to bring the brand vision to life. The entire brand identity and website design were crafted by us using Figma, ensuring a cohesive and visually appealing user experience. <br/> <br/>The website itself was built using Next.js, Strapi Headless CMS, Styled Components, and Framer Motion — a powerful stack that seamlessly blended functionality and aesthetics. This project exemplifies not only our proficiency in web development but also our ability to deliver a comprehensive solution by integrating design and technology cohesively.</p>`,
+      description: `<p>The creation of the Chicago Living Group website was a freelance endeavor that I undertook in collaboration with another skilled developer. This unique opportunity allowed us to combine our technical expertise using a collaborative approach, implementing an Agile methodology for an effective workflow. <br/> <br/>Taking on the responsibility of both design and development, I worked closely with the other developer to bring the brand vision to life. The entire brand identity and website design were meticulously crafted by us using Figma, ensuring a cohesive and visually appealing user experience. <br/> <br/>The website itself was built using Next.js, Strapi Headless CMS, Styled Components, and Framer Motion — a powerful stack that seamlessly blended functionality and aesthetics. This project exemplifies not only our proficiency in web development but also our ability to deliver a comprehensive solution by integrating design and technology cohesively.</p>`,
       img: {
         src: "/projects/chicago_living.png",
         alt: "Chicago Living Homepage",
@@ -812,7 +814,7 @@ export const projectPagesData = [
     pageData: {
       title: "Digital Delight",
       websiteUrl: "https://thedigitaldelight.com/",
-      description: `<p>The creation of the Digital Delight website was a freelance endeavor that I undertook in collaboration with another developer. This unique opportunity allowed us to combine our technical expertise using a collaborative approach.<br/> <br/>Taking on the responsibility of both design and development, I worked closely with the other developer to bring the brand vision to life. The entire brand identity and website design were meticulously crafted by us using Figma, ensuring a cohesive and visually appealing user experience. <br/> <br/>The website itself was built using Next.js, Styled Components, and Framer Motion — a powerful stack that seamlessly blended functionality and aesthetics. This project exemplifies not only our proficiency in web development but also our ability to deliver a comprehensive solution by integrating design and technology cohesively.</p>`,
+      description: `<p>The creation of the Digital Delight website was a freelance endeavor that I undertook in collaboration with another skilled developer. This unique opportunity allowed us to combine our technical expertise using a collaborative approach, implementing an Agile methodology for an effective workflow. <br/> <br/>Taking on the responsibility of both design and development, I worked closely with the other developer to bring the brand vision to life. The entire brand identity and website design were meticulously crafted by us using Figma, ensuring a cohesive and visually appealing user experience. <br/> <br/>The website itself was built using Next.js, Styled Components, and Framer Motion — a powerful stack that seamlessly blended functionality and aesthetics. This project exemplifies not only our proficiency in web development but also our ability to deliver a comprehensive solution by integrating design and technology cohesively.</p>`,
       img: {
         src: "/projects/digitaldelightpic.png",
         alt: "Digital Delight Homepage",
@@ -856,7 +858,7 @@ export const projectPagesData = [
       title: "Schuetz Insurance",
       websiteUrl: "https://schuetzinsurance.com/",
       description:
-        "<p>Engaged in a collaborative endeavor, Schuetz Insurance stands testament to my involvement in a sophisticated web development project executed within the structured framework of an agile methodology sprint cycle.<br/><br/> Operating at the intersection of design and functionality, my co-development with another developer involved close collaboration with the UX and UI teams. This refined website, meticulously crafted on the robust foundation of WordPress as the Content Management System, attests to my nuanced understanding and adept utilization of an array of cutting-edge technologies and languages. <br/><br/>The seamless integration of PHP, JavaScript, SASS, HTML, and WordPress not only underscores the technical finesse brought to the project but also exemplifies my commitment to delivering a user-centric digital experience.</p>",
+        "<p>Engaged in a collaborative endeavor, Schuetz Insurance stands testament to my involvement in a sophisticated web development project executed within the structured framework of an agile methodology sprint cycle.<br/><br/> Operating at the intersection of design and functionality, my co-development with another skilled professional involved close collaboration with the UX and UI teams. This refined website, meticulously crafted on the robust foundation of WordPress as the Content Management System, attests to my nuanced understanding and adept utilization of an array of cutting-edge technologies and languages. <br/><br/>The seamless integration of PHP, JavaScript, SASS, HTML, and WordPress not only underscores the technical finesse brought to the project but also exemplifies my commitment to delivering a user-centric digital experience.</p>",
       img: {
         src: "/projects/schuetz_insurance.png",
         alt: "Schuetz Insurance Homepage",
@@ -905,7 +907,7 @@ export const projectPagesData = [
     pageData: {
       title: "Moulis Financial",
       websiteUrl: "https://moulisfinancial.com/",
-      description: `<p>The creation of the Moulis Financial website was a freelance endeavor that I undertook in collaboration with another developer. This unique opportunity allowed us to combine our technical expertise.<br/> <br/>Taking on the responsibility of both design and development, I worked closely with the other developer to bring the brand vision to life. The entire brand identity and website design were crafted by us using Figma, ensuring a cohesive and visually appealing user experience. <br/> <br/>The website itself was built using Next.js, Strapi Headless CMS, Styled Components, and Framer Motion — a powerful stack that seamlessly blended functionality and aesthetics. This project exemplifies not only our proficiency in web development but also our ability to deliver a comprehensive solution by integrating design and technology cohesively.</p>`,
+      description: `<p>The creation of the Moulis Financial website was a freelance endeavor that I undertook in collaboration with another skilled developer. This unique opportunity allowed us to combine our technical expertise using a collaborative approach, implementing an Agile methodology for an effective workflow. <br/> <br/>Taking on the responsibility of both design and development, I worked closely with the other developer to bring the brand vision to life. The entire brand identity and website design were meticulously crafted by us using Figma, ensuring a cohesive and visually appealing user experience. <br/> <br/>The website itself was built using Next.js, Styled Components, and Framer Motion — a powerful stack that seamlessly blended functionality and aesthetics. This project exemplifies not only our proficiency in web development but also our ability to deliver a comprehensive solution by integrating design and technology cohesively.</p>`,
       img: {
         src: "/projects/moulisfinancial.png",
         alt: "Moulis Financial Homepage",
@@ -943,7 +945,7 @@ export const projectPagesData = [
       title: "Movie API",
       websiteUrl: "https://helpfindmeamovie.netlify.app",
       description:
-        "<p>The Movie API serves as a solo venture, strategically crafted to push the boundaries of my web development skills. This independent project served as a comprehensive exploration of my proficiency in harnessing APIs, demonstrating my ability to dynamically manipulate data using JavaScript and Axios. <br /> <br />At its core, The Movie API is a showcase of my commitment to not only extracting valuable information from external sources but also transforming that data into an engaging frontend. The project emphasizes a visually appealing interface, thoughtfully designed to offer users a seamless experience enhanced by efficient search functionalities.<br /> <br />Technologically, this endeavor relied on a robust combination of JavaScript for dynamic scripting, Axios for streamlined API communication, and the foundational trio of HTML, CSS, and JavaScript to breathe vitality into every aspect of the project.</p>",
+        "<p>The Movie API serves as a solo venture, strategically crafted to push the boundaries of my web development skills. This independent project served as a comprehensive exploration of my proficiency in harnessing APIs, demonstrating my ability to dynamically manipulate data using JavaScript and Axios. <br /> <br />At its core, The Movie API is a showcase of my commitment to not only extracting valuable information from external sources but also transforming that data into an engaging frontend. The project emphasizes a visually appealing interface, thoughtfully designed to offer users a seamless experience enhanced by efficient search functionalities.<br /> <br />Technologically, this endeavor relied on a robust combination of JavaScript for dynamic scripting, Axios for streamlined API communication, and the foundational trio of HTML, CSS, and JavaScript to breathe vitality into every aspect of the project. Each line of code and design decision encapsulates my dedication to not just meeting technical benchmarks, but also elevating the overall user journey. The Movie API is more than a coding exercise; it stands as a testament to my passion for crafting web applications that seamlessly blend aesthetics with functionality.</p>",
       img: {
         src: "/projects/movie.png",
         alt: "Movie API Homepage",
