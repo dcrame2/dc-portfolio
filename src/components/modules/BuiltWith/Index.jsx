@@ -2,7 +2,7 @@ import { Container, MediaQueries } from "@/styles/Utilities";
 import styled, { keyframes } from "styled-components";
 import { variables } from "@/styles/Variables";
 import Link from "next/link";
-import { pSmall } from "@/styles/Type";
+import { pSmall, pXSmall } from "@/styles/Type";
 
 const BuiltWithContainer = styled.div`
   padding-bottom: 80px;
@@ -73,6 +73,23 @@ const Img = styled.img`
 const Description = styled.div`
   p {
     ${pSmall}
+    margin-bottom: 4px;
+  }
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    list-style-type: none;
+
+    li {
+      ${pSmall}
+      &::before {
+        content: "•";
+        color: ${variables.color1};
+        padding-right: 5px;
+        font-size: 30px;
+      }
+    }
   }
 `;
 
