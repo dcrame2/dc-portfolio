@@ -195,7 +195,7 @@ export const historyData = {
     {
       title: "Web Specialist",
       company: "Text2Drive LLC",
-      timePeriod: "November 2018 - May 2022",
+      timePeriod: "February 2019 - June 2022",
       jobDesc: [
         "Created a library of responsive website widgets compatible with mobile & desktop",
         "Handle frontend bug fixes to SaaS product",
