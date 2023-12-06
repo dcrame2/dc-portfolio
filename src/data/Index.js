@@ -1082,9 +1082,9 @@ export const contactData = {
 };
 
 export const contactCTAData = {
-  header: "Contact Me",
+  header: "View more projects?",
   logo: { url: "/logo/logo_no_bg.png", alt: "DC Logo" },
-  href: "/#contact",
+  href: "/#projects",
   description:
-    "Have any questions for me? I'd be happy to answer them via my contact form.",
+    "Check out more of my projects and see the technologies I am using!",
 };
