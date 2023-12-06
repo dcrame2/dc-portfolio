@@ -171,13 +171,7 @@ function BuiltWith({ data }) {
           </CardContainer>
         </ContentContainer>
         {img && (
-          <ProjectImg
-            quality={80}
-            width={300}
-            height={100}
-            src={img.src}
-            alt={img.alt}
-          />
+          <ProjectImg width={300} height={100} src={img.src} alt={img.alt} />
         )}
       </BuiltWithInnerContainer>
     </BuiltWithContainer>
