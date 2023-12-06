@@ -33,7 +33,7 @@ export default function Page({ data }) {
     <>
       <ProjectHero data={data} />
       <BuiltWith data={data} />
-      <ContactCTA data={contactCTAData} />
+      {/* <ContactCTA data={contactCTAData} /> */}
     </>
   );
 }
