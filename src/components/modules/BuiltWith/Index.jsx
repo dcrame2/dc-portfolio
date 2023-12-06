@@ -63,8 +63,9 @@ const ContentContainer = styled.div`
   }
 `;
 
-const Img = styled.img`
+const ProjectImg = styled.img`
   width: 60%;
+  height: auto;
   @media ${MediaQueries.tablet} {
     width: 100%;
   }
@@ -169,7 +170,15 @@ function BuiltWith({ data }) {
             })}
           </CardContainer>
         </ContentContainer>
-        {img && <Img src={img.src} alt={img.alt} />}
+        {img && (
+          <ProjectImg
+            quality={80}
+            width={300}
+            height={100}
+            src={img.src}
+            alt={img.alt}
+          />
+        )}
       </BuiltWithInnerContainer>
     </BuiltWithContainer>
   );
