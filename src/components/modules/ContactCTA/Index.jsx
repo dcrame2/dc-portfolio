@@ -69,7 +69,7 @@ function ContactCTA({ data }) {
       <CTAInnerContainer>
         <Header>{header}</Header>
         <Description>{description}</Description>
-        <DetailsButton href={href}>Contact</DetailsButton>
+        <DetailsButton href={href}>Projects</DetailsButton>
       </CTAInnerContainer>
     </CTAContainer>
   );

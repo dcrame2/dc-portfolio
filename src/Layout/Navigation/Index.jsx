@@ -3,8 +3,27 @@ import { Container, MediaQueries } from "@/styles/Utilities";
 import { variables } from "@/styles/Variables";
 import Link from "next/link";
 import { useState } from "react";
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 import Image from "next/image";
+
+const wiggle = keyframes`
+   0% {
+      transform: rotate(0deg);
+    }
+    80% {
+      transform: rotate(0deg);
+    }
+    85% {
+      transform: rotate(10deg);
+    }
+    95% {
+      transform: rotate(-10deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  
+`;
 
 const NavContainer = styled.nav`
   padding: 20px 0;
@@ -165,6 +184,38 @@ const MobileNavContainer = styled.div`
   align-items: flex-start;
 `;
 
+const ResumeBtn = styled.a`
+  padding: 10px 20px;
+  z-index: 1;
+  background-color: ${variables.color1};
+  top: 300px;
+  max-width: 160px;
+  width: 100%;
+  display: flex;
+  gap: 4px;
+  transition: all 0.3s ease-in;
+  &:hover {
+    background-color: ${variables.color2};
+    transition: all 0.3s ease-in;
+    &::after {
+      animation: ${wiggle} 0.7s infinite;
+    }
+  }
+  &::after {
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    content: "";
+    display: block;
+    background-image: url("/icons/download.svg");
+  }
+  @media ${MediaQueries.mobile} {
+    max-width: unset;
+    justify-content: center;
+  }
+`;
+
 function Navigation({ data }) {
   const { logo, homeLink, navLinks } = data;
   const [openNav, isOpenNav] = useState(false);
@@ -209,6 +260,9 @@ function Navigation({ data }) {
                 </NavLinks>
               );
             })}
+            <ResumeBtn href="resume/dylan_cramer_resume_12.2023.pdf" download>
+              Resume
+            </ResumeBtn>
           </MobileNavContainer>
         </HamburgerContainer>
       </NavInnerContainer>

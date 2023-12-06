@@ -195,7 +195,7 @@ export const historyData = {
     {
       title: "Web Specialist",
       company: "Text2Drive LLC",
-      timePeriod: "November 2018 - May 2022",
+      timePeriod: "February 2019 - June 2022",
       jobDesc: [
         "Created a library of responsive website widgets compatible with mobile & desktop",
         "Handle frontend bug fixes to SaaS product",
@@ -1082,9 +1082,9 @@ export const contactData = {
 };
 
 export const contactCTAData = {
-  header: "Contact Me",
+  header: "View more projects?",
   logo: { url: "/logo/logo_no_bg.png", alt: "DC Logo" },
-  href: "/#contact",
+  href: "/#projects",
   description:
-    "Have any questions for me? I'd be happy to answer them via my contact form.",
+    "Check out more of my projects and see the technologies I am using!",
 };
