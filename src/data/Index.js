@@ -488,7 +488,7 @@ export const projectPagesData = [
     slug: "/zmac-transport",
     pageData: {
       title: "Zmac Transport",
-      websiteUrl: "https://frontend-staging.zmactransport.com/",
+      websiteUrl: "https://www.zmactransport.com/",
       description: `<p>Below is how I worked on this project also including the processes and technologies included:</p> <ul><li>Using a custom built Strapi headless CMS, Next.js and React.js frontend, Framer motion for animation, Styled Components for styling, PostgresSQL database for data management, & Cloudinary CDN for media delivery</li> <li>Three developers working in an Agile Methodology </li><li>Working hand and hand with UX and UI team to create pixel perfect frontend</li> <li>Third-party APIs using REST for Load Board and Instant Quote</li><li>SEO optimized by following w3c standards and Semrush reporting</li><li>Reusable components with a modular fashion to create hundreds of different layouts</li><li>HubSpot integration with contact forms for a successful marketing website</li><li>Google analytics tagging for tracking site data</li><li>Digital Ocean frontend and backend hosting </li></ul>`,
       img: {
         src: "/projects/zmac.png",
