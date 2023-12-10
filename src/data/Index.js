@@ -93,6 +93,13 @@ export const aboutData = {
       },
     },
     {
+      skill: "Java",
+      icon: {
+        src: "/icons/logo-java.svg",
+        alt: "Java Icon",
+      },
+    },
+    {
       skill: "WordPress",
       icon: {
         src: "/icons/logo-wordpress.svg",
@@ -146,6 +153,13 @@ export const aboutData = {
       icon: {
         src: "/icons/logo-postgresql.svg",
         alt: "Postgres SQL Icon",
+      },
+    },
+    {
+      skill: "MongoDB",
+      icon: {
+        src: "/icons/logo-mongodb.svg",
+        alt: "MongoDB Icon",
       },
     },
     {
