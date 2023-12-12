@@ -112,12 +112,12 @@ function ProjectCard({ data }) {
     >
       <ProjectImageContainer>
         <ProjectImage
-          width={200}
+          width={400}
           height={175}
           className="image"
           src={img.src}
           alt={img.alt}
-          quality={80}
+          quality={100}
           loading="eager"
         />
       </ProjectImageContainer>

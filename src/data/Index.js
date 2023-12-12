@@ -670,7 +670,7 @@ export const projectPagesData = [
     slug: "/rowcare",
     pageData: {
       title: "Townsend Rowcare",
-      websiteUrl: "https://dev-townsendcorp.impactpreview.com/new-rowcare-com",
+      websiteUrl: "https://row-care.com",
       description: `<p>Below is how I worked on this project also including the processes and technologies included:  </p> <ul><li>Using a custom built WordPress CMS, PHP/JavaScript/HTML frontend, Animate on Scroll library for animation, and SASS for styling</li><li>Two developers working in an Agile Methodology</li><li>Working hand and hand with UX and UI team to create pixel perfect frontend</li><li>SEO optimized by following w3c standards and Semrush reporting</li><li>Reusable components with a modular fashion to create hundreds of different layouts</li><li>Google analytics tagging for tracking site data</li><li>Pantheon frontend and backend hosting</li></ul>`,
       img: {
         src: "/projects/rowcare.png",
