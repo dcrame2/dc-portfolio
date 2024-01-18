@@ -199,7 +199,7 @@ export const historyData = {
     {
       title: "Web Developer",
       company: "Impact Networking",
-      timePeriod: "June 2022 - Present",
+      timePeriod: "June 2021 - Present",
       jobDesc: [
         "Write modern, performant, maintainable code for a diverse array of client and internal projects",
         "Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, Strapi, React, WordPress, Next.js, and SASS",
@@ -209,7 +209,7 @@ export const historyData = {
     {
       title: "Web Specialist",
       company: "Text2Drive LLC",
-      timePeriod: "February 2019 - June 2022",
+      timePeriod: "February 2019 - June 2021",
       jobDesc: [
         "Created a library of responsive website widgets compatible with mobile & desktop",
         "Handle frontend bug fixes to SaaS product",

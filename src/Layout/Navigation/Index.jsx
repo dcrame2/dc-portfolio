@@ -260,7 +260,7 @@ function Navigation({ data }) {
                 </NavLinks>
               );
             })}
-            <ResumeBtn href="resume/dylan_cramer_resume_12.2023.pdf" download>
+            <ResumeBtn href="resume/dc_resume_2024.pdf" download>
               Resume
             </ResumeBtn>
           </MobileNavContainer>
