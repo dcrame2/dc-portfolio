@@ -160,7 +160,7 @@ function BuiltWith({ data }) {
           </ExternalLink>
           <Description dangerouslySetInnerHTML={{ __html: description }} />
           <CardContainer>
-            {builtWith.map((lang, index) => {
+            {builtWith?.map((lang, index) => {
               const { icon, skill } = lang;
               return (
                 <IndividualCardContainer key={`${skill}-${index}`}>

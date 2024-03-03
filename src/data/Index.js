@@ -247,6 +247,14 @@ export const projectData = {
 
   projects: [
     {
+      href: "/irish-poker",
+      img: {
+        src: "/projects/irish-poker.png",
+        alt: "Irish Poker Homepage",
+      },
+      projectTitle: "Impact Networking",
+    },
+    {
       href: "/impact-networking",
       img: {
         src: "/projects/impactmybiz.png",
@@ -318,14 +326,14 @@ export const projectData = {
       },
       projectTitle: "MPI WJW",
     },
-    {
-      href: "/digital-delight",
-      img: {
-        src: "/projects/digitaldelightpic.png",
-        alt: "Digital Delight Homepage",
-      },
-      projectTitle: "Digital Delight",
-    },
+    // {
+    //   href: "/digital-delight",
+    //   img: {
+    //     src: "/projects/digitaldelightpic.png",
+    //     alt: "Digital Delight Homepage",
+    //   },
+    //   projectTitle: "Digital Delight",
+    // },
     {
       href: "/schuetz-insurance",
       img: {
@@ -342,14 +350,14 @@ export const projectData = {
       },
       projectTitle: "Moulis Financial",
     },
-    {
-      href: "/movie-api",
-      img: {
-        src: "/projects/movie.png",
-        alt: "Movie API Homepage",
-      },
-      projectTitle: "Movie API",
-    },
+    // {
+    //   href: "/movie-api",
+    //   img: {
+    //     src: "/projects/movie.png",
+    //     alt: "Movie API Homepage",
+    //   },
+    //   projectTitle: "Movie API",
+    // },
     // {
     //   href: "/delilah-mae",
     //   img: {
@@ -386,6 +394,62 @@ export const projectData = {
 };
 
 export const projectPagesData = [
+  {
+    slug: "/irish-poker",
+    pageData: {
+      title: "Irish Poker",
+      websiteUrl: "https://www.irish-poker.com",
+      description: `Description coming soon!`,
+      img: {
+        src: "/projects/irish-poker.png",
+        alt: "Irish Poker Homepage",
+      },
+      // builtWith: [
+      //   {
+      //     skill: "React.js",
+      //     icon: {
+      //       src: "/icons/logo-react.svg",
+      //       alt: "React.js Icon",
+      //     },
+      //   },
+      //   {
+      //     skill: "Next.js",
+      //     icon: {
+      //       src: "/icons/logo-next.svg",
+      //       alt: "Next.js Icon",
+      //     },
+      //   },
+      //   {
+      //     skill: "Styled Components",
+      //     icon: {
+      //       src: "/icons/logo-styled-components.svg",
+      //       alt: "Styled Components Icon",
+      //     },
+      //   },
+      //   {
+      //     skill: "Postgres SQL",
+      //     icon: {
+      //       src: "/icons/logo-postgresql.svg",
+      //       alt: "Postgres SQL API Icon",
+      //     },
+      //   },
+      //   {
+      //     skill: "Strapi",
+      //     icon: {
+      //       src: "/icons/logo-strapi.svg",
+      //       alt: "Strapi Icon",
+      //     },
+      //   },
+      //   {
+      //     skill: "Framer Motion",
+      //     icon: {
+      //       src: "/icons/logo-framer-motion.svg",
+      //       alt: "Framer Motion Icon",
+      //     },
+      //   },
+      // ],
+    },
+  },
   {
     slug: "/beggars-pizza",
     pageData: {
@@ -442,62 +506,62 @@ export const projectPagesData = [
       ],
     },
   },
-  {
-    slug: "/impact-networking",
-    pageData: {
-      title: "Impact Networking",
-      websiteUrl: "https://www.impactmybiz.com/",
-      description: `<p>Below is how I worked on this project also including the processes and technologies included:</p> <ul><li>Using a custom built Strapi headless CMS, Next.js and React.js frontend, Framer motion for animation, Styled Components for styling, PostgresSQL database for data management, & Cloudinary CDN for media delivery</li> <li>Three developers working in an Agile Methodology </li><li>Working hand and hand with UX and UI team to create pixel perfect frontend</li><li>SEO optimized by following w3c standards and Semrush reporting</li><li>Reusable components with a modular fashion to create hundreds of different layouts</li><li>HubSpot integration with contact forms for a successful marketing website</li><li>Google analytics tagging for tracking site data</li><li>Digital Ocean frontend and backend hosting </li></ul>`,
-      img: {
-        src: "/projects/impactmybiz.png",
-        alt: "Impact Homepage",
-      },
-      builtWith: [
-        {
-          skill: "React.js",
-          icon: {
-            src: "/icons/logo-react.svg",
-            alt: "React.js Icon",
-          },
-        },
-        {
-          skill: "Next.js",
-          icon: {
-            src: "/icons/logo-next.svg",
-            alt: "Next.js Icon",
-          },
-        },
-        {
-          skill: "Styled Components",
-          icon: {
-            src: "/icons/logo-styled-components.svg",
-            alt: "Styled Components Icon",
-          },
-        },
-        {
-          skill: "Postgres SQL",
-          icon: {
-            src: "/icons/logo-postgresql.svg",
-            alt: "Postgres SQL API Icon",
-          },
-        },
-        {
-          skill: "Strapi",
-          icon: {
-            src: "/icons/logo-strapi.svg",
-            alt: "Strapi Icon",
-          },
-        },
-        {
-          skill: "Framer Motion",
-          icon: {
-            src: "/icons/logo-framer-motion.svg",
-            alt: "Framer Motion Icon",
-          },
-        },
-      ],
-    },
-  },
+  // {
+  //   slug: "/impact-networking",
+  //   pageData: {
+  //     title: "Impact Networking",
+  //     websiteUrl: "https://www.impactmybiz.com/",
+  //     description: `<p>Below is how I worked on this project also including the processes and technologies included:</p> <ul><li>Using a custom built Strapi headless CMS, Next.js and React.js frontend, Framer motion for animation, Styled Components for styling, PostgresSQL database for data management, & Cloudinary CDN for media delivery</li> <li>Three developers working in an Agile Methodology </li><li>Working hand and hand with UX and UI team to create pixel perfect frontend</li><li>SEO optimized by following w3c standards and Semrush reporting</li><li>Reusable components with a modular fashion to create hundreds of different layouts</li><li>HubSpot integration with contact forms for a successful marketing website</li><li>Google analytics tagging for tracking site data</li><li>Digital Ocean frontend and backend hosting </li></ul>`,
+  //     img: {
+  //       src: "/projects/impactmybiz.png",
+  //       alt: "Impact Homepage",
+  //     },
+  //     builtWith: [
+  //       {
+  //         skill: "React.js",
+  //         icon: {
+  //           src: "/icons/logo-react.svg",
+  //           alt: "React.js Icon",
+  //         },
+  //       },
+  //       {
+  //         skill: "Next.js",
+  //         icon: {
+  //           src: "/icons/logo-next.svg",
+  //           alt: "Next.js Icon",
+  //         },
+  //       },
+  //       {
+  //         skill: "Styled Components",
+  //         icon: {
+  //           src: "/icons/logo-styled-components.svg",
+  //           alt: "Styled Components Icon",
+  //         },
+  //       },
+  //       {
+  //         skill: "Postgres SQL",
+  //         icon: {
+  //           src: "/icons/logo-postgresql.svg",
+  //           alt: "Postgres SQL API Icon",
+  //         },
+  //       },
+  //       {
+  //         skill: "Strapi",
+  //         icon: {
+  //           src: "/icons/logo-strapi.svg",
+  //           alt: "Strapi Icon",
+  //         },
+  //       },
+  //       {
+  //         skill: "Framer Motion",
+  //         icon: {
+  //           src: "/icons/logo-framer-motion.svg",
+  //           alt: "Framer Motion Icon",
+  //         },
+  //       },
+  //     ],
+  //   },
+  // },
   {
     slug: "/zmac-transport",
     pageData: {
@@ -822,49 +886,49 @@ export const projectPagesData = [
       ],
     },
   },
-  {
-    slug: "/digital-delight",
-    pageData: {
-      title: "Digital Delight",
-      websiteUrl: "https://thedigitaldelight.com/",
-      description: `<p>The Digital Delight website is a <b>freelance</b> opportunity that was presented to me and my partner. Below is how we worked on this project also including the processes and technologies included: </p> <ul><li>React.js frontend, Framer motion for animation, Styled Components for styling</li><li>Brand identity and UX/UI design created by my partner and I</li><li>SEO optimized by following w3c standards</li><li>Reusable components with a modular fashion to create hundreds of different layouts</li><li>HubSpot integration with contact forms for a successful marketing website</li><li>Google analytics tagging for tracking site data</li><li>Netlify frontend hosting </li><li>Utilize the SDLC process to compliment and establish an agile working environment with client</li></ul>`,
-      img: {
-        src: "/projects/digitaldelightpic.png",
-        alt: "Digital Delight Homepage",
-      },
-      builtWith: [
-        {
-          skill: "React.js",
-          icon: {
-            src: "/icons/logo-react.svg",
-            alt: "React.js Icon",
-          },
-        },
-        {
-          skill: "Next.js",
-          icon: {
-            src: "/icons/logo-next.svg",
-            alt: "Next.js Icon",
-          },
-        },
-        {
-          skill: "Styled Components",
-          icon: {
-            src: "/icons/logo-styled-components.svg",
-            alt: "Styled Components Icon",
-          },
-        },
+  // {
+  //   slug: "/digital-delight",
+  //   pageData: {
+  //     title: "Digital Delight",
+  //     websiteUrl: "https://thedigitaldelight.com/",
+  //     description: `<p>The Digital Delight website is a <b>freelance</b> opportunity that was presented to me and my partner. Below is how we worked on this project also including the processes and technologies included: </p> <ul><li>React.js frontend, Framer motion for animation, Styled Components for styling</li><li>Brand identity and UX/UI design created by my partner and I</li><li>SEO optimized by following w3c standards</li><li>Reusable components with a modular fashion to create hundreds of different layouts</li><li>HubSpot integration with contact forms for a successful marketing website</li><li>Google analytics tagging for tracking site data</li><li>Netlify frontend hosting </li><li>Utilize the SDLC process to compliment and establish an agile working environment with client</li></ul>`,
+  //     img: {
+  //       src: "/projects/digitaldelightpic.png",
+  //       alt: "Digital Delight Homepage",
+  //     },
+  //     builtWith: [
+  //       {
+  //         skill: "React.js",
+  //         icon: {
+  //           src: "/icons/logo-react.svg",
+  //           alt: "React.js Icon",
+  //         },
+  //       },
+  //       {
+  //         skill: "Next.js",
+  //         icon: {
+  //           src: "/icons/logo-next.svg",
+  //           alt: "Next.js Icon",
+  //         },
+  //       },
+  //       {
+  //         skill: "Styled Components",
+  //         icon: {
+  //           src: "/icons/logo-styled-components.svg",
+  //           alt: "Styled Components Icon",
+  //         },
+  //       },
 
-        {
-          skill: "Framer Motion",
-          icon: {
-            src: "/icons/logo-framer-motion.svg",
-            alt: "Framer Motion Icon",
-          },
-        },
-      ],
-    },
-  },
+  //       {
+  //         skill: "Framer Motion",
+  //         icon: {
+  //           src: "/icons/logo-framer-motion.svg",
+  //           alt: "Framer Motion Icon",
+  //         },
+  //       },
+  //     ],
+  //   },
+  // },
   {
     slug: "/schuetz-insurance",
     pageData: {
@@ -951,42 +1015,42 @@ export const projectPagesData = [
       ],
     },
   },
-  {
-    slug: "/movie-api",
-    pageData: {
-      title: "Movie API",
-      websiteUrl: "https://helpfindmeamovie.netlify.app",
-      description:
-        "<p>The Movie API serves as a solo venture, crafted to push the boundaries of my web development skills. This project served as a exploration of my proficiency in harnessing APIs, demonstrating my ability to dynamically manipulate data using JavaScript and Axios.<br /> <br />Technologically, this endeavor relied on a combination of JavaScript for dynamic scripting, Axios for streamlined API communication, and the foundational trio of HTML, CSS, and JavaScript to breathe life into the frontend. Hosted on Netlify of course.</p>",
-      img: {
-        src: "/projects/movie.png",
-        alt: "Movie API Homepage",
-      },
-      builtWith: [
-        {
-          skill: "JavaScript",
-          icon: {
-            src: "/icons/logo-javascript.svg",
-            alt: "JavaScript Icon",
-          },
-        },
-        {
-          skill: "CSS",
-          icon: {
-            src: "/icons/logo-css.svg",
-            alt: "CSS Icon",
-          },
-        },
-        {
-          skill: "HTML",
-          icon: {
-            src: "/icons/logo-html.svg",
-            alt: "JavaScript Icon",
-          },
-        },
-      ],
-    },
-  },
+  // {
+  //   slug: "/movie-api",
+  //   pageData: {
+  //     title: "Movie API",
+  //     websiteUrl: "https://helpfindmeamovie.netlify.app",
+  //     description:
+  //       "<p>The Movie API serves as a solo venture, crafted to push the boundaries of my web development skills. This project served as a exploration of my proficiency in harnessing APIs, demonstrating my ability to dynamically manipulate data using JavaScript and Axios.<br /> <br />Technologically, this endeavor relied on a combination of JavaScript for dynamic scripting, Axios for streamlined API communication, and the foundational trio of HTML, CSS, and JavaScript to breathe life into the frontend. Hosted on Netlify of course.</p>",
+  //     img: {
+  //       src: "/projects/movie.png",
+  //       alt: "Movie API Homepage",
+  //     },
+  //     builtWith: [
+  //       {
+  //         skill: "JavaScript",
+  //         icon: {
+  //           src: "/icons/logo-javascript.svg",
+  //           alt: "JavaScript Icon",
+  //         },
+  //       },
+  //       {
+  //         skill: "CSS",
+  //         icon: {
+  //           src: "/icons/logo-css.svg",
+  //           alt: "CSS Icon",
+  //         },
+  //       },
+  //       {
+  //         skill: "HTML",
+  //         icon: {
+  //           src: "/icons/logo-html.svg",
+  //           alt: "JavaScript Icon",
+  //         },
+  //       },
+  //     ],
+  //   },
+  // },
   {
     slug: "/mpi-wjw",
     pageData: {
