@@ -255,13 +255,21 @@ export const projectData = {
       projectTitle: "Impact Networking",
     },
     {
-      href: "/impact-networking",
+      href: "/zmac-transport",
       img: {
-        src: "/projects/impactmybiz.png",
-        alt: "Impact Homepage",
+        src: "/projects/zmac.png",
+        alt: "Zmac Transport",
       },
-      projectTitle: "Impact Networking",
+      projectTitle: "Zmac Transport",
     },
+    // {
+    //   href: "/impact-networking",
+    //   img: {
+    //     src: "/projects/impactmybiz.png",
+    //     alt: "Impact Homepage",
+    //   },
+    //   projectTitle: "Impact Networking",
+    // },
     {
       href: "/beggars-pizza",
       img: {
@@ -286,14 +294,7 @@ export const projectData = {
       },
       projectTitle: "Tulayna Limo",
     },
-    {
-      href: "/zmac-transport",
-      img: {
-        src: "/projects/zmac.png",
-        alt: "Zmac Transport",
-      },
-      projectTitle: "Zmac Transport",
-    },
+
     {
       href: "/rowcare",
       img: {
