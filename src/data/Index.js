@@ -86,6 +86,13 @@ export const aboutData = {
       },
     },
     {
+      skill: "TypeScript",
+      icon: {
+        src: "/icons/logo-typescript.svg",
+        alt: "TypeScript Icon",
+      },
+    },
+    {
       skill: "PHP",
       icon: {
         src: "/icons/logo-php.svg",
@@ -413,6 +420,13 @@ export const projectPagesData = [
           icon: {
             src: "/icons/logo-react.svg",
             alt: "React.js Icon",
+          },
+        },
+        {
+          skill: "TypeScript",
+          icon: {
+            src: "/icons/logo-typescript.svg",
+            alt: "TypeScript Icon",
           },
         },
         {
