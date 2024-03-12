@@ -198,7 +198,7 @@ export const historyData = {
   },
   companies: [
     "Impact Networking",
-    "Text2Drive LLC",
+    "TEXT2DRIVE LLC",
     "SOGO Marketing",
     "Plainfield Central HS",
   ],
@@ -215,20 +215,19 @@ export const historyData = {
     },
     {
       title: "Web Specialist",
-      company: "Text2Drive LLC",
+      company: "TEXT2DRIVE LLC",
       timePeriod: "February 2019 - June 2021",
       jobDesc: [
         "Created a library of responsive website widgets compatible with mobile & desktop",
-        "Handle frontend bug fixes to SaaS product",
+        "Handle frontend bug fixes to SaaS products via JavaScript, PHP, React.js & HTML/CSS",
         "Led a team of three Web Specialists",
       ],
     },
     {
       title: "Web Developer",
       company: "SOGO Marketing",
-      timePeriod: "November 2018 - February 2019",
+      timePeriod: "June 2018 - February 2019",
       jobDesc: [
-        "Three-month contract",
         "WordPress maintenance edits for agency websites using PHP, JavaScript, HTML, & CSS",
         "iOS & Android mobile application bug fixes on legacy applications",
       ],
