@@ -224,7 +224,7 @@ export const historyData = {
       ],
     },
     {
-      title: "Web Developer",
+      title: "Full-Stack Web Developer",
       company: "SOGO Marketing",
       timePeriod: "June 2018 - February 2019",
       jobDesc: [
