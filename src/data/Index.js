@@ -170,10 +170,10 @@ export const aboutData = {
       },
     },
     {
-      skill: "Bash",
+      skill: "Socket.io",
       icon: {
-        src: "/icons/logo-bash.svg",
-        alt: "Bash Icon",
+        src: "/icons/logo-socket.svg",
+        alt: "Socket.io Icon",
       },
     },
   ],
@@ -262,14 +262,14 @@ export const projectData = {
       },
       projectTitle: "Zmac Transport",
     },
-    // {
-    //   href: "/impact-networking",
-    //   img: {
-    //     src: "/projects/impactmybiz.png",
-    //     alt: "Impact Homepage",
-    //   },
-    //   projectTitle: "Impact Networking",
-    // },
+    {
+      href: "/impact-networking",
+      img: {
+        src: "/projects/impactmybiz.png",
+        alt: "Impact Homepage",
+      },
+      projectTitle: "Impact Networking",
+    },
     {
       href: "/beggars-pizza",
       img: {
@@ -303,14 +303,14 @@ export const projectData = {
       },
       projectTitle: "Rowcare",
     },
-    // {
-    //   href: "/nggilbert",
-    //   img: {
-    //     src: "/projects/nggilbert.png",
-    //     alt: "NG Gilbert Homepage",
-    //   },
-    //   projectTitle: "NG Gilbert",
-    // },
+    {
+      href: "/nggilbert",
+      img: {
+        src: "/projects/nggilbert.png",
+        alt: "NG Gilbert Homepage",
+      },
+      projectTitle: "NG Gilbert",
+    },
     {
       href: "/chicago-living-group",
       img: {
@@ -400,55 +400,51 @@ export const projectPagesData = [
     pageData: {
       title: "Irish Poker",
       websiteUrl: "https://www.irish-poker.com",
-      description: `Description coming soon!`,
+      description: `<p>Introducing Irish Poker/Ride the Bus, a web application that brings the joy of a classic card game to the digital world. Traditionally enjoyed in the company of friends and family over drinks, this online application allows players to connect regardless of location, simply by joining a virtual room via any device – be it a smartphone, tablet, or desktop.<br/> On the server side, Node/Express.js powered the backend through a Socket.io server, facilitating seamless, bidirectional and low-latency communication between devices. Meanwhile, on the client side, I utilized React/Next.js, TypeScript, Framer Motion for dynamic animations, and Styled Components for responsive styling. Additionally, I used a Deck of Cards API to bring in card data.
+      <br/>
+      Every aspect of this project, from user experience to design and development, was crafted by yours truly. I welcome any feedback on the application as I'm committed to its CI/CD. `,
       img: {
         src: "/projects/irish-poker.png",
         alt: "Irish Poker Homepage",
       },
-      // builtWith: [
-      //   {
-      //     skill: "React.js",
-      //     icon: {
-      //       src: "/icons/logo-react.svg",
-      //       alt: "React.js Icon",
-      //     },
-      //   },
-      //   {
-      //     skill: "Next.js",
-      //     icon: {
-      //       src: "/icons/logo-next.svg",
-      //       alt: "Next.js Icon",
-      //     },
-      //   },
-      //   {
-      //     skill: "Styled Components",
-      //     icon: {
-      //       src: "/icons/logo-styled-components.svg",
-      //       alt: "Styled Components Icon",
-      //     },
-      //   },
-      //   {
-      //     skill: "Postgres SQL",
-      //     icon: {
-      //       src: "/icons/logo-postgresql.svg",
-      //       alt: "Postgres SQL API Icon",
-      //     },
-      //   },
-      //   {
-      //     skill: "Strapi",
-      //     icon: {
-      //       src: "/icons/logo-strapi.svg",
-      //       alt: "Strapi Icon",
-      //     },
-      //   },
-      //   {
-      //     skill: "Framer Motion",
-      //     icon: {
-      //       src: "/icons/logo-framer-motion.svg",
-      //       alt: "Framer Motion Icon",
-      //     },
-      //   },
-      // ],
+      builtWith: [
+        {
+          skill: "React.js",
+          icon: {
+            src: "/icons/logo-react.svg",
+            alt: "React.js Icon",
+          },
+        },
+        {
+          skill: "Next.js",
+          icon: {
+            src: "/icons/logo-next.svg",
+            alt: "Next.js Icon",
+          },
+        },
+        {
+          skill: "Styled Components",
+          icon: {
+            src: "/icons/logo-styled-components.svg",
+            alt: "Styled Components Icon",
+          },
+        },
+
+        {
+          skill: "Socket.io",
+          icon: {
+            src: "/icons/logo-socket.svg",
+            alt: "Socket.io Icon",
+          },
+        },
+        {
+          skill: "Framer Motion",
+          icon: {
+            src: "/icons/logo-framer-motion.svg",
+            alt: "Framer Motion Icon",
+          },
+        },
+      ],
     },
   },
   {
@@ -507,62 +503,62 @@ export const projectPagesData = [
       ],
     },
   },
-  // {
-  //   slug: "/impact-networking",
-  //   pageData: {
-  //     title: "Impact Networking",
-  //     websiteUrl: "https://www.impactmybiz.com/",
-  //     description: `<p>Below is how I worked on this project also including the processes and technologies included:</p> <ul><li>Using a custom built Strapi headless CMS, Next.js and React.js frontend, Framer motion for animation, Styled Components for styling, PostgresSQL database for data management, & Cloudinary CDN for media delivery</li> <li>Three developers working in an Agile Methodology </li><li>Working hand and hand with UX and UI team to create pixel perfect frontend</li><li>SEO optimized by following w3c standards and Semrush reporting</li><li>Reusable components with a modular fashion to create hundreds of different layouts</li><li>HubSpot integration with contact forms for a successful marketing website</li><li>Google analytics tagging for tracking site data</li><li>Digital Ocean frontend and backend hosting </li></ul>`,
-  //     img: {
-  //       src: "/projects/impactmybiz.png",
-  //       alt: "Impact Homepage",
-  //     },
-  //     builtWith: [
-  //       {
-  //         skill: "React.js",
-  //         icon: {
-  //           src: "/icons/logo-react.svg",
-  //           alt: "React.js Icon",
-  //         },
-  //       },
-  //       {
-  //         skill: "Next.js",
-  //         icon: {
-  //           src: "/icons/logo-next.svg",
-  //           alt: "Next.js Icon",
-  //         },
-  //       },
-  //       {
-  //         skill: "Styled Components",
-  //         icon: {
-  //           src: "/icons/logo-styled-components.svg",
-  //           alt: "Styled Components Icon",
-  //         },
-  //       },
-  //       {
-  //         skill: "Postgres SQL",
-  //         icon: {
-  //           src: "/icons/logo-postgresql.svg",
-  //           alt: "Postgres SQL API Icon",
-  //         },
-  //       },
-  //       {
-  //         skill: "Strapi",
-  //         icon: {
-  //           src: "/icons/logo-strapi.svg",
-  //           alt: "Strapi Icon",
-  //         },
-  //       },
-  //       {
-  //         skill: "Framer Motion",
-  //         icon: {
-  //           src: "/icons/logo-framer-motion.svg",
-  //           alt: "Framer Motion Icon",
-  //         },
-  //       },
-  //     ],
-  //   },
-  // },
+  {
+    slug: "/impact-networking",
+    pageData: {
+      title: "Impact Networking",
+      websiteUrl: "https://www.impactmybiz.com/",
+      description: `<p>Below is how I worked on this project also including the processes and technologies included:</p> <ul><li>Using a custom built Strapi headless CMS, Next.js and React.js frontend, Framer motion for animation, Styled Components for styling, PostgresSQL database for data management, & Cloudinary CDN for media delivery</li> <li>Three developers working in an Agile Methodology </li><li>Working hand and hand with UX and UI team to create pixel perfect frontend</li><li>SEO optimized by following w3c standards and Semrush reporting</li><li>Reusable components with a modular fashion to create hundreds of different layouts</li><li>HubSpot integration with contact forms for a successful marketing website</li><li>Google analytics tagging for tracking site data</li><li>Digital Ocean frontend and backend hosting </li></ul>`,
+      img: {
+        src: "/projects/impactmybiz.png",
+        alt: "Impact Homepage",
+      },
+      builtWith: [
+        {
+          skill: "React.js",
+          icon: {
+            src: "/icons/logo-react.svg",
+            alt: "React.js Icon",
+          },
+        },
+        {
+          skill: "Next.js",
+          icon: {
+            src: "/icons/logo-next.svg",
+            alt: "Next.js Icon",
+          },
+        },
+        {
+          skill: "Styled Components",
+          icon: {
+            src: "/icons/logo-styled-components.svg",
+            alt: "Styled Components Icon",
+          },
+        },
+        {
+          skill: "Postgres SQL",
+          icon: {
+            src: "/icons/logo-postgresql.svg",
+            alt: "Postgres SQL API Icon",
+          },
+        },
+        {
+          skill: "Strapi",
+          icon: {
+            src: "/icons/logo-strapi.svg",
+            alt: "Strapi Icon",
+          },
+        },
+        {
+          skill: "Framer Motion",
+          icon: {
+            src: "/icons/logo-framer-motion.svg",
+            alt: "Framer Motion Icon",
+          },
+        },
+      ],
+    },
+  },
   {
     slug: "/zmac-transport",
     pageData: {
@@ -780,57 +776,57 @@ export const projectPagesData = [
       ],
     },
   },
-  // {
-  //   slug: "/nggilbert",
-  //   pageData: {
-  //     title: "Townsend NG Gilbert",
-  //     websiteUrl:
-  //       "https://dev-townsendcorp.impactpreview.com/new-nggilbert-com",
-  //     description:
-  //       "<p>Engaged in a collaborative endeavor, Townsend NG Gilbert stands testament to my involvement in a sophisticated web development project executed within the structured framework of an agile methodology sprint cycle.<br/><br/> Operating at the intersection of design and functionality, my co-development with another skilled professional involved close collaboration with the UX and UI teams. This refined website, meticulously crafted on the robust foundation of WordPress as the Content Management System, attests to my nuanced understanding and adept utilization of an array of cutting-edge technologies and languages. <br/><br/>The seamless integration of PHP, JavaScript, SASS, HTML, and WordPress not only underscores the technical finesse brought to the project but also exemplifies my commitment to delivering a user-centric digital experience.</p>",
-  //     img: {
-  //       src: "/projects/nggilbert.png",
-  //       alt: "NG Gilbert Homepage",
-  //     },
-  //     builtWith: [
-  //       {
-  //         skill: "PHP",
-  //         icon: {
-  //           src: "/icons/logo-php.svg",
-  //           alt: "PHP Icon",
-  //         },
-  //       },
-  //       {
-  //         skill: "JavaScript",
-  //         icon: {
-  //           src: "/icons/logo-javascript.svg",
-  //           alt: "JavaScript Icon",
-  //         },
-  //       },
-  //       {
-  //         skill: "SASS",
-  //         icon: {
-  //           src: "/icons/logo-sass.svg",
-  //           alt: "SASS Icon",
-  //         },
-  //       },
-  //       {
-  //         skill: "HTML",
-  //         icon: {
-  //           src: "/icons/logo-html.svg",
-  //           alt: "JavaScript Icon",
-  //         },
-  //       },
-  //       {
-  //         skill: "WordPress",
-  //         icon: {
-  //           src: "/icons/logo-wordpress.svg",
-  //           alt: "WordPress Icon",
-  //         },
-  //       },
-  //     ],
-  //   },
-  // },
+  {
+    slug: "/nggilbert",
+    pageData: {
+      title: "Townsend NG Gilbert",
+      websiteUrl:
+        "https://dev-townsendcorp.impactpreview.com/new-nggilbert-com",
+      description:
+        "<p>Engaged in a collaborative endeavor, Townsend NG Gilbert stands testament to my involvement in a sophisticated web development project executed within the structured framework of an agile methodology sprint cycle.<br/><br/> Operating at the intersection of design and functionality, my co-development with another skilled professional involved close collaboration with the UX and UI teams. This refined website, meticulously crafted on the robust foundation of WordPress as the Content Management System, attests to my nuanced understanding and adept utilization of an array of cutting-edge technologies and languages. <br/><br/>The seamless integration of PHP, JavaScript, SASS, HTML, and WordPress not only underscores the technical finesse brought to the project but also exemplifies my commitment to delivering a user-centric digital experience.</p>",
+      img: {
+        src: "/projects/nggilbert.png",
+        alt: "NG Gilbert Homepage",
+      },
+      builtWith: [
+        {
+          skill: "PHP",
+          icon: {
+            src: "/icons/logo-php.svg",
+            alt: "PHP Icon",
+          },
+        },
+        {
+          skill: "JavaScript",
+          icon: {
+            src: "/icons/logo-javascript.svg",
+            alt: "JavaScript Icon",
+          },
+        },
+        {
+          skill: "SASS",
+          icon: {
+            src: "/icons/logo-sass.svg",
+            alt: "SASS Icon",
+          },
+        },
+        {
+          skill: "HTML",
+          icon: {
+            src: "/icons/logo-html.svg",
+            alt: "JavaScript Icon",
+          },
+        },
+        {
+          skill: "WordPress",
+          icon: {
+            src: "/icons/logo-wordpress.svg",
+            alt: "WordPress Icon",
+          },
+        },
+      ],
+    },
+  },
   {
     slug: "/chicago-living-group",
     pageData: {
