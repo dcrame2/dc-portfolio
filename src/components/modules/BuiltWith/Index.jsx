@@ -42,6 +42,19 @@ const BuiltWithInnerContainer = styled.div`
     gap: 20px;
     flex-direction: column-reverse;
   }
+
+  iframe {
+    width: 660px;
+    height: 385px;
+    @media ${MediaQueries.tablet} {
+      width: 460px;
+      height: 260px;
+    }
+    @media ${MediaQueries.mobile} {
+      width: 300px;
+      height: 125px;
+    }
+  }
 `;
 
 const ContentContainer = styled.div`
@@ -150,7 +163,7 @@ const ExternalLink = styled(Link)`
 `;
 
 function BuiltWith({ data }) {
-  const { description, builtWith, img, websiteUrl } = data;
+  const { description, builtWith, img, websiteUrl, video } = data;
   return (
     <BuiltWithContainer>
       <BuiltWithInnerContainer>
@@ -172,6 +185,9 @@ function BuiltWith({ data }) {
         </ContentContainer>
         {img && (
           <ProjectImg width={300} height={100} src={img.src} alt={img.alt} />
+        )}
+        {video && (
+          <iframe className="youtube-frame" src={video} allowFullScreen />
         )}
       </BuiltWithInnerContainer>
     </BuiltWithContainer>
