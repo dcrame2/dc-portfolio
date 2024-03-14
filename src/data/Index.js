@@ -258,7 +258,7 @@ export const projectData = {
         src: "/projects/irish-poker.png",
         alt: "Irish Poker Homepage",
       },
-      projectTitle: "Online Mutltiplayer Card Game",
+      projectTitle: "Online Mutltiplayer Game",
     },
     {
       href: "/zmac-transport",
@@ -404,7 +404,7 @@ export const projectPagesData = [
   {
     slug: "/irish-poker",
     pageData: {
-      title: "Online Mutltiplayer Card Game",
+      title: "Online Mutltiplayer Game",
       websiteUrl: "https://www.irish-poker.com",
       description: `<p>Introducing Irish Poker/Ride the Bus, a web application that brings the joy of a classic card game to the digital world. Traditionally enjoyed in the company of friends and family over drinks, this online application allows players to connect regardless of location, simply by joining a virtual room via any device – be it a smartphone, tablet, or desktop.<br/> On the server side, Node/Express.js powered the backend through a Socket.io server, facilitating seamless, bidirectional and low-latency communication between devices. Meanwhile, on the client side, I utilized React/Next.js, TypeScript, Framer Motion for dynamic animations, and Styled Components for responsive styling. Additionally, I used a Deck of Cards API to bring in card data.
       <br/>
