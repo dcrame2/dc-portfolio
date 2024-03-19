@@ -292,14 +292,14 @@ export const projectData = {
       },
       projectTitle: "DOT Security",
     },
-    {
-      href: "/tulayna-limo-service",
-      img: {
-        src: "/projects/tulayna.png",
-        alt: "Tulayna Limo Service Homepage",
-      },
-      projectTitle: "Tulayna Limo",
-    },
+    // {
+    //   href: "/tulayna-limo-service",
+    //   img: {
+    //     src: "/projects/tulayna.png",
+    //     alt: "Tulayna Limo Service Homepage",
+    //   },
+    //   projectTitle: "Tulayna Limo",
+    // },
 
     {
       href: "/rowcare",
@@ -309,14 +309,14 @@ export const projectData = {
       },
       projectTitle: "Rowcare",
     },
-    {
-      href: "/nggilbert",
-      img: {
-        src: "/projects/nggilbert.png",
-        alt: "NG Gilbert Homepage",
-      },
-      projectTitle: "NG Gilbert",
-    },
+    // {
+    //   href: "/nggilbert",
+    //   img: {
+    //     src: "/projects/nggilbert.png",
+    //     alt: "NG Gilbert Homepage",
+    //   },
+    //   projectTitle: "NG Gilbert",
+    // },
     {
       href: "/chicago-living-group",
       img: {
@@ -685,62 +685,62 @@ export const projectPagesData = [
       ],
     },
   },
-  {
-    slug: "/tulayna-limo-service",
-    pageData: {
-      title: "Tulayna Limo Service",
-      websiteUrl: "https://www.tulaynalimoservice.com/",
-      description: `<p>The Tulayna Limo Service website is a <b>freelance</b> opportunity that was presented to me and my partner. Tulayna was looking for a fast one page website that would drive users to fill out a form to ride his limo service. Below is how we worked on this project also including the processes and technologies included: </p> <ul><li>Using a custom built Strapi headless CMS, Next.js and React.js frontend, Framer motion for animation, Styled Components for styling, PostgresSQL database for data management, & Cloudinary CDN for media delivery</li><li>Brand identity and UX/UI design created by my partner and I</li><li>SEO optimized by following w3c standards</li><li>Reusable components with a modular fashion to create hundreds of different layouts</li><li>Google analytics tagging for tracking site data</li><li>Digital Ocean frontend and backend hosting </li><li>Collaborate with client to determine business requirements for their website/web app</li> <li>Utilize the SDLC process to compliment and establish an agile working environment with client</li></ul>`,
-      img: {
-        src: "/projects/tulayna.png",
-        alt: "Tulayna Limo Service Homepage",
-      },
-      builtWith: [
-        {
-          skill: "React.js",
-          icon: {
-            src: "/icons/logo-react.svg",
-            alt: "React.js Icon",
-          },
-        },
-        {
-          skill: "Next.js",
-          icon: {
-            src: "/icons/logo-next.svg",
-            alt: "Next.js Icon",
-          },
-        },
-        {
-          skill: "Styled Components",
-          icon: {
-            src: "/icons/logo-styled-components.svg",
-            alt: "Styled Components Icon",
-          },
-        },
-        {
-          skill: "Postgres SQL",
-          icon: {
-            src: "/icons/logo-postgresql.svg",
-            alt: "Postgres SQL API Icon",
-          },
-        },
-        {
-          skill: "Strapi",
-          icon: {
-            src: "/icons/logo-strapi.svg",
-            alt: "Strapi Icon",
-          },
-        },
-        {
-          skill: "Framer Motion",
-          icon: {
-            src: "/icons/logo-framer-motion.svg",
-            alt: "Framer Motion Icon",
-          },
-        },
-      ],
-    },
-  },
+  // {
+  //   slug: "/tulayna-limo-service",
+  //   pageData: {
+  //     title: "Tulayna Limo Service",
+  //     websiteUrl: "https://www.tulaynalimoservice.com/",
+  //     description: `<p>The Tulayna Limo Service website is a <b>freelance</b> opportunity that was presented to me and my partner. Tulayna was looking for a fast one page website that would drive users to fill out a form to ride his limo service. Below is how we worked on this project also including the processes and technologies included: </p> <ul><li>Using a custom built Strapi headless CMS, Next.js and React.js frontend, Framer motion for animation, Styled Components for styling, PostgresSQL database for data management, & Cloudinary CDN for media delivery</li><li>Brand identity and UX/UI design created by my partner and I</li><li>SEO optimized by following w3c standards</li><li>Reusable components with a modular fashion to create hundreds of different layouts</li><li>Google analytics tagging for tracking site data</li><li>Digital Ocean frontend and backend hosting </li><li>Collaborate with client to determine business requirements for their website/web app</li> <li>Utilize the SDLC process to compliment and establish an agile working environment with client</li></ul>`,
+  //     img: {
+  //       src: "/projects/tulayna.png",
+  //       alt: "Tulayna Limo Service Homepage",
+  //     },
+  //     builtWith: [
+  //       {
+  //         skill: "React.js",
+  //         icon: {
+  //           src: "/icons/logo-react.svg",
+  //           alt: "React.js Icon",
+  //         },
+  //       },
+  //       {
+  //         skill: "Next.js",
+  //         icon: {
+  //           src: "/icons/logo-next.svg",
+  //           alt: "Next.js Icon",
+  //         },
+  //       },
+  //       {
+  //         skill: "Styled Components",
+  //         icon: {
+  //           src: "/icons/logo-styled-components.svg",
+  //           alt: "Styled Components Icon",
+  //         },
+  //       },
+  //       {
+  //         skill: "Postgres SQL",
+  //         icon: {
+  //           src: "/icons/logo-postgresql.svg",
+  //           alt: "Postgres SQL API Icon",
+  //         },
+  //       },
+  //       {
+  //         skill: "Strapi",
+  //         icon: {
+  //           src: "/icons/logo-strapi.svg",
+  //           alt: "Strapi Icon",
+  //         },
+  //       },
+  //       {
+  //         skill: "Framer Motion",
+  //         icon: {
+  //           src: "/icons/logo-framer-motion.svg",
+  //           alt: "Framer Motion Icon",
+  //         },
+  //       },
+  //     ],
+  //   },
+  // },
   {
     slug: "/rowcare",
     pageData: {
@@ -790,57 +790,57 @@ export const projectPagesData = [
       ],
     },
   },
-  {
-    slug: "/nggilbert",
-    pageData: {
-      title: "Townsend NG Gilbert",
-      websiteUrl:
-        "https://dev-townsendcorp.impactpreview.com/new-nggilbert-com",
-      description:
-        "<p>Engaged in a collaborative endeavor, Townsend NG Gilbert stands testament to my involvement in a sophisticated web development project executed within the structured framework of an agile methodology sprint cycle.<br/><br/> Operating at the intersection of design and functionality, my co-development with another skilled professional involved close collaboration with the UX and UI teams. This refined website, meticulously crafted on the robust foundation of WordPress as the Content Management System, attests to my nuanced understanding and adept utilization of an array of cutting-edge technologies and languages. <br/><br/>The seamless integration of PHP, JavaScript, SASS, HTML, and WordPress not only underscores the technical finesse brought to the project but also exemplifies my commitment to delivering a user-centric digital experience.</p>",
-      img: {
-        src: "/projects/nggilbert.png",
-        alt: "NG Gilbert Homepage",
-      },
-      builtWith: [
-        {
-          skill: "PHP",
-          icon: {
-            src: "/icons/logo-php.svg",
-            alt: "PHP Icon",
-          },
-        },
-        {
-          skill: "JavaScript",
-          icon: {
-            src: "/icons/logo-javascript.svg",
-            alt: "JavaScript Icon",
-          },
-        },
-        {
-          skill: "SASS",
-          icon: {
-            src: "/icons/logo-sass.svg",
-            alt: "SASS Icon",
-          },
-        },
-        {
-          skill: "HTML",
-          icon: {
-            src: "/icons/logo-html.svg",
-            alt: "JavaScript Icon",
-          },
-        },
-        {
-          skill: "WordPress",
-          icon: {
-            src: "/icons/logo-wordpress.svg",
-            alt: "WordPress Icon",
-          },
-        },
-      ],
-    },
-  },
+  // {
+  //   slug: "/nggilbert",
+  //   pageData: {
+  //     title: "Townsend NG Gilbert",
+  //     websiteUrl:
+  //       "https://dev-townsendcorp.impactpreview.com/new-nggilbert-com",
+  //     description:
+  //       "<p>Engaged in a collaborative endeavor, Townsend NG Gilbert stands testament to my involvement in a sophisticated web development project executed within the structured framework of an agile methodology sprint cycle.<br/><br/> Operating at the intersection of design and functionality, my co-development with another skilled professional involved close collaboration with the UX and UI teams. This refined website, meticulously crafted on the robust foundation of WordPress as the Content Management System, attests to my nuanced understanding and adept utilization of an array of cutting-edge technologies and languages. <br/><br/>The seamless integration of PHP, JavaScript, SASS, HTML, and WordPress not only underscores the technical finesse brought to the project but also exemplifies my commitment to delivering a user-centric digital experience.</p>",
+  //     img: {
+  //       src: "/projects/nggilbert.png",
+  //       alt: "NG Gilbert Homepage",
+  //     },
+  //     builtWith: [
+  //       {
+  //         skill: "PHP",
+  //         icon: {
+  //           src: "/icons/logo-php.svg",
+  //           alt: "PHP Icon",
+  //         },
+  //       },
+  //       {
+  //         skill: "JavaScript",
+  //         icon: {
+  //           src: "/icons/logo-javascript.svg",
+  //           alt: "JavaScript Icon",
+  //         },
+  //       },
+  //       {
+  //         skill: "SASS",
+  //         icon: {
+  //           src: "/icons/logo-sass.svg",
+  //           alt: "SASS Icon",
+  //         },
+  //       },
+  //       {
+  //         skill: "HTML",
+  //         icon: {
+  //           src: "/icons/logo-html.svg",
+  //           alt: "JavaScript Icon",
+  //         },
+  //       },
+  //       {
+  //         skill: "WordPress",
+  //         icon: {
+  //           src: "/icons/logo-wordpress.svg",
+  //           alt: "WordPress Icon",
+  //         },
+  //       },
+  //     ],
+  //   },
+  // },
   {
     slug: "/chicago-living-group",
     pageData: {
