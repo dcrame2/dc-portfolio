@@ -7,6 +7,7 @@ import {
   historyData,
   projectData,
   contactData,
+  personalProjectData,
 } from "@/data/Index";
 import About from "@/components/modules/About/Index";
 import History from "@/components/modules/History/Index";
@@ -32,6 +33,7 @@ export default function Home() {
         <About data={aboutData} />
         <ModuleBlender />
         <History data={historyData} />
+        <Projects data={personalProjectData} />
         <Projects data={projectData} />
         <Contact data={contactData} />
       </main>

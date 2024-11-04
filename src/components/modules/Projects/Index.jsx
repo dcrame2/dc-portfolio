@@ -2,9 +2,10 @@ import ProjectCard from "./ProjectCard/Index";
 import Header from "@/components/ui/Header/Index";
 import styled from "styled-components";
 import { Container, MediaQueries } from "@/styles/Utilities";
+import { pSmall } from "@/styles/Type";
 
 const ProjectContainer = styled.div`
-  padding: 200px 0;
+  padding: 100px 0;
 `;
 
 const ProjectInnerContainer = styled.div`
@@ -34,7 +35,7 @@ function Projects({ data }) {
   return (
     <ProjectContainer id={id}>
       <ProjectInnerContainer>
-        <Header data={header} />
+        {header && <Header data={header} />}
         <ProjectsGrid>
           {projects.map((project, index) => {
             return <ProjectCard key={index} data={project} />;

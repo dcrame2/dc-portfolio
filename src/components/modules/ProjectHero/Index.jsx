@@ -19,7 +19,7 @@ const ProjectHeroInnerContainer = styled.div`
   display: flex;
   flex-direction: column;
   position: relative;
-  gap: 40px;
+  gap: 20px;
   @media ${MediaQueries.tablet} {
     gap: 30px;
   }

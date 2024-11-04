@@ -12,7 +12,7 @@ export const navData = {
     },
     {
       text: "Projects",
-      url: "/#projects",
+      url: "/#personalProjects",
     },
     {
       text: "Contact",
@@ -32,13 +32,12 @@ export const heroData = {
   },
   eyebrow: "Hi, I am",
   name: "Dylan Cramer",
-  title: "Full Stack Developer",
+  title: "Software Engineer",
 };
 
 export const aboutData = {
   id: "about",
   header: {
-    eyebrow: "Learn",
     title: "About",
   },
   aboutParagraph: `<p>Hello! I am a passionate Full Stack Web Developer, specializing in the dynamic world of JavaScript. I am steady taking Udemy courses, watching YouTube, and reading the latest tech news.<br /><br /> My journey began with earning a Bachelor of Science in Information Systems - Web Application Development from Illinois State University in 2018. With a diverse skill set and proficiency in a range of programming languages and tools, I am ready to embark on new challenges and create innovative, cutting-edge web experiences. </p>`,
@@ -193,16 +192,27 @@ export const historyData = {
     alt: "DC Logo",
   },
   header: {
-    eyebrow: "Learn",
     title: "Work",
   },
   companies: [
+    "Ulta Beauty",
     "Impact Networking",
     "TEXT2DRIVE LLC",
     "SOGO Marketing",
     "Plainfield Central HS",
   ],
   companiesInfo: [
+    {
+      title: "Frontend Software Engineer",
+      company: "Ulta Beauty",
+      timePeriod: "March 2024 - Present",
+      jobDesc: [
+        "Write modern, performant, maintainable code for eCommerce ulta.com website",
+        "Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, React, GraphQL, Amplience, SCSS",
+        "Communicate with multi-disciplinary teams of engineers, designers, producers, and product owners on a daily basis",
+        "Demo completed features to stakeholders",
+      ],
+    },
     {
       title: "Web Developer",
       company: "Impact Networking",
@@ -224,7 +234,7 @@ export const historyData = {
       ],
     },
     {
-      title: "Full-Stack Web Developer",
+      title: "Full Stack Developer",
       company: "SOGO Marketing",
       timePeriod: "June 2018 - February 2019",
       jobDesc: [
@@ -247,19 +257,11 @@ export const historyData = {
 export const projectData = {
   id: "projects",
   header: {
-    eyebrow: "Learn",
+    eyebrow: "Professionial",
     title: "Projects",
   },
 
   projects: [
-    {
-      href: "/irish-poker",
-      img: {
-        src: "/projects/irish-poker.png",
-        alt: "Irish Poker Homepage",
-      },
-      projectTitle: "Online Mutltiplayer Game",
-    },
     {
       href: "/zmac-transport",
       img: {
@@ -292,15 +294,22 @@ export const projectData = {
       },
       projectTitle: "DOT Security",
     },
-    // {
-    //   href: "/tulayna-limo-service",
-    //   img: {
-    //     src: "/projects/tulayna.png",
-    //     alt: "Tulayna Limo Service Homepage",
-    //   },
-    //   projectTitle: "Tulayna Limo",
-    // },
-
+    {
+      href: "/n1c",
+      img: {
+        src: "/projects/n1c.png",
+        alt: "N1C Homepage",
+      },
+      projectTitle: "N1C",
+    },
+    {
+      href: "/attitude-dance-company",
+      img: {
+        src: "/projects/attitude-dance-company.png",
+        alt: "Attitude Dance Company Homepage",
+      },
+      projectTitle: "Attitude Dance Company",
+    },
     {
       href: "/rowcare",
       img: {
@@ -309,14 +318,66 @@ export const projectData = {
       },
       projectTitle: "Rowcare",
     },
-    // {
-    //   href: "/nggilbert",
-    //   img: {
-    //     src: "/projects/nggilbert.png",
-    //     alt: "NG Gilbert Homepage",
-    //   },
-    //   projectTitle: "NG Gilbert",
-    // },
+    {
+      href: "/nggilbert",
+      img: {
+        src: "/projects/nggilbert.png",
+        alt: "NG Gilbert Homepage",
+      },
+      projectTitle: "NG Gilbert",
+    },
+
+    {
+      href: "/mpi-wjw",
+      img: {
+        src: "/projects/mpiwjw.png",
+        alt: "MPI WJW Homepage",
+      },
+      projectTitle: "MPI WJW",
+    },
+
+    {
+      href: "/schuetz-insurance",
+      img: {
+        src: "/projects/schuetz_insurance.png",
+        alt: "Schuetz Insurance Homepage",
+      },
+      projectTitle: "Schuetz Insurance",
+    },
+  ],
+};
+
+export const personalProjectData = {
+  id: "personalProjects",
+  header: {
+    eyebrow: "Personal",
+    title: "Projects",
+  },
+  projects: [
+    {
+      href: "/timeline-that",
+      img: {
+        src: "/projects/timeline-that.png",
+        alt: "Timeline That Homepage",
+      },
+      projectTitle: "Timeline That",
+    },
+    {
+      href: "/ai-emoji",
+      img: {
+        src: "/projects/ai-emoji.png",
+        alt: "ai emoji Homepage",
+      },
+      projectTitle: "AI Emoji",
+    },
+    {
+      href: "/irish-poker",
+      img: {
+        src: "/projects/irish-poker.png",
+        alt: "Irish Poker Homepage",
+      },
+      projectTitle: "Online Mutltiplayer Game",
+    },
     {
       href: "/chicago-living-group",
       img: {
@@ -326,28 +387,20 @@ export const projectData = {
       projectTitle: "Chicago Living",
     },
     {
-      href: "/mpi-wjw",
+      href: "/tulayna-limo-service",
       img: {
-        src: "/projects/mpiwjw.png",
-        alt: "MPI WJW Homepage",
+        src: "/projects/tulayna.png",
+        alt: "Tulayna Limo Service Homepage",
       },
-      projectTitle: "MPI WJW",
+      projectTitle: "Tulayna Limo",
     },
-    // {
-    //   href: "/digital-delight",
-    //   img: {
-    //     src: "/projects/digitaldelightpic.png",
-    //     alt: "Digital Delight Homepage",
-    //   },
-    //   projectTitle: "Digital Delight",
-    // },
     {
-      href: "/schuetz-insurance",
+      href: "/digital-delight",
       img: {
-        src: "/projects/schuetz_insurance.png",
-        alt: "Schuetz Insurance Homepage",
+        src: "/projects/digitaldelightpic.png",
+        alt: "Digital Delight Homepage",
       },
-      projectTitle: "Schuetz Insurance",
+      projectTitle: "Digital Delight",
     },
     {
       href: "/moulis-financial",
@@ -357,14 +410,22 @@ export const projectData = {
       },
       projectTitle: "Moulis Financial",
     },
-    // {
-    //   href: "/movie-api",
-    //   img: {
-    //     src: "/projects/movie.png",
-    //     alt: "Movie API Homepage",
-    //   },
-    //   projectTitle: "Movie API",
-    // },
+    {
+      href: "/movie-api",
+      img: {
+        src: "/projects/movie.png",
+        alt: "Movie API Homepage",
+      },
+      projectTitle: "Movie Selector",
+    },
+    {
+      href: "/zombie-game",
+      img: {
+        src: "/projects/zombie-game.png",
+        alt: "Zombie Game Homepage",
+      },
+      projectTitle: "Zombie Game",
+    },
     // {
     //   href: "/delilah-mae",
     //   img: {
@@ -374,28 +435,12 @@ export const projectData = {
     //   projectTitle: "Delilah Mae",
     // },
     // {
-    //   href: "/creative-agency",
-    //   img: {
-    //     src: "/projects/creativeagency.png",
-    //     alt: "Creative Agency Homepage",
-    //   },
-    //   projectTitle: "Creative Agency",
-    // },
-    // {
     //   href: "/greek-life",
     //   img: {
     //     src: "/projects/greeklife.png",
     //     alt: "Greek Life Homepage",
     //   },
     //   projectTitle: "Greek Life",
-    // },
-    // {
-    //   href: "/zombie-game",
-    //   img: {
-    //     src: "/projects/zombie-game.png",
-    //     alt: "Zombie Game Homepage",
-    //   },
-    //   projectTitle: "Zombie Game",
     // },
   ],
 };
@@ -470,6 +515,62 @@ export const projectPagesData = [
       img: {
         src: "/projects/beggars_pizza.png",
         alt: "Beggars Pizza Homepage",
+      },
+      builtWith: [
+        {
+          skill: "React.js",
+          icon: {
+            src: "/icons/logo-react.svg",
+            alt: "React.js Icon",
+          },
+        },
+        {
+          skill: "Next.js",
+          icon: {
+            src: "/icons/logo-next.svg",
+            alt: "Next.js Icon",
+          },
+        },
+        {
+          skill: "Styled Components",
+          icon: {
+            src: "/icons/logo-styled-components.svg",
+            alt: "Styled Components Icon",
+          },
+        },
+        {
+          skill: "Postgres SQL",
+          icon: {
+            src: "/icons/logo-postgresql.svg",
+            alt: "Postgres SQL API Icon",
+          },
+        },
+        {
+          skill: "Strapi",
+          icon: {
+            src: "/icons/logo-strapi.svg",
+            alt: "Strapi Icon",
+          },
+        },
+        {
+          skill: "Framer Motion",
+          icon: {
+            src: "/icons/logo-framer-motion.svg",
+            alt: "Framer Motion Icon",
+          },
+        },
+      ],
+    },
+  },
+  {
+    slug: "/n1c",
+    pageData: {
+      title: "N1C",
+      websiteUrl: "https://n1critical.com/",
+      description: `<p>Below is how I worked on this project also including the processes and technologies included:</p> <ul><li>Using a custom built Strapi headless CMS, Next.js and React.js frontend, Framer motion for animation, Styled Components for styling, PostgresSQL database for data management, & Cloudinary CDN for media delivery</li> <li>Two developers working in an Agile Methodology </li><li>Working hand and hand with UX and UI team to create pixel perfect frontend</li><li>SEO optimized by following w3c standards and Semrush reporting</li><li>Reusable components with a modular fashion to create hundreds of different layouts</li><li>Google analytics tagging for tracking site data</li><li>Digital Ocean frontend and backend hosting </li></ul>`,
+      img: {
+        src: "/projects/n1c.png",
+        alt: "N1C Homepage",
       },
       builtWith: [
         {
@@ -685,62 +786,188 @@ export const projectPagesData = [
       ],
     },
   },
-  // {
-  //   slug: "/tulayna-limo-service",
-  //   pageData: {
-  //     title: "Tulayna Limo Service",
-  //     websiteUrl: "https://www.tulaynalimoservice.com/",
-  //     description: `<p>The Tulayna Limo Service website is a <b>freelance</b> opportunity that was presented to me and my partner. Tulayna was looking for a fast one page website that would drive users to fill out a form to ride his limo service. Below is how we worked on this project also including the processes and technologies included: </p> <ul><li>Using a custom built Strapi headless CMS, Next.js and React.js frontend, Framer motion for animation, Styled Components for styling, PostgresSQL database for data management, & Cloudinary CDN for media delivery</li><li>Brand identity and UX/UI design created by my partner and I</li><li>SEO optimized by following w3c standards</li><li>Reusable components with a modular fashion to create hundreds of different layouts</li><li>Google analytics tagging for tracking site data</li><li>Digital Ocean frontend and backend hosting </li><li>Collaborate with client to determine business requirements for their website/web app</li> <li>Utilize the SDLC process to compliment and establish an agile working environment with client</li></ul>`,
-  //     img: {
-  //       src: "/projects/tulayna.png",
-  //       alt: "Tulayna Limo Service Homepage",
-  //     },
-  //     builtWith: [
-  //       {
-  //         skill: "React.js",
-  //         icon: {
-  //           src: "/icons/logo-react.svg",
-  //           alt: "React.js Icon",
-  //         },
-  //       },
-  //       {
-  //         skill: "Next.js",
-  //         icon: {
-  //           src: "/icons/logo-next.svg",
-  //           alt: "Next.js Icon",
-  //         },
-  //       },
-  //       {
-  //         skill: "Styled Components",
-  //         icon: {
-  //           src: "/icons/logo-styled-components.svg",
-  //           alt: "Styled Components Icon",
-  //         },
-  //       },
-  //       {
-  //         skill: "Postgres SQL",
-  //         icon: {
-  //           src: "/icons/logo-postgresql.svg",
-  //           alt: "Postgres SQL API Icon",
-  //         },
-  //       },
-  //       {
-  //         skill: "Strapi",
-  //         icon: {
-  //           src: "/icons/logo-strapi.svg",
-  //           alt: "Strapi Icon",
-  //         },
-  //       },
-  //       {
-  //         skill: "Framer Motion",
-  //         icon: {
-  //           src: "/icons/logo-framer-motion.svg",
-  //           alt: "Framer Motion Icon",
-  //         },
-  //       },
-  //     ],
-  //   },
-  // },
+  {
+    slug: "/zombie-game",
+    pageData: {
+      title: "Zombie Game",
+      websiteUrl: "https://eatthebrains.netlify.app",
+      description: `<p>Zombie Game is a javascript game using the up, down, right, left arrows to eat as many brains as you. This was a project I made in college to test my skills when in JavaScript heavy class. This is when I first fell in love with the world of JavaScipt and I have made a career out of it now. </p>`,
+      img: {
+        src: "/projects/zombie-game.png",
+        alt: "Zombie Game Homepage",
+      },
+      // builtWith: [
+      //   {
+      //     skill: "JavScript",
+      //     icon: {
+      //       src: "/icons/logo-javascript.svg",
+      //       alt: "JavScript Icon",
+      //     },
+      //   },
+      // ],
+    },
+  },
+  {
+    slug: "/timeline-that",
+    pageData: {
+      title: "Timeline That",
+      websiteUrl: "https://timelinethat.com/",
+      description: `<p>The Timeline That website is a Software as a Service (SaaS) web applications. This allows users to create their own account and gives them the ability to create timelines of there life. Once they input the data requirement in the form fields, it will create a dynamic page with a random generated URL. Technologies included: </p> <ul><li>Using Next.js and React.js frontend, Framer motion for animation, Tailwind for styling, Stripe for payments, Mandrill for emailing service & Cloudinary CDN for media delivery</li<li>SEO optimized by following w3c standards</li><li>Reusable components with a modular fashion to create hundreds of different layouts</li></ul>`,
+      img: {
+        src: "/projects/timeline-that.png",
+        alt: "Timeline That Homepage",
+      },
+      builtWith: [
+        {
+          skill: "React.js",
+          icon: {
+            src: "/icons/logo-react.svg",
+            alt: "React.js Icon",
+          },
+        },
+        {
+          skill: "Next.js",
+          icon: {
+            src: "/icons/logo-next.svg",
+            alt: "Next.js Icon",
+          },
+        },
+        {
+          skill: "Styled Components",
+          icon: {
+            src: "/icons/logo-styled-components.svg",
+            alt: "Styled Components Icon",
+          },
+        },
+        {
+          skill: "Mandrill",
+          icon: {
+            src: "/icons/logo-mandrill.svg",
+            alt: "Mandrill Icon",
+          },
+        },
+        {
+          skill: "Stripe",
+          icon: {
+            src: "/icons/logo-stripe.svg",
+            alt: "Stripe Icon",
+          },
+        },
+        {
+          skill: "Tailwind",
+          icon: {
+            src: "/icons/logo-tailwind.svg",
+            alt: "Tailwind Icon",
+          },
+        },
+        {
+          skill: "Framer Motion",
+          icon: {
+            src: "/icons/logo-framer-motion.svg",
+            alt: "Framer Motion Icon",
+          },
+        },
+      ],
+    },
+  },
+  {
+    slug: "/ai-emoji",
+    pageData: {
+      title: "AI Eomji Generator",
+      websiteUrl: "https://emoji-ai-wrapper.vercel.app/",
+      description: `<p>The AI Emoji Generator lets users transform any sentence into a unique set of emojis that capture the vibe of their message. Customize the number of emojis to perfectly match your style, and enjoy an easy copy-to-clipboard feature that brings life to any text or social media post. Powered by OpenAI's advanced API, this tool makes it simple to express yourself creatively.</p>`,
+      img: {
+        src: "/projects/ai-emoji.png",
+        alt: "AI Emoji Homepage",
+      },
+      builtWith: [
+        {
+          skill: "Open AI",
+          icon: {
+            src: "/icons/logo-openai.svg",
+            alt: "Open AI Icon",
+          },
+        },
+        {
+          skill: "React.js",
+          icon: {
+            src: "/icons/logo-react.svg",
+            alt: "React.js Icon",
+          },
+        },
+        {
+          skill: "Next.js",
+          icon: {
+            src: "/icons/logo-next.svg",
+            alt: "Next.js Icon",
+          },
+        },
+        {
+          skill: "Tailwind",
+          icon: {
+            src: "/icons/logo-tailwind.svg",
+            alt: "Tailwind Icon",
+          },
+        },
+      ],
+    },
+  },
+  {
+    slug: "/tulayna-limo-service",
+    pageData: {
+      title: "Tulayna Limo Service",
+      websiteUrl: "https://www.tulaynalimoservice.com/",
+      description: `<p>The Tulayna Limo Service website is a <b>freelance</b> opportunity that was presented to me and my partner. Tulayna was looking for a fast one page website that would drive users to fill out a form to ride his limo service. Below is how we worked on this project also including the processes and technologies included: </p> <ul><li>Using a custom built Strapi headless CMS, Next.js and React.js frontend, Framer motion for animation, Styled Components for styling, PostgresSQL database for data management, & Cloudinary CDN for media delivery</li><li>Brand identity and UX/UI design created by my partner and I</li><li>SEO optimized by following w3c standards</li><li>Reusable components with a modular fashion to create hundreds of different layouts</li><li>Google analytics tagging for tracking site data</li><li>Digital Ocean frontend and backend hosting </li><li>Collaborate with client to determine business requirements for their website/web app</li> <li>Utilize the SDLC process to compliment and establish an agile working environment with client</li></ul>`,
+      img: {
+        src: "/projects/tulayna.png",
+        alt: "Tulayna Limo Service Homepage",
+      },
+      builtWith: [
+        {
+          skill: "React.js",
+          icon: {
+            src: "/icons/logo-react.svg",
+            alt: "React.js Icon",
+          },
+        },
+        {
+          skill: "Next.js",
+          icon: {
+            src: "/icons/logo-next.svg",
+            alt: "Next.js Icon",
+          },
+        },
+        {
+          skill: "Styled Components",
+          icon: {
+            src: "/icons/logo-styled-components.svg",
+            alt: "Styled Components Icon",
+          },
+        },
+        {
+          skill: "Postgres SQL",
+          icon: {
+            src: "/icons/logo-postgresql.svg",
+            alt: "Postgres SQL API Icon",
+          },
+        },
+        {
+          skill: "Strapi",
+          icon: {
+            src: "/icons/logo-strapi.svg",
+            alt: "Strapi Icon",
+          },
+        },
+        {
+          skill: "Framer Motion",
+          icon: {
+            src: "/icons/logo-framer-motion.svg",
+            alt: "Framer Motion Icon",
+          },
+        },
+      ],
+    },
+  },
   {
     slug: "/rowcare",
     pageData: {
@@ -790,57 +1017,106 @@ export const projectPagesData = [
       ],
     },
   },
-  // {
-  //   slug: "/nggilbert",
-  //   pageData: {
-  //     title: "Townsend NG Gilbert",
-  //     websiteUrl:
-  //       "https://dev-townsendcorp.impactpreview.com/new-nggilbert-com",
-  //     description:
-  //       "<p>Engaged in a collaborative endeavor, Townsend NG Gilbert stands testament to my involvement in a sophisticated web development project executed within the structured framework of an agile methodology sprint cycle.<br/><br/> Operating at the intersection of design and functionality, my co-development with another skilled professional involved close collaboration with the UX and UI teams. This refined website, meticulously crafted on the robust foundation of WordPress as the Content Management System, attests to my nuanced understanding and adept utilization of an array of cutting-edge technologies and languages. <br/><br/>The seamless integration of PHP, JavaScript, SASS, HTML, and WordPress not only underscores the technical finesse brought to the project but also exemplifies my commitment to delivering a user-centric digital experience.</p>",
-  //     img: {
-  //       src: "/projects/nggilbert.png",
-  //       alt: "NG Gilbert Homepage",
-  //     },
-  //     builtWith: [
-  //       {
-  //         skill: "PHP",
-  //         icon: {
-  //           src: "/icons/logo-php.svg",
-  //           alt: "PHP Icon",
-  //         },
-  //       },
-  //       {
-  //         skill: "JavaScript",
-  //         icon: {
-  //           src: "/icons/logo-javascript.svg",
-  //           alt: "JavaScript Icon",
-  //         },
-  //       },
-  //       {
-  //         skill: "SASS",
-  //         icon: {
-  //           src: "/icons/logo-sass.svg",
-  //           alt: "SASS Icon",
-  //         },
-  //       },
-  //       {
-  //         skill: "HTML",
-  //         icon: {
-  //           src: "/icons/logo-html.svg",
-  //           alt: "JavaScript Icon",
-  //         },
-  //       },
-  //       {
-  //         skill: "WordPress",
-  //         icon: {
-  //           src: "/icons/logo-wordpress.svg",
-  //           alt: "WordPress Icon",
-  //         },
-  //       },
-  //     ],
-  //   },
-  // },
+  {
+    slug: "/nggilbert",
+    pageData: {
+      title: "Townsend NG Gilbert",
+      websiteUrl: "https://nggilbert.com/",
+      description:
+        "<p>Engaged in a collaborative endeavor, Townsend NG Gilbert stands testament to my involvement in a sophisticated web development project executed within the structured framework of an agile methodology sprint cycle.<br/><br/> Operating at the intersection of design and functionality, my co-development with another skilled professional involved close collaboration with the UX and UI teams. This refined website, meticulously crafted on the robust foundation of WordPress as the Content Management System, attests to my nuanced understanding and adept utilization of an array of cutting-edge technologies and languages. <br/><br/>The seamless integration of PHP, JavaScript, SASS, HTML, and WordPress not only underscores the technical finesse brought to the project but also exemplifies my commitment to delivering a user-centric digital experience.</p>",
+      img: {
+        src: "/projects/nggilbert.png",
+        alt: "NG Gilbert Homepage",
+      },
+      builtWith: [
+        {
+          skill: "PHP",
+          icon: {
+            src: "/icons/logo-php.svg",
+            alt: "PHP Icon",
+          },
+        },
+        {
+          skill: "JavaScript",
+          icon: {
+            src: "/icons/logo-javascript.svg",
+            alt: "JavaScript Icon",
+          },
+        },
+        {
+          skill: "SASS",
+          icon: {
+            src: "/icons/logo-sass.svg",
+            alt: "SASS Icon",
+          },
+        },
+        {
+          skill: "HTML",
+          icon: {
+            src: "/icons/logo-html.svg",
+            alt: "JavaScript Icon",
+          },
+        },
+        {
+          skill: "WordPress",
+          icon: {
+            src: "/icons/logo-wordpress.svg",
+            alt: "WordPress Icon",
+          },
+        },
+      ],
+    },
+  },
+  {
+    slug: "/attitude-dance-company",
+    pageData: {
+      title: "Attitude Dance Company",
+      websiteUrl: "https://www.attitudedancecompany.com/",
+      description:
+        "<p>Engaged in a collaborative endeavor, Attitude Dance Company stands testament to my involvement in a sophisticated web development project executed within the structured framework of an agile methodology sprint cycle.<br/><br/> Operating at the intersection of design and functionality, my co-development with another skilled professional involved close collaboration with the UX and UI teams. This refined website, meticulously crafted on the robust foundation of WordPress as the Content Management System, attests to my nuanced understanding and adept utilization of an array of cutting-edge technologies and languages. <br/><br/>The seamless integration of PHP, JavaScript, SASS, HTML, and WordPress not only underscores the technical finesse brought to the project but also exemplifies my commitment to delivering a user-centric digital experience.</p>",
+      img: {
+        src: "/projects/attitude-dance-company.png",
+        alt: "Attitude Dance Company Homepage",
+      },
+      builtWith: [
+        {
+          skill: "PHP",
+          icon: {
+            src: "/icons/logo-php.svg",
+            alt: "PHP Icon",
+          },
+        },
+        {
+          skill: "JavaScript",
+          icon: {
+            src: "/icons/logo-javascript.svg",
+            alt: "JavaScript Icon",
+          },
+        },
+        {
+          skill: "SASS",
+          icon: {
+            src: "/icons/logo-sass.svg",
+            alt: "SASS Icon",
+          },
+        },
+        {
+          skill: "HTML",
+          icon: {
+            src: "/icons/logo-html.svg",
+            alt: "JavaScript Icon",
+          },
+        },
+        {
+          skill: "WordPress",
+          icon: {
+            src: "/icons/logo-wordpress.svg",
+            alt: "WordPress Icon",
+          },
+        },
+      ],
+    },
+  },
   {
     slug: "/chicago-living-group",
     pageData: {
@@ -897,49 +1173,49 @@ export const projectPagesData = [
       ],
     },
   },
-  // {
-  //   slug: "/digital-delight",
-  //   pageData: {
-  //     title: "Digital Delight",
-  //     websiteUrl: "https://thedigitaldelight.com/",
-  //     description: `<p>The Digital Delight website is a <b>freelance</b> opportunity that was presented to me and my partner. Below is how we worked on this project also including the processes and technologies included: </p> <ul><li>React.js frontend, Framer motion for animation, Styled Components for styling</li><li>Brand identity and UX/UI design created by my partner and I</li><li>SEO optimized by following w3c standards</li><li>Reusable components with a modular fashion to create hundreds of different layouts</li><li>HubSpot integration with contact forms for a successful marketing website</li><li>Google analytics tagging for tracking site data</li><li>Netlify frontend hosting </li><li>Utilize the SDLC process to compliment and establish an agile working environment with client</li></ul>`,
-  //     img: {
-  //       src: "/projects/digitaldelightpic.png",
-  //       alt: "Digital Delight Homepage",
-  //     },
-  //     builtWith: [
-  //       {
-  //         skill: "React.js",
-  //         icon: {
-  //           src: "/icons/logo-react.svg",
-  //           alt: "React.js Icon",
-  //         },
-  //       },
-  //       {
-  //         skill: "Next.js",
-  //         icon: {
-  //           src: "/icons/logo-next.svg",
-  //           alt: "Next.js Icon",
-  //         },
-  //       },
-  //       {
-  //         skill: "Styled Components",
-  //         icon: {
-  //           src: "/icons/logo-styled-components.svg",
-  //           alt: "Styled Components Icon",
-  //         },
-  //       },
+  {
+    slug: "/digital-delight",
+    pageData: {
+      title: "Digital Delight",
+      websiteUrl: "https://thedigitaldelight.com/",
+      description: `<p>The Digital Delight website is a <b>freelance</b> opportunity that was presented to me and my partner. Below is how we worked on this project also including the processes and technologies included: </p> <ul><li>React.js frontend, Framer motion for animation, Styled Components for styling</li><li>Brand identity and UX/UI design created by my partner and I</li><li>SEO optimized by following w3c standards</li><li>Reusable components with a modular fashion to create hundreds of different layouts</li><li>HubSpot integration with contact forms for a successful marketing website</li><li>Google analytics tagging for tracking site data</li><li>Netlify frontend hosting </li><li>Utilize the SDLC process to compliment and establish an agile working environment with client</li></ul>`,
+      img: {
+        src: "/projects/digitaldelightpic.png",
+        alt: "Digital Delight Homepage",
+      },
+      builtWith: [
+        {
+          skill: "React.js",
+          icon: {
+            src: "/icons/logo-react.svg",
+            alt: "React.js Icon",
+          },
+        },
+        {
+          skill: "Next.js",
+          icon: {
+            src: "/icons/logo-next.svg",
+            alt: "Next.js Icon",
+          },
+        },
+        {
+          skill: "Styled Components",
+          icon: {
+            src: "/icons/logo-styled-components.svg",
+            alt: "Styled Components Icon",
+          },
+        },
 
-  //       {
-  //         skill: "Framer Motion",
-  //         icon: {
-  //           src: "/icons/logo-framer-motion.svg",
-  //           alt: "Framer Motion Icon",
-  //         },
-  //       },
-  //     ],
-  //   },
-  // },
+        {
+          skill: "Framer Motion",
+          icon: {
+            src: "/icons/logo-framer-motion.svg",
+            alt: "Framer Motion Icon",
+          },
+        },
+      ],
+    },
+  },
   {
     slug: "/schuetz-insurance",
     pageData: {
@@ -1026,42 +1302,42 @@ export const projectPagesData = [
       ],
     },
   },
-  // {
-  //   slug: "/movie-api",
-  //   pageData: {
-  //     title: "Movie API",
-  //     websiteUrl: "https://helpfindmeamovie.netlify.app",
-  //     description:
-  //       "<p>The Movie API serves as a solo venture, crafted to push the boundaries of my web development skills. This project served as a exploration of my proficiency in harnessing APIs, demonstrating my ability to dynamically manipulate data using JavaScript and Axios.<br /> <br />Technologically, this endeavor relied on a combination of JavaScript for dynamic scripting, Axios for streamlined API communication, and the foundational trio of HTML, CSS, and JavaScript to breathe life into the frontend. Hosted on Netlify of course.</p>",
-  //     img: {
-  //       src: "/projects/movie.png",
-  //       alt: "Movie API Homepage",
-  //     },
-  //     builtWith: [
-  //       {
-  //         skill: "JavaScript",
-  //         icon: {
-  //           src: "/icons/logo-javascript.svg",
-  //           alt: "JavaScript Icon",
-  //         },
-  //       },
-  //       {
-  //         skill: "CSS",
-  //         icon: {
-  //           src: "/icons/logo-css.svg",
-  //           alt: "CSS Icon",
-  //         },
-  //       },
-  //       {
-  //         skill: "HTML",
-  //         icon: {
-  //           src: "/icons/logo-html.svg",
-  //           alt: "JavaScript Icon",
-  //         },
-  //       },
-  //     ],
-  //   },
-  // },
+  {
+    slug: "/movie-api",
+    pageData: {
+      title: "Movie API",
+      websiteUrl: "https://helpfindmeamovie.netlify.app",
+      description:
+        "<p>The Movie API serves as a solo venture, crafted to push the boundaries of my web development skills. This project served as a exploration of my proficiency in harnessing APIs, demonstrating my ability to dynamically manipulate data using JavaScript and Axios.<br /> <br />Technologically, this endeavor relied on a combination of JavaScript for dynamic scripting, Axios for streamlined API communication, and the foundational trio of HTML, CSS, and JavaScript to breathe life into the frontend. Hosted on Netlify of course.</p>",
+      img: {
+        src: "/projects/movie.png",
+        alt: "Movie API Homepage",
+      },
+      builtWith: [
+        {
+          skill: "JavaScript",
+          icon: {
+            src: "/icons/logo-javascript.svg",
+            alt: "JavaScript Icon",
+          },
+        },
+        {
+          skill: "CSS",
+          icon: {
+            src: "/icons/logo-css.svg",
+            alt: "CSS Icon",
+          },
+        },
+        {
+          skill: "HTML",
+          icon: {
+            src: "/icons/logo-html.svg",
+            alt: "JavaScript Icon",
+          },
+        },
+      ],
+    },
+  },
   {
     slug: "/mpi-wjw",
     pageData: {
@@ -1128,7 +1404,7 @@ export const footerData = {
     },
     {
       text: "Projects",
-      url: "/#projects",
+      url: "/#personalProjects",
     },
     {
       text: "Contact",
@@ -1173,7 +1449,7 @@ export const contactData = {
 export const contactCTAData = {
   header: "View more projects?",
   logo: { url: "/logo/logo_no_bg.png", alt: "DC Logo" },
-  href: "/#projects",
+  href: "/#personalProjects",
   description:
     "Check out more of my projects and see the technologies I am using!",
 };

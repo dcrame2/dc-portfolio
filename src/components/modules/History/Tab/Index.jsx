@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { variables } from "@/styles/Variables";
 import { motion } from "framer-motion";
 import { MediaQueries } from "@/styles/Utilities";
+import { pSmall } from "@/styles/Type";
 
 const TabContainer = styled.div`
   display: flex;
@@ -93,6 +94,7 @@ const CompaniesInfo = styled(motion.div)`
 
 const TitleContainer = styled.div`
   display: flex;
+  flex-direction: column;
   gap: 8px;
   margin-bottom: 12px;
   @media ${MediaQueries.smallDesktop} {
@@ -104,7 +106,8 @@ const TitleContainer = styled.div`
 const Title = styled.h2``;
 
 const Company = styled.h2`
-  color: ${variables.color1};
+  color: ${variables.color1} !important;
+  ${pSmall}
 `;
 
 const DescContainer = styled.ul`
@@ -161,6 +164,7 @@ function Tab({ companies, companiesInfo }) {
               initial={{ opacity: 0, y: 100 }}
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ duration: `0.3` }}
+              viewport={{ once: true, amount: 0.85 }}
               key={index}
               $active={index === activeTab}
             >
