@@ -6,6 +6,9 @@ import { pSmall } from "@/styles/Type";
 
 const ProjectContainer = styled.div`
   padding: 100px 0;
+  @media ${MediaQueries.mobile} {
+    padding: 200px 0 100px;
+  }
 `;
 
 const ProjectInnerContainer = styled.div`
