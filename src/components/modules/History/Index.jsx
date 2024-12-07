@@ -6,7 +6,7 @@ import Header from "@/components/ui/Header/Index";
 import Tab from "./Tab/Index";
 
 const HistoryContainer = styled.div`
-  height: 100vh;
+  /* height: 100vh; */
   padding: 200px 0;
   background: linear-gradient(
     150deg,

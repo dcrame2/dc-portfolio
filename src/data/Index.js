@@ -40,7 +40,11 @@ export const aboutData = {
   header: {
     title: "About",
   },
-  aboutParagraph: `<p>Hello! I am a passionate Full Stack Web Developer, specializing in the dynamic world of JavaScript. I am steady taking Udemy courses, watching YouTube, and reading the latest tech news.<br /><br /> My journey began with earning a Bachelor of Science in Information Systems - Web Application Development from Illinois State University in 2018. With a diverse skill set and proficiency in a range of programming languages and tools, I am ready to embark on new challenges and create innovative, cutting-edge web experiences. </p>`,
+  aboutParagraph: `<p>
+  Hello! I am a passionate Software Engineer with a love for exploring the ever-evolving world of software development. Over the years, I’ve built multiple personal and professional projects, allowing me to tinker with new technologies, expand my knowledge, and continuously challenge myself. <br /><br />
+  My journey began with earning a Bachelor of Science in Information Systems - Web Application Development from Illinois State University in 2018. I’ve cultivated a diverse skill set and proficiency across various programming languages and tools:<br /><br />
+</p>
+`,
   cards: [
     {
       skill: "JavaScript",

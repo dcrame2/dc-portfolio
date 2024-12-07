@@ -6,9 +6,6 @@ import { pSmall } from "@/styles/Type";
 
 const ProjectContainer = styled.div`
   padding: 100px 0;
-  @media ${MediaQueries.mobile} {
-    padding: 200px 0;
-  }
 `;
 
 const ProjectInnerContainer = styled.div`
@@ -26,7 +23,7 @@ const ProjectsGrid = styled.div`
     grid-template-columns: repeat(2, 1fr);
     gap: 15px;
   }
-  @media ${MediaQueries.mobile} {
+  @media (max-width: 580px) {
     grid-template-columns: repeat(1, 1fr);
     gap: 20px;
   }
