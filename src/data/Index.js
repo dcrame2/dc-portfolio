@@ -209,7 +209,7 @@ export const historyData = {
     {
       title: "Frontend Software Engineer",
       company: "Ulta Beauty",
-      timePeriod: "March 2024 - Present",
+      timePeriod: "2024 - Present",
       jobDesc: [
         "Write modern, performant, maintainable code for eCommerce ulta.com website",
         "Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, React, GraphQL, Amplience, SCSS",
@@ -220,7 +220,7 @@ export const historyData = {
     {
       title: "Web Developer",
       company: "Impact Networking",
-      timePeriod: "June 2021 - Present",
+      timePeriod: "2021 - 2024",
       jobDesc: [
         "Write modern, performant, maintainable code for a diverse array of client and internal projects",
         "Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, Strapi, React, WordPress, Next.js, and SASS",
@@ -230,7 +230,7 @@ export const historyData = {
     {
       title: "Web Specialist",
       company: "TEXT2DRIVE LLC",
-      timePeriod: "February 2019 - June 2021",
+      timePeriod: "2019 - 2021",
       jobDesc: [
         "Created a library of responsive website widgets compatible with mobile & desktop",
         "Handle frontend bug fixes to SaaS products via JavaScript, PHP, React.js & HTML/CSS",
@@ -240,7 +240,7 @@ export const historyData = {
     {
       title: "Full Stack Developer",
       company: "SOGO Marketing",
-      timePeriod: "June 2018 - February 2019",
+      timePeriod: "2018 - 2019",
       jobDesc: [
         "WordPress maintenance edits for agency websites using PHP, JavaScript, HTML, & CSS",
         "iOS & Android mobile application bug fixes on legacy applications",
@@ -249,7 +249,7 @@ export const historyData = {
     {
       title: "Assistant Wrestling Coach",
       company: "Plainfield Central HS",
-      timePeriod: "October 2020 - Present",
+      timePeriod: "2020 - 2023",
       jobDesc: [
         "Coaching High School athletics for all grade levels: Freshman - Seniors",
         "Teach and lead new wrestling skills during practice and meets/tournaments",
