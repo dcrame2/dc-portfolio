@@ -369,7 +369,7 @@ export const personalProjectData = {
     {
       href: '/ai-emoji',
       img: {
-        src: '/projects/ai-emoji.png',
+        src: '/projects/emoji_ai.png',
         alt: 'ai emoji Homepage',
       },
       projectTitle: 'AI Emoji',
@@ -877,11 +877,11 @@ export const projectPagesData = [
   {
     slug: '/ai-emoji',
     pageData: {
-      title: 'AI Eomji Generator',
-      websiteUrl: 'https://emoji-ai-wrapper.vercel.app/',
+      title: 'Emoji-AI',
+      websiteUrl: 'https://www.emoji-ai.app/',
       description: `<p>The AI Emoji Generator lets users transform any sentence into a unique set of emojis that capture the vibe of their message. Customize the number of emojis to perfectly match your style, and enjoy an easy copy-to-clipboard feature that brings life to any text or social media post. Powered by OpenAI's advanced API, this tool makes it simple to express yourself creatively.</p>`,
       img: {
-        src: '/projects/ai-emoji.png',
+        src: '/projects/emoji_ai.png',
         alt: 'AI Emoji Homepage',
       },
       builtWith: [
