@@ -207,13 +207,13 @@ export const historyData = {
   ],
   companiesInfo: [
     {
-      title: 'Frontend Software Engineer',
+      title: 'Software Engineer',
       company: 'Ulta Beauty',
       timePeriod: '2024 - Present',
       jobDesc: [
         'Write modern, performant, maintainable code for eCommerce ulta.com website',
         'Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, React, GraphQL, Amplience, SCSS',
-        'Communicate with multi-disciplinary teams of engineers, designers, producers, and product owners on a daily basis',
+        'Communicate with multi-disciplinary teams of onshore/offshore engineers, designers, producers, and product owners on a daily basis',
         'Demo completed features to stakeholders',
       ],
     },
