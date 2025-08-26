@@ -473,7 +473,7 @@ export const projectPagesData = [
   {
     slug: '/instacal',
     pageData: {
-      title: 'IntaCal: AI-Powered Calorie Tracking App',
+      title: 'IntaCal',
       websiteUrl: 'https://www.theinstacal.app',
       description: `<p>InstaCal is a mobile application that makes tracking calories and macros effortless. Designed for health-conscious users and athletes alike, InstaCal combines AI-powered recognition with modern UX to deliver instant nutrition insights. </p>
    <ul>
