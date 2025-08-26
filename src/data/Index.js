@@ -144,13 +144,6 @@ export const aboutData = {
         alt: 'Styled Components Icon',
       },
     },
-    // {
-    //   skill: "TypeScript",
-    //   icon: {
-    //     src: "/icons/logo-typescript.svg",
-    //     alt: "TypeScript Icon",
-    //   },
-    // },
     {
       skill: 'React Native',
       icon: {
@@ -184,6 +177,41 @@ export const aboutData = {
       icon: {
         src: '/icons/logo-socket.svg',
         alt: 'Socket.io Icon',
+      },
+    },
+    {
+      skill: 'Expo',
+      icon: {
+        src: '/icons/logo-expo.svg',
+        alt: 'Expo Icon',
+      },
+    },
+    {
+      skill: 'Supabase',
+      icon: {
+        src: '/icons/logo-supabase.svg',
+        alt: 'Supabase Icon',
+      },
+    },
+    {
+      skill: 'RevenueCat',
+      icon: {
+        src: '/icons/logo-revenuecat.svg',
+        alt: 'RevenueCat Icon',
+      },
+    },
+    {
+      skill: 'OneSignal',
+      icon: {
+        src: '/icons/logo-onesignal.svg',
+        alt: 'OneSignal Icon',
+      },
+    },
+    {
+      skill: 'GraphQL',
+      icon: {
+        src: '/icons/logo-graphql.svg',
+        alt: 'GrpahQL Icon',
       },
     },
   ],
@@ -359,6 +387,14 @@ export const personalProjectData = {
   },
   projects: [
     {
+      href: '/instacal',
+      img: {
+        src: '/projects/instacal.png',
+        alt: 'InstaCal Homepage',
+      },
+      projectTitle: 'InstaCal',
+    },
+    {
       href: '/timeline-that',
       img: {
         src: '/projects/timeline-that.png',
@@ -430,26 +466,83 @@ export const personalProjectData = {
       },
       projectTitle: 'Zombie Game',
     },
-    // {
-    //   href: "/delilah-mae",
-    //   img: {
-    //     src: "/projects/delilahmae.png",
-    //     alt: "Delilah Mae Homepage",
-    //   },
-    //   projectTitle: "Delilah Mae",
-    // },
-    // {
-    //   href: "/greek-life",
-    //   img: {
-    //     src: "/projects/greeklife.png",
-    //     alt: "Greek Life Homepage",
-    //   },
-    //   projectTitle: "Greek Life",
-    // },
   ],
 };
 
 export const projectPagesData = [
+  {
+    slug: '/instacal',
+    pageData: {
+      title: 'IntaCal: AI-Powered Calorie Tracking App',
+      websiteUrl: 'https://www.theinstacal.app',
+      description: `<p>InstaCal is a mobile application that makes tracking calories and macros effortless. Designed for health-conscious users and athletes alike, InstaCal combines AI-powered recognition with modern UX to deliver instant nutrition insights. </p>
+   <ul>
+        <li><strong>AI-Powered Logging:</strong> Snap a photo of your meal with Meal Scan, or use Barcode and Nutrition Label Scanning for instant nutrition insights.</li>
+        <li><strong>Personalized Coaching:</strong> AI-driven onboarding flow provides tailored macro recommendations for each user.</li>
+        <li><strong>Effortless Tracking:</strong> Log meals in seconds with Food Search, Saved Meals, and Build-Your-Own options.</li>
+        <li><strong>Cross-Platform:</strong> Built with React Native (Expo) to support both iOS and Android with a consistent UI.</li>
+        <li><strong>Modern Stack:</strong> Supabase for backend/auth, RevenueCat for subscriptions, OneSignal for push notifications, and i18n for localization.</li>
+        <li><strong>Clean Design System:</strong> Tailwind + custom components for a modern, accessible interface.</li>
+        <li><strong>End-to-End Ownership:</strong> Designed, developed, and iterated entirely by me, merging my passion for fitness and engineering.</li>
+      </ul>`,
+      img: {
+        src: '/projects/instacal.png',
+        alt: 'InstaCal App Preview',
+      },
+      builtWith: [
+        {
+          skill: 'Open AI',
+          icon: {
+            src: '/icons/logo-openai.svg',
+            alt: 'Open AI Icon',
+          },
+        },
+        {
+          skill: 'React Native',
+          icon: {
+            src: '/icons/logo-react-native.svg',
+            alt: 'React Native Icon',
+          },
+        },
+        {
+          skill: 'Expo',
+          icon: {
+            src: '/icons/logo-expo.svg',
+            alt: 'Expo Icon',
+          },
+        },
+        {
+          skill: 'Supabase',
+          icon: {
+            src: '/icons/logo-supabase.svg',
+            alt: 'Supabase Icon',
+          },
+        },
+        {
+          skill: 'RevenueCat',
+          icon: {
+            src: '/icons/logo-revenuecat.svg',
+            alt: 'RevenueCat Icon',
+          },
+        },
+        {
+          skill: 'OneSignal',
+          icon: {
+            src: '/icons/logo-onesignal.svg',
+            alt: 'OneSignal Icon',
+          },
+        },
+        {
+          skill: 'Tailwind CSS',
+          icon: {
+            src: '/icons/logo-tailwind.svg',
+            alt: 'Tailwind Icon',
+          },
+        },
+      ],
+    },
+  },
+
   {
     slug: '/irish-poker',
     pageData: {
@@ -879,7 +972,14 @@ export const projectPagesData = [
     pageData: {
       title: 'Emoji-AI',
       websiteUrl: 'https://www.emoji-ai.app/',
-      description: `<p>The AI Emoji Generator lets users transform any sentence into a unique set of emojis that capture the vibe of their message. Customize the number of emojis to perfectly match your style, and enjoy an easy copy-to-clipboard feature that brings life to any text or social media post. Powered by OpenAI's advanced API, this tool makes it simple to express yourself creatively.</p>`,
+      description: `  <p>The AI Emoji Generator is a playful web app that turns any sentence into emojis:</p>
+      <ul>
+        <li><strong>Creative Expression:</strong> Instantly transform text into a unique set of emojis that capture the vibe of your message.</li>
+        <li><strong>Customizable:</strong> Choose the number of emojis (2–5) to match your style or mood.</li>
+        <li><strong>One-Click Sharing:</strong> Built-in copy-to-clipboard makes it easy to drop your emoji set into messages or social posts.</li>
+        <li><strong>Powered by AI:</strong> Uses OpenAI’s API to generate contextually relevant emoji combinations.</li>
+        <li><strong>Sleek UI:</strong> Built with React, Next.js, and Tailwind for a modern, responsive interface.</li>
+      </ul>`,
       img: {
         src: '/projects/emoji_ai.png',
         alt: 'AI Emoji Homepage',
@@ -893,9 +993,9 @@ export const projectPagesData = [
           },
         },
         {
-          skill: 'React.js',
+          skill: 'React Native',
           icon: {
-            src: '/icons/logo-react.svg',
+            src: '/icons/logo-react-native.svg',
             alt: 'React.js Icon',
           },
         },
@@ -911,6 +1011,34 @@ export const projectPagesData = [
           icon: {
             src: '/icons/logo-tailwind.svg',
             alt: 'Tailwind Icon',
+          },
+        },
+        {
+          skill: 'Expo',
+          icon: {
+            src: '/icons/logo-expo.svg',
+            alt: 'Expo Icon',
+          },
+        },
+        {
+          skill: 'Supabase',
+          icon: {
+            src: '/icons/logo-supabase.svg',
+            alt: 'Supabase Icon',
+          },
+        },
+        {
+          skill: 'RevenueCat',
+          icon: {
+            src: '/icons/logo-revenuecat.svg',
+            alt: 'RevenueCat Icon',
+          },
+        },
+        {
+          skill: 'OneSignal',
+          icon: {
+            src: '/icons/logo-onesignal.svg',
+            alt: 'OneSignal Icon',
           },
         },
       ],
